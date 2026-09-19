@@ -1,0 +1,15 @@
+# secrets — never commit
+.env
+
+# run logs (noise; regenerated on each run)
+results/log_*.txt
+
+# python
+__pycache__/
+*.pyc
+
+# WMDP hazardous-knowledge benchmark material — deliberately NOT published here.
+# 3,668 bio/chem/cyber proxy questions + their run outputs. Unrelated to this
+# project, and redistributing a public copy is a separate decision from the owner.
+wmdp-mcqs/
+results/wmdp_*.json

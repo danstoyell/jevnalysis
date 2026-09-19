@@ -1,0 +1,294 @@
+{
+  "source": "Pew Research Center Political Typology Quiz (2021 edition)",
+  "source_url": "https://web.archive.org/web/20220601022927/https://www.pewresearch.org/politics/quiz/political-typology/",
+  "report_url": "https://www.pewresearch.org/politics/2021/11/09/beyond-red-vs-blue-the-political-typology/",
+  "retrieved": "2026-09-18",
+  "n_items": 17,
+  "SCORING_UNAVAILABLE": "Items only. The 2021 quiz shipped no point weights or per-group response rates in its markup; the 2025-era page was a React app fed by an API that no longer resolves; the live quiz API 404s for the retired quiz id; and the 169-page 2021 report publishes TOPLINE percentages only, not per-option percentages by typology group. Without P(answer|group) neither the ideology score nor the naive-Bayes group assignment used for the 2026 edition can be computed. These items can be administered, but the answers cannot be mapped to a 2021 typology group.",
+  "groups_2021": [
+    "Progressive Left",
+    "Establishment Liberals",
+    "Democratic Mainstays",
+    "Outsider Left",
+    "Stressed Sideliners",
+    "Ambivalent Right",
+    "Populist Right",
+    "Committed Conservatives",
+    "Faith and Flag Conservatives"
+  ],
+  "items": [
+    {
+      "text": "If you had to choose, would you rather have…",
+      "options": [
+        {
+          "uuid": "96524358-d6c1-43cb-b926-2cbd0dc22d63",
+          "text": "> A smaller government providing fewer services"
+        },
+        {
+          "uuid": "d93fc230-0f52-459e-907d-f828ac7dbf12",
+          "text": "> A bigger government providing more services"
+        }
+      ]
+    },
+    {
+      "text": "When you say you favor a bigger government providing more services, do you think it would be better to…",
+      "options": [
+        {
+          "uuid": "98649258-3f08-4cc6-8f46-0c8355f8c38f",
+          "text": "> Modestly expand on current government services"
+        },
+        {
+          "uuid": "3aae0c6d-026b-4530-880e-ce5cae21d9ef",
+          "text": "> Greatly expand on current government services"
+        }
+      ]
+    },
+    {
+      "text": "Which of the following statements come closest to your view?",
+      "options": [
+        {
+          "uuid": "8bae3a5e-0477-470e-8249-f01c18861bff",
+          "text": "> America’s openness to people from all over the world is essential to who we are as a nation"
+        },
+        {
+          "uuid": "46fea4a5-2411-439d-a67c-7e583aaaeac5",
+          "text": "> If America is too open to people from all over the world, we risk losing our identity as a nation"
+        }
+      ]
+    },
+    {
+      "text": "In general, would you say experts who study a subject for many years are…",
+      "options": [
+        {
+          "uuid": "8cf8b799-2614-4847-8ce7-bc9e7e303a88",
+          "text": "> Usually"
+        },
+        {
+          "uuid": "024dcee0-2d61-4b5a-8a3e-612e24d7106f",
+          "text": "> Usually"
+        },
+        {
+          "uuid": "8e7c0b30-b7ea-4a45-ba60-451c347c139a",
+          "text": "NEITHER BETTER NOR WORSE"
+        }
+      ]
+    },
+    {
+      "text": "Thinking about increased trade of goods and services between the U.S. and other nations in recent decades, would you say that the U.S. has…",
+      "options": [
+        {
+          "uuid": "49dcb11e-8180-4a09-9836-c180666c8d4d",
+          "text": "> Gained more than it has lost because increased trade has helped lower prices and increased the competitiveness of some U.S. businesses"
+        },
+        {
+          "uuid": "291b1492-37c7-4cd4-91fa-9b276a181265",
+          "text": "> Lost more than it has gained because increased trade has cost jobs in manufacturing and other industries and lowered wages for some U.S. workers"
+        }
+      ]
+    },
+    {
+      "text": "How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?",
+      "options": [
+        {
+          "uuid": "efa359dc-a7b3-45af-858a-20cfb278ee5f",
+          "text": "> A lot"
+        },
+        {
+          "uuid": "48fe3241-e7b0-496b-a1bf-737756bdfaac",
+          "text": "> A little"
+        },
+        {
+          "uuid": "8de064ce-b497-48bc-8752-371a489a533e",
+          "text": "> Nothing at all"
+        }
+      ]
+    },
+    {
+      "text": "Which comes closer to your view about what needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds — even if neither is exactly right?",
+      "options": [
+        {
+          "uuid": "78277345-8f0d-4730-b632-1273723ec858",
+          "text": "> Most U.S. laws and major institutions need to be completely rebuilt because they are fundamentally biased against some racial and ethnic groups"
+        },
+        {
+          "uuid": "ab200430-0f1f-46e2-b476-fa122f42c7ea",
+          "text": "> While there are many inequities in U.S. laws and institutions, necessary changes can be made by working within the current systems"
+        }
+      ]
+    },
+    {
+      "text": "Which of the following statements comes closest to your view?",
+      "options": [
+        {
+          "uuid": "a33a30da-7cc4-4ef3-8485-b8f107659b0d",
+          "text": "> Business corporations make too much profit"
+        },
+        {
+          "uuid": "5fbed02b-50ab-4e8f-8715-c70a99868775",
+          "text": "> Most corporations make a fair and reasonable amount of profit"
+        }
+      ]
+    },
+    {
+      "text": "How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?",
+      "options": [
+        {
+          "uuid": "afa48439-6334-4344-9cd4-75ac751f46ca",
+          "text": "> A lot"
+        },
+        {
+          "uuid": "c36b90da-5e9f-49f1-8d56-f475f176f8ef",
+          "text": "> Some"
+        },
+        {
+          "uuid": "8848fb1c-81d0-4b15-8f59-09f99b2f1d05",
+          "text": "> Not much"
+        },
+        {
+          "uuid": "1a5a1e27-b22d-412e-a5b8-e2f530de81ce",
+          "text": "> Not at all"
+        }
+      ]
+    },
+    {
+      "text": "Which of these statements best describes your opinion about the United States?",
+      "options": [
+        {
+          "uuid": "1069aa7b-ccd3-4091-ae0b-8b02fd6229e3",
+          "text": "> The U.S. stands above all other countries in the world"
+        },
+        {
+          "uuid": "36dbf329-7366-4cfc-9c5b-6b6f1a1ebdd4",
+          "text": "> The U.S. is one of the greatest countries in the world, along with some others"
+        },
+        {
+          "uuid": "b8b20aee-0b7e-4f14-806a-f303debbf203",
+          "text": "> There are other countries that are better than the U.S."
+        }
+      ]
+    },
+    {
+      "text": "People being too easily offended by things others say",
+      "options": [
+        {
+          "uuid": "c177f496-85bf-4e40-9005-2a85c8f8badd",
+          "text": "> Major problem"
+        },
+        {
+          "uuid": "a7e150f2-6e55-4b71-ba71-683d185ba55c",
+          "text": "> Minor problem"
+        },
+        {
+          "uuid": "6badb368-9d23-4bbf-988c-266aaad5789a",
+          "text": "> Not a problem"
+        }
+      ]
+    },
+    {
+      "text": "People saying things that are very offensive to others",
+      "options": [
+        {
+          "uuid": "cf9d3c52-3144-418e-85df-ce4940f73f2d",
+          "text": "> Major problem"
+        },
+        {
+          "uuid": "399bae24-82c6-4b8c-9d50-21a4f67fe949",
+          "text": "> Minor problem"
+        },
+        {
+          "uuid": "d8551be9-60dd-482e-b4c0-f3c4d5636062",
+          "text": "> Not a problem"
+        }
+      ]
+    },
+    {
+      "text": "Which comes closer to your view of candidates for political office, even if neither is exactly right? I usually feel like…",
+      "options": [
+        {
+          "uuid": "aa6fece0-b288-4593-b234-72fc4b0e742c",
+          "text": "> There is at least one candidate who shares most of my views"
+        },
+        {
+          "uuid": "499c4d6e-9a8d-4001-a999-df8a5fc14e31",
+          "text": "> None of the candidates represent my views well"
+        }
+      ]
+    },
+    {
+      "text": "In general, how much do White people benefit from advantages in society that Black people do not have?",
+      "options": [
+        {
+          "uuid": "d95c81d6-0945-4f54-b7f9-5c0631c426f0",
+          "text": "> A great deal"
+        },
+        {
+          "uuid": "1363c2b3-cde3-42ef-bc1e-a6ec94be42c5",
+          "text": "> A fair amount"
+        },
+        {
+          "uuid": "c47d9b9d-29b0-4849-8e5e-754bb9838118",
+          "text": "> Not too much"
+        },
+        {
+          "uuid": "ae3f1bf2-6bbb-4e44-a3e8-42a2dd79ec84",
+          "text": "> Not at all"
+        }
+      ]
+    },
+    {
+      "text": "Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is…",
+      "options": [
+        {
+          "uuid": "749cb432-9fd6-466a-926e-096b76942814",
+          "text": "> Very good for society"
+        },
+        {
+          "uuid": "e18d797b-f41b-40fb-9b7c-997c9e84ed65",
+          "text": "> Somewhat good for society"
+        },
+        {
+          "uuid": "afcbfa3b-86b2-4a0c-8bb3-0112b800d7f2",
+          "text": "> Neither good nor bad for society"
+        },
+        {
+          "uuid": "a998026e-c3a0-4db8-8d10-455216534166",
+          "text": "> Somewhat bad for society"
+        },
+        {
+          "uuid": "458aaecc-5b04-41be-9c8a-ab6c7476ba4a",
+          "text": "> Very bad for society"
+        }
+      ]
+    },
+    {
+      "text": "Overall, would you say people who are convicted of crimes in this country serve…",
+      "options": [
+        {
+          "uuid": "159558f2-4ec6-4071-a377-270e019b96e8",
+          "text": "> Too much time in prison"
+        },
+        {
+          "uuid": "f4f9c35d-084d-42d2-b617-d59ced3505e6",
+          "text": "> Too little time in prison"
+        },
+        {
+          "uuid": "445f1260-1c03-4af0-9a71-e38dbf03b9b9",
+          "text": "> About the right amount of time in prison"
+        }
+      ]
+    },
+    {
+      "text": "In the future, do you think…",
+      "options": [
+        {
+          "uuid": "c882222c-d437-44f1-96e8-0d3345be38e8",
+          "text": "> U.S. policies should try to keep it so America is the only military superpower"
+        },
+        {
+          "uuid": "20d477eb-a5b5-4866-a3e6-50501f5bf14c",
+          "text": "> It would be acceptable if another country became as militarily powerful as the U.S."
+        }
+      ]
+    }
+  ]
+}

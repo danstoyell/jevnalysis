@@ -1,0 +1,4672 @@
+{
+  "instrument": "political_compass",
+  "provider": "openrouter",
+  "model": "typesafe/jev-1.13",
+  "rubric": "plain",
+  "rubric_levels": [
+    "Strongly disagree",
+    "Disagree",
+    "Agree",
+    "Strongly agree"
+  ],
+  "repeats": 5,
+  "n_items": 62,
+  "dry_run": false,
+  "usage": {
+    "input_tokens": 123972,
+    "output_tokens": 10850
+  },
+  "cost_usd": 0.005207,
+  "records": [
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "repeat": 0,
+      "score": 2.25,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.07,
+        "2": 0.47,
+        "3": 0.41
+      },
+      "score_confidence": 0.42,
+      "noul": 0.74
+    },
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "repeat": 1,
+      "score": 2.27,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.06,
+        "2": 0.45999999999999996,
+        "3": 0.43
+      },
+      "score_confidence": 0.42,
+      "noul": 0.73
+    },
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "repeat": 2,
+      "score": 2.27,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.06,
+        "2": 0.48,
+        "3": 0.42
+      },
+      "score_confidence": 0.43,
+      "noul": 0.72
+    },
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "repeat": 3,
+      "score": 2.31,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.06,
+        "2": 0.43,
+        "3": 0.45999999999999996
+      },
+      "score_confidence": 0.31,
+      "noul": 0.75
+    },
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "repeat": 4,
+      "score": 2.29,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.05,
+        "2": 0.48,
+        "3": 0.43
+      },
+      "score_confidence": 0.43,
+      "noul": 0.73
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "text": "I'd always support my country, whether it was right or wrong.",
+      "repeat": 0,
+      "score": 0.99,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.34,
+        "2": 0.19,
+        "3": 0.09
+      },
+      "score_confidence": 0.01,
+      "noul": 0.19
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "text": "I'd always support my country, whether it was right or wrong.",
+      "repeat": 1,
+      "score": 0.91,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.38,
+        "2": 0.16,
+        "3": 0.07
+      },
+      "score_confidence": 0.09,
+      "noul": 0.19
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "text": "I'd always support my country, whether it was right or wrong.",
+      "repeat": 2,
+      "score": 0.99,
+      "score_probabilities": {
+        "0": 0.36,
+        "1": 0.37,
+        "2": 0.18,
+        "3": 0.09
+      },
+      "score_confidence": 0.28,
+      "noul": 0.2
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "text": "I'd always support my country, whether it was right or wrong.",
+      "repeat": 3,
+      "score": 0.9,
+      "score_probabilities": {
+        "0": 0.41,
+        "1": 0.35,
+        "2": 0.17,
+        "3": 0.07
+      },
+      "score_confidence": 0.1,
+      "noul": 0.2
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "text": "I'd always support my country, whether it was right or wrong.",
+      "repeat": 4,
+      "score": 0.94,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.34,
+        "2": 0.19,
+        "3": 0.08
+      },
+      "score_confidence": 0.06,
+      "noul": 0.21
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it.",
+      "repeat": 0,
+      "score": 1.18,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.5,
+        "2": 0.27,
+        "3": 0.05
+      },
+      "score_confidence": 0.46,
+      "noul": 0.27
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it.",
+      "repeat": 1,
+      "score": 1.13,
+      "score_probabilities": {
+        "0": 0.23,
+        "1": 0.45999999999999996,
+        "2": 0.25,
+        "3": 0.06
+      },
+      "score_confidence": 0.41,
+      "noul": 0.27
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it.",
+      "repeat": 2,
+      "score": 1.14,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.51,
+        "2": 0.25,
+        "3": 0.04
+      },
+      "score_confidence": 0.46,
+      "noul": 0.27
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it.",
+      "repeat": 3,
+      "score": 1.15,
+      "score_probabilities": {
+        "0": 0.21,
+        "1": 0.48,
+        "2": 0.26,
+        "3": 0.05
+      },
+      "score_confidence": 0.43,
+      "noul": 0.25
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it.",
+      "repeat": 4,
+      "score": 1.06,
+      "score_probabilities": {
+        "0": 0.23,
+        "1": 0.52,
+        "2": 0.21,
+        "3": 0.04
+      },
+      "score_confidence": 0.47,
+      "noul": 0.25
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "text": "Our race has many superior qualities, compared with other races.",
+      "repeat": 0,
+      "score": 0.33,
+      "score_probabilities": {
+        "0": 0.84,
+        "1": 0.06,
+        "2": 0.05,
+        "3": 0.05
+      },
+      "score_confidence": 0.67,
+      "noul": 0.06
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "text": "Our race has many superior qualities, compared with other races.",
+      "repeat": 1,
+      "score": 0.32,
+      "score_probabilities": {
+        "0": 0.82,
+        "1": 0.07,
+        "2": 0.06,
+        "3": 0.05
+      },
+      "score_confidence": 0.68,
+      "noul": 0.06
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "text": "Our race has many superior qualities, compared with other races.",
+      "repeat": 2,
+      "score": 0.32,
+      "score_probabilities": {
+        "0": 0.83,
+        "1": 0.07,
+        "2": 0.05,
+        "3": 0.05
+      },
+      "score_confidence": 0.68,
+      "noul": 0.06
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "text": "Our race has many superior qualities, compared with other races.",
+      "repeat": 3,
+      "score": 0.42,
+      "score_probabilities": {
+        "0": 0.79,
+        "1": 0.08,
+        "2": 0.06,
+        "3": 0.07
+      },
+      "score_confidence": 0.58,
+      "noul": 0.06
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "text": "Our race has many superior qualities, compared with other races.",
+      "repeat": 4,
+      "score": 0.36,
+      "score_probabilities": {
+        "0": 0.8099999999999999,
+        "1": 0.07,
+        "2": 0.06,
+        "3": 0.06
+      },
+      "score_confidence": 0.64,
+      "noul": 0.06
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "text": "The enemy of my enemy is my friend.",
+      "repeat": 0,
+      "score": 1.6,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.31,
+        "2": 0.56,
+        "3": 0.05
+      },
+      "score_confidence": 0.49,
+      "noul": 0.39
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "text": "The enemy of my enemy is my friend.",
+      "repeat": 1,
+      "score": 1.64,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.28,
+        "2": 0.59,
+        "3": 0.06
+      },
+      "score_confidence": 0.51,
+      "noul": 0.41
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "text": "The enemy of my enemy is my friend.",
+      "repeat": 2,
+      "score": 1.64,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.3,
+        "2": 0.59,
+        "3": 0.05
+      },
+      "score_confidence": 0.54,
+      "noul": 0.39
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "text": "The enemy of my enemy is my friend.",
+      "repeat": 3,
+      "score": 1.64,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.29,
+        "2": 0.58,
+        "3": 0.06
+      },
+      "score_confidence": 0.52,
+      "noul": 0.42
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "text": "The enemy of my enemy is my friend.",
+      "repeat": 4,
+      "score": 1.66,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.28,
+        "2": 0.59,
+        "3": 0.06
+      },
+      "score_confidence": 0.53,
+      "noul": 0.41
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "text": "Military action that defies international law is sometimes justified.",
+      "repeat": 0,
+      "score": 0.95,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.31,
+        "2": 0.26,
+        "3": 0.04
+      },
+      "score_confidence": 0.05,
+      "noul": 0.34
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "text": "Military action that defies international law is sometimes justified.",
+      "repeat": 1,
+      "score": 0.95,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.32,
+        "2": 0.26,
+        "3": 0.04
+      },
+      "score_confidence": 0.05,
+      "noul": 0.33
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "text": "Military action that defies international law is sometimes justified.",
+      "repeat": 2,
+      "score": 0.95,
+      "score_probabilities": {
+        "0": 0.41000000000000003,
+        "1": 0.29,
+        "2": 0.26,
+        "3": 0.04
+      },
+      "score_confidence": 0.05,
+      "noul": 0.35
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "text": "Military action that defies international law is sometimes justified.",
+      "repeat": 3,
+      "score": 0.95,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.31,
+        "2": 0.26,
+        "3": 0.04
+      },
+      "score_confidence": 0.05,
+      "noul": 0.33
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "text": "Military action that defies international law is sometimes justified.",
+      "repeat": 4,
+      "score": 0.9,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.3,
+        "2": 0.24,
+        "3": 0.04
+      },
+      "score_confidence": 0.1,
+      "noul": 0.32
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "text": "There is now a worrying fusion of information and entertainment.",
+      "repeat": 0,
+      "score": 2.18,
+      "score_probabilities": {
+        "0": 0.02,
+        "1": 0.06,
+        "2": 0.65,
+        "3": 0.27
+      },
+      "score_confidence": 0.64,
+      "noul": 0.6
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "text": "There is now a worrying fusion of information and entertainment.",
+      "repeat": 1,
+      "score": 2.17,
+      "score_probabilities": {
+        "0": 0.02,
+        "1": 0.06,
+        "2": 0.67,
+        "3": 0.25
+      },
+      "score_confidence": 0.66,
+      "noul": 0.59
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "text": "There is now a worrying fusion of information and entertainment.",
+      "repeat": 2,
+      "score": 2.2,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.06,
+        "2": 0.64,
+        "3": 0.29
+      },
+      "score_confidence": 0.63,
+      "noul": 0.6
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "text": "There is now a worrying fusion of information and entertainment.",
+      "repeat": 3,
+      "score": 2.18,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.06,
+        "2": 0.67,
+        "3": 0.26
+      },
+      "score_confidence": 0.65,
+      "noul": 0.59
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "text": "There is now a worrying fusion of information and entertainment.",
+      "repeat": 4,
+      "score": 2.15,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.06,
+        "2": 0.6900000000000001,
+        "3": 0.24
+      },
+      "score_confidence": 0.67,
+      "noul": 0.61
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "text": "People are ultimately divided more by class than by nationality.",
+      "repeat": 0,
+      "score": 1.69,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.23,
+        "2": 0.5,
+        "3": 0.15
+      },
+      "score_confidence": 0.39,
+      "noul": 0.43
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "text": "People are ultimately divided more by class than by nationality.",
+      "repeat": 1,
+      "score": 1.67,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.23,
+        "2": 0.54,
+        "3": 0.12
+      },
+      "score_confidence": 0.42,
+      "noul": 0.43
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "text": "People are ultimately divided more by class than by nationality.",
+      "repeat": 2,
+      "score": 1.72,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.22,
+        "2": 0.53,
+        "3": 0.15
+      },
+      "score_confidence": 0.42,
+      "noul": 0.44
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "text": "People are ultimately divided more by class than by nationality.",
+      "repeat": 3,
+      "score": 1.69,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.23,
+        "2": 0.52,
+        "3": 0.14
+      },
+      "score_confidence": 0.41,
+      "noul": 0.43
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "text": "People are ultimately divided more by class than by nationality.",
+      "repeat": 4,
+      "score": 1.65,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.24,
+        "2": 0.51,
+        "3": 0.13
+      },
+      "score_confidence": 0.4,
+      "noul": 0.41
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment.",
+      "repeat": 0,
+      "score": 1.54,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.32,
+        "2": 0.57,
+        "3": 0.02
+      },
+      "score_confidence": 0.49,
+      "noul": 0.41
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment.",
+      "repeat": 1,
+      "score": 1.5,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.34,
+        "2": 0.54,
+        "3": 0.02
+      },
+      "score_confidence": 0.45,
+      "noul": 0.4
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment.",
+      "repeat": 2,
+      "score": 1.54,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.3,
+        "2": 0.58,
+        "3": 0.03
+      },
+      "score_confidence": 0.48,
+      "noul": 0.42
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment.",
+      "repeat": 3,
+      "score": 1.53,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.32,
+        "2": 0.57,
+        "3": 0.02
+      },
+      "score_confidence": 0.48,
+      "noul": 0.41
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment.",
+      "repeat": 4,
+      "score": 1.54,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.33,
+        "2": 0.58,
+        "3": 0.02
+      },
+      "score_confidence": 0.49,
+      "noul": 0.41
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "repeat": 0,
+      "score": 2.1,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.11,
+        "2": 0.58,
+        "3": 0.28
+      },
+      "score_confidence": 0.55,
+      "noul": 0.57
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "repeat": 1,
+      "score": 2.1,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.11,
+        "2": 0.57,
+        "3": 0.28
+      },
+      "score_confidence": 0.54,
+      "noul": 0.55
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "repeat": 2,
+      "score": 2.08,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.12,
+        "2": 0.59,
+        "3": 0.26
+      },
+      "score_confidence": 0.56,
+      "noul": 0.56
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "repeat": 3,
+      "score": 2.09,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.1,
+        "2": 0.6,
+        "3": 0.26
+      },
+      "score_confidence": 0.56,
+      "noul": 0.55
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "repeat": 4,
+      "score": 2.05,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.11,
+        "2": 0.62,
+        "3": 0.24
+      },
+      "score_confidence": 0.58,
+      "noul": 0.56
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "repeat": 0,
+      "score": 1.85,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.2,
+        "2": 0.51,
+        "3": 0.21
+      },
+      "score_confidence": 0.43,
+      "noul": 0.53
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "repeat": 1,
+      "score": 1.87,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.19,
+        "2": 0.5,
+        "3": 0.23
+      },
+      "score_confidence": 0.41,
+      "noul": 0.53
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "repeat": 2,
+      "score": 1.93,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.17,
+        "2": 0.49,
+        "3": 0.26
+      },
+      "score_confidence": 0.41,
+      "noul": 0.55
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "repeat": 3,
+      "score": 1.91,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.18,
+        "2": 0.52,
+        "3": 0.23
+      },
+      "score_confidence": 0.44,
+      "noul": 0.54
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "repeat": 4,
+      "score": 1.94,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.16,
+        "2": 0.5,
+        "3": 0.26
+      },
+      "score_confidence": 0.43,
+      "noul": 0.56
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "text": "The freer the market, the freer the people.",
+      "repeat": 0,
+      "score": 1.75,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.21,
+        "2": 0.54,
+        "3": 0.15
+      },
+      "score_confidence": 0.45,
+      "noul": 0.41
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "text": "The freer the market, the freer the people.",
+      "repeat": 1,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.22,
+        "2": 0.51,
+        "3": 0.17
+      },
+      "score_confidence": 0.43,
+      "noul": 0.4
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "text": "The freer the market, the freer the people.",
+      "repeat": 2,
+      "score": 1.74,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.23,
+        "2": 0.52,
+        "3": 0.16
+      },
+      "score_confidence": 0.43,
+      "noul": 0.41
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "text": "The freer the market, the freer the people.",
+      "repeat": 3,
+      "score": 1.75,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.22,
+        "2": 0.54,
+        "3": 0.15
+      },
+      "score_confidence": 0.45,
+      "noul": 0.41
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "text": "The freer the market, the freer the people.",
+      "repeat": 4,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.22,
+        "2": 0.53,
+        "3": 0.16
+      },
+      "score_confidence": 0.44,
+      "noul": 0.41
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "repeat": 0,
+      "score": 2.12,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.12,
+        "2": 0.52,
+        "3": 0.32
+      },
+      "score_confidence": 0.47,
+      "noul": 0.58
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "repeat": 1,
+      "score": 2.11,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.12,
+        "2": 0.53,
+        "3": 0.31
+      },
+      "score_confidence": 0.49,
+      "noul": 0.57
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "repeat": 2,
+      "score": 2.14,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.11,
+        "2": 0.55,
+        "3": 0.31
+      },
+      "score_confidence": 0.51,
+      "noul": 0.57
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "repeat": 3,
+      "score": 2.18,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.11,
+        "2": 0.51,
+        "3": 0.35
+      },
+      "score_confidence": 0.48,
+      "noul": 0.56
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "repeat": 4,
+      "score": 2.12,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.12,
+        "2": 0.53,
+        "3": 0.31
+      },
+      "score_confidence": 0.49,
+      "noul": 0.54
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "text": "Land shouldn't be a commodity to be bought and sold.",
+      "repeat": 0,
+      "score": 1.49,
+      "score_probabilities": {
+        "0": 0.21,
+        "1": 0.25,
+        "2": 0.38,
+        "3": 0.16
+      },
+      "score_confidence": 0.18,
+      "noul": 0.49
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "text": "Land shouldn't be a commodity to be bought and sold.",
+      "repeat": 1,
+      "score": 1.44,
+      "score_probabilities": {
+        "0": 0.22,
+        "1": 0.27,
+        "2": 0.36,
+        "3": 0.15
+      },
+      "score_confidence": 0.14,
+      "noul": 0.49
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "text": "Land shouldn't be a commodity to be bought and sold.",
+      "repeat": 2,
+      "score": 1.5,
+      "score_probabilities": {
+        "0": 0.19,
+        "1": 0.26,
+        "2": 0.4,
+        "3": 0.15
+      },
+      "score_confidence": 0.21,
+      "noul": 0.47
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "text": "Land shouldn't be a commodity to be bought and sold.",
+      "repeat": 3,
+      "score": 1.55,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.23,
+        "2": 0.39,
+        "3": 0.18
+      },
+      "score_confidence": 0.18,
+      "noul": 0.49
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "text": "Land shouldn't be a commodity to be bought and sold.",
+      "repeat": 4,
+      "score": 1.57,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.23,
+        "2": 0.43,
+        "3": 0.16
+      },
+      "score_confidence": 0.25,
+      "noul": 0.49
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "repeat": 0,
+      "score": 2.04,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.13,
+        "2": 0.55,
+        "3": 0.27
+      },
+      "score_confidence": 0.51,
+      "noul": 0.64
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "repeat": 1,
+      "score": 2.05,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.13,
+        "2": 0.57,
+        "3": 0.26
+      },
+      "score_confidence": 0.54,
+      "noul": 0.62
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "repeat": 2,
+      "score": 1.97,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.16,
+        "2": 0.57,
+        "3": 0.22
+      },
+      "score_confidence": 0.53,
+      "noul": 0.62
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "repeat": 3,
+      "score": 2.01,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.15,
+        "2": 0.55,
+        "3": 0.25
+      },
+      "score_confidence": 0.51,
+      "noul": 0.62
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "repeat": 4,
+      "score": 2.04,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.15,
+        "2": 0.55,
+        "3": 0.26
+      },
+      "score_confidence": 0.52,
+      "noul": 0.62
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "text": "Protectionism is sometimes necessary in trade.",
+      "repeat": 0,
+      "score": 1.85,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.12,
+        "2": 0.75,
+        "3": 0.08
+      },
+      "score_confidence": 0.69,
+      "noul": 0.67
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "text": "Protectionism is sometimes necessary in trade.",
+      "repeat": 1,
+      "score": 1.86,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.14,
+        "2": 0.72,
+        "3": 0.09
+      },
+      "score_confidence": 0.68,
+      "noul": 0.66
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "text": "Protectionism is sometimes necessary in trade.",
+      "repeat": 2,
+      "score": 1.82,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.14,
+        "2": 0.71,
+        "3": 0.09
+      },
+      "score_confidence": 0.64,
+      "noul": 0.66
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "text": "Protectionism is sometimes necessary in trade.",
+      "repeat": 3,
+      "score": 1.84,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.14,
+        "2": 0.69,
+        "3": 0.11
+      },
+      "score_confidence": 0.63,
+      "noul": 0.66
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "text": "Protectionism is sometimes necessary in trade.",
+      "repeat": 4,
+      "score": 1.85,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.13,
+        "2": 0.73,
+        "3": 0.09
+      },
+      "score_confidence": 0.67,
+      "noul": 0.66
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "repeat": 0,
+      "score": 0.74,
+      "score_probabilities": {
+        "0": 0.44,
+        "1": 0.42,
+        "2": 0.11,
+        "3": 0.03
+      },
+      "score_confidence": 0.26,
+      "noul": 0.22
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "repeat": 1,
+      "score": 0.82,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.43,
+        "2": 0.14,
+        "3": 0.04
+      },
+      "score_confidence": 0.4,
+      "noul": 0.22
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "repeat": 2,
+      "score": 0.75,
+      "score_probabilities": {
+        "0": 0.44,
+        "1": 0.42,
+        "2": 0.11,
+        "3": 0.03
+      },
+      "score_confidence": 0.25,
+      "noul": 0.22
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "repeat": 3,
+      "score": 0.77,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.43,
+        "2": 0.11,
+        "3": 0.04
+      },
+      "score_confidence": 0.39,
+      "noul": 0.22
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "repeat": 4,
+      "score": 0.79,
+      "score_probabilities": {
+        "0": 0.41,
+        "1": 0.43,
+        "2": 0.12,
+        "3": 0.04
+      },
+      "score_confidence": 0.39,
+      "noul": 0.23
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "text": "The rich are too highly taxed.",
+      "repeat": 0,
+      "score": 1.05,
+      "score_probabilities": {
+        "0": 0.22,
+        "1": 0.54,
+        "2": 0.22,
+        "3": 0.02
+      },
+      "score_confidence": 0.51,
+      "noul": 0.31
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "text": "The rich are too highly taxed.",
+      "repeat": 1,
+      "score": 1.06,
+      "score_probabilities": {
+        "0": 0.22,
+        "1": 0.53,
+        "2": 0.23,
+        "3": 0.02
+      },
+      "score_confidence": 0.5,
+      "noul": 0.31
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "text": "The rich are too highly taxed.",
+      "repeat": 2,
+      "score": 1.12,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.51,
+        "2": 0.26,
+        "3": 0.03
+      },
+      "score_confidence": 0.48,
+      "noul": 0.31
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "text": "The rich are too highly taxed.",
+      "repeat": 3,
+      "score": 1.07,
+      "score_probabilities": {
+        "0": 0.21,
+        "1": 0.53,
+        "2": 0.24,
+        "3": 0.02
+      },
+      "score_confidence": 0.51,
+      "noul": 0.3
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "text": "The rich are too highly taxed.",
+      "repeat": 4,
+      "score": 1.16,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.51,
+        "2": 0.28,
+        "3": 0.03
+      },
+      "score_confidence": 0.48,
+      "noul": 0.31
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "text": "Those with the ability to pay should have access to higher standards of medical care.",
+      "repeat": 0,
+      "score": 1.36,
+      "score_probabilities": {
+        "0": 0.23,
+        "1": 0.3,
+        "2": 0.34,
+        "3": 0.13
+      },
+      "score_confidence": 0.1,
+      "noul": 0.32
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "text": "Those with the ability to pay should have access to higher standards of medical care.",
+      "repeat": 1,
+      "score": 1.52,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.27,
+        "2": 0.33999999999999997,
+        "3": 0.19
+      },
+      "score_confidence": 0.15,
+      "noul": 0.33
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "text": "Those with the ability to pay should have access to higher standards of medical care.",
+      "repeat": 2,
+      "score": 1.52,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.25,
+        "2": 0.38,
+        "3": 0.17
+      },
+      "score_confidence": 0.18,
+      "noul": 0.31
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "text": "Those with the ability to pay should have access to higher standards of medical care.",
+      "repeat": 3,
+      "score": 1.45,
+      "score_probabilities": {
+        "0": 0.21,
+        "1": 0.29,
+        "2": 0.35,
+        "3": 0.15
+      },
+      "score_confidence": 0.14,
+      "noul": 0.33
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "text": "Those with the ability to pay should have access to higher standards of medical care.",
+      "repeat": 4,
+      "score": 1.46,
+      "score_probabilities": {
+        "0": 0.22,
+        "1": 0.26,
+        "2": 0.36,
+        "3": 0.16
+      },
+      "score_confidence": 0.14,
+      "noul": 0.32
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "text": "Governments should penalise businesses that mislead the public.",
+      "repeat": 0,
+      "score": 2.74,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.21,
+        "3": 0.77
+      },
+      "score_confidence": 0.74,
+      "noul": 0.85
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "text": "Governments should penalise businesses that mislead the public.",
+      "repeat": 1,
+      "score": 2.73,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.22,
+        "3": 0.76
+      },
+      "score_confidence": 0.73,
+      "noul": 0.84
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "text": "Governments should penalise businesses that mislead the public.",
+      "repeat": 2,
+      "score": 2.77,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.18,
+        "3": 0.8
+      },
+      "score_confidence": 0.77,
+      "noul": 0.86
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "text": "Governments should penalise businesses that mislead the public.",
+      "repeat": 3,
+      "score": 2.75,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.21,
+        "3": 0.77
+      },
+      "score_confidence": 0.75,
+      "noul": 0.87
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "text": "Governments should penalise businesses that mislead the public.",
+      "repeat": 4,
+      "score": 2.72,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.22,
+        "3": 0.76
+      },
+      "score_confidence": 0.72,
+      "noul": 0.86
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "repeat": 0,
+      "score": 1.95,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.13,
+        "2": 0.49,
+        "3": 0.28
+      },
+      "score_confidence": 0.39,
+      "noul": 0.61
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "repeat": 1,
+      "score": 1.93,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.15,
+        "2": 0.49,
+        "3": 0.27
+      },
+      "score_confidence": 0.39,
+      "noul": 0.59
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "repeat": 2,
+      "score": 1.95,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.14,
+        "2": 0.5,
+        "3": 0.27
+      },
+      "score_confidence": 0.41,
+      "noul": 0.58
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "repeat": 3,
+      "score": 1.98,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.13,
+        "2": 0.45999999999999996,
+        "3": 0.31
+      },
+      "score_confidence": 0.37,
+      "noul": 0.59
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "repeat": 4,
+      "score": 1.94,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.14,
+        "2": 0.51,
+        "3": 0.26
+      },
+      "score_confidence": 0.42,
+      "noul": 0.59
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "repeat": 0,
+      "score": 0.78,
+      "score_probabilities": {
+        "0": 0.48,
+        "1": 0.32,
+        "2": 0.14,
+        "3": 0.06
+      },
+      "score_confidence": 0.22,
+      "noul": 0.21
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "repeat": 1,
+      "score": 0.82,
+      "score_probabilities": {
+        "0": 0.43,
+        "1": 0.37,
+        "2": 0.14,
+        "3": 0.06
+      },
+      "score_confidence": 0.18,
+      "noul": 0.21
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "repeat": 2,
+      "score": 0.84,
+      "score_probabilities": {
+        "0": 0.44,
+        "1": 0.33,
+        "2": 0.17,
+        "3": 0.06
+      },
+      "score_confidence": 0.16,
+      "noul": 0.21
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "repeat": 3,
+      "score": 0.8,
+      "score_probabilities": {
+        "0": 0.47,
+        "1": 0.31,
+        "2": 0.15,
+        "3": 0.07
+      },
+      "score_confidence": 0.2,
+      "noul": 0.21
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "repeat": 4,
+      "score": 0.87,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.35,
+        "2": 0.16,
+        "3": 0.07
+      },
+      "score_confidence": 0.13,
+      "noul": 0.21
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "text": "All authority should be questioned.",
+      "repeat": 0,
+      "score": 1.81,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.25,
+        "2": 0.45,
+        "3": 0.22
+      },
+      "score_confidence": 0.36,
+      "noul": 0.46
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "text": "All authority should be questioned.",
+      "repeat": 1,
+      "score": 1.8,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.25,
+        "2": 0.48,
+        "3": 0.2
+      },
+      "score_confidence": 0.4,
+      "noul": 0.46
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "text": "All authority should be questioned.",
+      "repeat": 2,
+      "score": 1.83,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.23,
+        "2": 0.47,
+        "3": 0.22
+      },
+      "score_confidence": 0.4,
+      "noul": 0.45
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "text": "All authority should be questioned.",
+      "repeat": 3,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.25,
+        "2": 0.46,
+        "3": 0.2
+      },
+      "score_confidence": 0.36,
+      "noul": 0.47
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "text": "All authority should be questioned.",
+      "repeat": 4,
+      "score": 1.73,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.26,
+        "2": 0.45,
+        "3": 0.19
+      },
+      "score_confidence": 0.36,
+      "noul": 0.46
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "text": "An eye for an eye and a tooth for a tooth.",
+      "repeat": 0,
+      "score": 0.71,
+      "score_probabilities": {
+        "0": 0.5599999999999999,
+        "1": 0.23,
+        "2": 0.15,
+        "3": 0.06
+      },
+      "score_confidence": 0.29,
+      "noul": 0.23
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "text": "An eye for an eye and a tooth for a tooth.",
+      "repeat": 1,
+      "score": 0.81,
+      "score_probabilities": {
+        "0": 0.52,
+        "1": 0.23,
+        "2": 0.18,
+        "3": 0.07
+      },
+      "score_confidence": 0.19,
+      "noul": 0.23
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "text": "An eye for an eye and a tooth for a tooth.",
+      "repeat": 2,
+      "score": 0.71,
+      "score_probabilities": {
+        "0": 0.5599999999999999,
+        "1": 0.22,
+        "2": 0.15,
+        "3": 0.07
+      },
+      "score_confidence": 0.29,
+      "noul": 0.23
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "text": "An eye for an eye and a tooth for a tooth.",
+      "repeat": 3,
+      "score": 0.76,
+      "score_probabilities": {
+        "0": 0.53,
+        "1": 0.24,
+        "2": 0.16,
+        "3": 0.07
+      },
+      "score_confidence": 0.24,
+      "noul": 0.23
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "text": "An eye for an eye and a tooth for a tooth.",
+      "repeat": 4,
+      "score": 0.77,
+      "score_probabilities": {
+        "0": 0.53,
+        "1": 0.23,
+        "2": 0.18,
+        "3": 0.06
+      },
+      "score_confidence": 0.23,
+      "noul": 0.22
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "repeat": 0,
+      "score": 1.49,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.33,
+        "2": 0.4,
+        "3": 0.12
+      },
+      "score_confidence": 0.25,
+      "noul": 0.46
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "repeat": 1,
+      "score": 1.48,
+      "score_probabilities": {
+        "0": 0.16,
+        "1": 0.33,
+        "2": 0.38,
+        "3": 0.13
+      },
+      "score_confidence": 0.22,
+      "noul": 0.47
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "repeat": 2,
+      "score": 1.51,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.32,
+        "2": 0.4,
+        "3": 0.13
+      },
+      "score_confidence": 0.25,
+      "noul": 0.47
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "repeat": 3,
+      "score": 1.5,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.32,
+        "2": 0.4,
+        "3": 0.13
+      },
+      "score_confidence": 0.25,
+      "noul": 0.46
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "repeat": 4,
+      "score": 1.52,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.31,
+        "2": 0.4,
+        "3": 0.14
+      },
+      "score_confidence": 0.24,
+      "noul": 0.47
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "text": "Schools should not make classroom attendance compulsory.",
+      "repeat": 0,
+      "score": 0.8,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.39,
+        "2": 0.16,
+        "3": 0.03
+      },
+      "score_confidence": 0.2,
+      "noul": 0.28
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "text": "Schools should not make classroom attendance compulsory.",
+      "repeat": 1,
+      "score": 0.8,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.38,
+        "2": 0.16,
+        "3": 0.04
+      },
+      "score_confidence": 0.2,
+      "noul": 0.28
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "text": "Schools should not make classroom attendance compulsory.",
+      "repeat": 2,
+      "score": 0.75,
+      "score_probabilities": {
+        "0": 0.44,
+        "1": 0.4,
+        "2": 0.14,
+        "3": 0.02
+      },
+      "score_confidence": 0.25,
+      "noul": 0.26
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "text": "Schools should not make classroom attendance compulsory.",
+      "repeat": 3,
+      "score": 0.75,
+      "score_probabilities": {
+        "0": 0.44,
+        "1": 0.39,
+        "2": 0.14,
+        "3": 0.03
+      },
+      "score_confidence": 0.25,
+      "noul": 0.27
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "text": "Schools should not make classroom attendance compulsory.",
+      "repeat": 4,
+      "score": 0.86,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.42,
+        "2": 0.17,
+        "3": 0.03
+      },
+      "score_confidence": 0.38,
+      "noul": 0.29
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "repeat": 0,
+      "score": 0.5,
+      "score_probabilities": {
+        "0": 0.66,
+        "1": 0.21,
+        "2": 0.09,
+        "3": 0.04
+      },
+      "score_confidence": 0.5,
+      "noul": 0.16
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "repeat": 1,
+      "score": 0.56,
+      "score_probabilities": {
+        "0": 0.63,
+        "1": 0.23,
+        "2": 0.1,
+        "3": 0.04
+      },
+      "score_confidence": 0.44,
+      "noul": 0.14
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "repeat": 2,
+      "score": 0.59,
+      "score_probabilities": {
+        "0": 0.6,
+        "1": 0.25,
+        "2": 0.11,
+        "3": 0.04
+      },
+      "score_confidence": 0.41,
+      "noul": 0.17
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "repeat": 3,
+      "score": 0.64,
+      "score_probabilities": {
+        "0": 0.59,
+        "1": 0.24,
+        "2": 0.13,
+        "3": 0.04
+      },
+      "score_confidence": 0.36,
+      "noul": 0.15
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "repeat": 4,
+      "score": 0.58,
+      "score_probabilities": {
+        "0": 0.61,
+        "1": 0.24,
+        "2": 0.11,
+        "3": 0.04
+      },
+      "score_confidence": 0.42,
+      "noul": 0.15
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "text": "Good parents sometimes have to spank their children.",
+      "repeat": 0,
+      "score": 1.71,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.21,
+        "2": 0.53,
+        "3": 0.15
+      },
+      "score_confidence": 0.42,
+      "noul": 0.51
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "text": "Good parents sometimes have to spank their children.",
+      "repeat": 1,
+      "score": 1.71,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.22,
+        "2": 0.55,
+        "3": 0.13
+      },
+      "score_confidence": 0.45,
+      "noul": 0.52
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "text": "Good parents sometimes have to spank their children.",
+      "repeat": 2,
+      "score": 1.71,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.2,
+        "2": 0.54,
+        "3": 0.14
+      },
+      "score_confidence": 0.43,
+      "noul": 0.52
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "text": "Good parents sometimes have to spank their children.",
+      "repeat": 3,
+      "score": 1.69,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.22,
+        "2": 0.54,
+        "3": 0.13
+      },
+      "score_confidence": 0.43,
+      "noul": 0.5
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "text": "Good parents sometimes have to spank their children.",
+      "repeat": 4,
+      "score": 1.66,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.24,
+        "2": 0.51,
+        "3": 0.13
+      },
+      "score_confidence": 0.39,
+      "noul": 0.52
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "text": "It's natural for children to keep some secrets from their parents.",
+      "repeat": 0,
+      "score": 2.58,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.03,
+        "2": 0.33,
+        "3": 0.63
+      },
+      "score_confidence": 0.58,
+      "noul": 0.84
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "text": "It's natural for children to keep some secrets from their parents.",
+      "repeat": 1,
+      "score": 2.6,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.02,
+        "2": 0.32,
+        "3": 0.65
+      },
+      "score_confidence": 0.6,
+      "noul": 0.85
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "text": "It's natural for children to keep some secrets from their parents.",
+      "repeat": 2,
+      "score": 2.61,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.03,
+        "2": 0.3,
+        "3": 0.66
+      },
+      "score_confidence": 0.61,
+      "noul": 0.85
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "text": "It's natural for children to keep some secrets from their parents.",
+      "repeat": 3,
+      "score": 2.6,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.02,
+        "2": 0.32,
+        "3": 0.65
+      },
+      "score_confidence": 0.6,
+      "noul": 0.84
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "text": "It's natural for children to keep some secrets from their parents.",
+      "repeat": 4,
+      "score": 2.6,
+      "score_probabilities": {
+        "0": 0.01,
+        "1": 0.03,
+        "2": 0.3,
+        "3": 0.66
+      },
+      "score_confidence": 0.6,
+      "noul": 0.84
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "text": "Possessing marijuana for personal use should not be a criminal offence.",
+      "repeat": 0,
+      "score": 2,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.09,
+        "2": 0.49,
+        "3": 0.31
+      },
+      "score_confidence": 0.38,
+      "noul": 0.55
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "text": "Possessing marijuana for personal use should not be a criminal offence.",
+      "repeat": 1,
+      "score": 1.96,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.1,
+        "2": 0.47,
+        "3": 0.31
+      },
+      "score_confidence": 0.34,
+      "noul": 0.57
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "text": "Possessing marijuana for personal use should not be a criminal offence.",
+      "repeat": 2,
+      "score": 1.98,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.09,
+        "2": 0.49,
+        "3": 0.3
+      },
+      "score_confidence": 0.38,
+      "noul": 0.57
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "text": "Possessing marijuana for personal use should not be a criminal offence.",
+      "repeat": 3,
+      "score": 2.03,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.09,
+        "2": 0.49,
+        "3": 0.32
+      },
+      "score_confidence": 0.39,
+      "noul": 0.56
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "text": "Possessing marijuana for personal use should not be a criminal offence.",
+      "repeat": 4,
+      "score": 1.99,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.09,
+        "2": 0.47,
+        "3": 0.32
+      },
+      "score_confidence": 0.34,
+      "noul": 0.58
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "repeat": 0,
+      "score": 1.33,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.48,
+        "2": 0.33,
+        "3": 0.06
+      },
+      "score_confidence": 0.42,
+      "noul": 0.34
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "repeat": 1,
+      "score": 1.29,
+      "score_probabilities": {
+        "0": 0.16,
+        "1": 0.47,
+        "2": 0.3,
+        "3": 0.07
+      },
+      "score_confidence": 0.4,
+      "noul": 0.32
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "repeat": 2,
+      "score": 1.34,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.47,
+        "2": 0.32,
+        "3": 0.08
+      },
+      "score_confidence": 0.4,
+      "noul": 0.33
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "repeat": 3,
+      "score": 1.36,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.46,
+        "2": 0.33,
+        "3": 0.08
+      },
+      "score_confidence": 0.38,
+      "noul": 0.34
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "repeat": 4,
+      "score": 1.34,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.47,
+        "2": 0.32,
+        "3": 0.08
+      },
+      "score_confidence": 0.4,
+      "noul": 0.33
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "repeat": 0,
+      "score": 0.46,
+      "score_probabilities": {
+        "0": 0.71,
+        "1": 0.16,
+        "2": 0.08,
+        "3": 0.05
+      },
+      "score_confidence": 0.54,
+      "noul": 0.08
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "repeat": 1,
+      "score": 0.43,
+      "score_probabilities": {
+        "0": 0.72,
+        "1": 0.17,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.57,
+      "noul": 0.1
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "repeat": 2,
+      "score": 0.41,
+      "score_probabilities": {
+        "0": 0.73,
+        "1": 0.16,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.59,
+      "noul": 0.08
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "repeat": 3,
+      "score": 0.41,
+      "score_probabilities": {
+        "0": 0.74,
+        "1": 0.15,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.59,
+      "noul": 0.09
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "repeat": 4,
+      "score": 0.42,
+      "score_probabilities": {
+        "0": 0.74,
+        "1": 0.15,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.58,
+      "noul": 0.09
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "text": "The most important thing for children to learn is to accept discipline.",
+      "repeat": 0,
+      "score": 1.08,
+      "score_probabilities": {
+        "0": 0.2,
+        "1": 0.56,
+        "2": 0.19,
+        "3": 0.04
+      },
+      "score_confidence": 0.52,
+      "noul": 0.3
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "text": "The most important thing for children to learn is to accept discipline.",
+      "repeat": 1,
+      "score": 1.12,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.5599999999999999,
+        "2": 0.21,
+        "3": 0.05
+      },
+      "score_confidence": 0.52,
+      "noul": 0.3
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "text": "The most important thing for children to learn is to accept discipline.",
+      "repeat": 2,
+      "score": 1.15,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.54,
+        "2": 0.23,
+        "3": 0.05
+      },
+      "score_confidence": 0.49,
+      "noul": 0.32
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "text": "The most important thing for children to learn is to accept discipline.",
+      "repeat": 3,
+      "score": 1.07,
+      "score_probabilities": {
+        "0": 0.22,
+        "1": 0.53,
+        "2": 0.21,
+        "3": 0.04
+      },
+      "score_confidence": 0.5,
+      "noul": 0.28
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "text": "The most important thing for children to learn is to accept discipline.",
+      "repeat": 4,
+      "score": 1.09,
+      "score_probabilities": {
+        "0": 0.19,
+        "1": 0.56,
+        "2": 0.2,
+        "3": 0.04
+      },
+      "score_confidence": 0.52,
+      "noul": 0.29
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "text": "There are no savage and civilised peoples; there are only different cultures.",
+      "repeat": 0,
+      "score": 2.52,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.06,
+        "2": 0.19,
+        "3": 0.69
+      },
+      "score_confidence": 0.52,
+      "noul": 0.72
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "text": "There are no savage and civilised peoples; there are only different cultures.",
+      "repeat": 1,
+      "score": 2.48,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.06,
+        "2": 0.18,
+        "3": 0.69
+      },
+      "score_confidence": 0.48,
+      "noul": 0.76
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "text": "There are no savage and civilised peoples; there are only different cultures.",
+      "repeat": 2,
+      "score": 2.49,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.06,
+        "2": 0.19,
+        "3": 0.68
+      },
+      "score_confidence": 0.49,
+      "noul": 0.74
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "text": "There are no savage and civilised peoples; there are only different cultures.",
+      "repeat": 3,
+      "score": 2.54,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.06,
+        "2": 0.17,
+        "3": 0.71
+      },
+      "score_confidence": 0.54,
+      "noul": 0.76
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "text": "There are no savage and civilised peoples; there are only different cultures.",
+      "repeat": 4,
+      "score": 2.51,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.06,
+        "2": 0.16,
+        "3": 0.71
+      },
+      "score_confidence": 0.51,
+      "noul": 0.76
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "repeat": 0,
+      "score": 1.95,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.16,
+        "2": 0.52,
+        "3": 0.25
+      },
+      "score_confidence": 0.44,
+      "noul": 0.54
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "repeat": 1,
+      "score": 1.97,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.17,
+        "2": 0.5,
+        "3": 0.27
+      },
+      "score_confidence": 0.43,
+      "noul": 0.54
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "repeat": 2,
+      "score": 1.94,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.18,
+        "2": 0.5,
+        "3": 0.25
+      },
+      "score_confidence": 0.43,
+      "noul": 0.54
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "repeat": 3,
+      "score": 1.96,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.17,
+        "2": 0.52,
+        "3": 0.25
+      },
+      "score_confidence": 0.45,
+      "noul": 0.54
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "repeat": 4,
+      "score": 1.96,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.17,
+        "2": 0.53,
+        "3": 0.24
+      },
+      "score_confidence": 0.47,
+      "noul": 0.54
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "repeat": 0,
+      "score": 1.57,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.34,
+        "2": 0.5,
+        "3": 0.08
+      },
+      "score_confidence": 0.42,
+      "noul": 0.48
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "repeat": 1,
+      "score": 1.58,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.35,
+        "2": 0.5,
+        "3": 0.08
+      },
+      "score_confidence": 0.43,
+      "noul": 0.5
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "repeat": 2,
+      "score": 1.64,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.32,
+        "2": 0.53,
+        "3": 0.09
+      },
+      "score_confidence": 0.47,
+      "noul": 0.51
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "repeat": 3,
+      "score": 1.56,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.35,
+        "2": 0.5,
+        "3": 0.07
+      },
+      "score_confidence": 0.42,
+      "noul": 0.48
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "repeat": 4,
+      "score": 1.6,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.34,
+        "2": 0.51,
+        "3": 0.08
+      },
+      "score_confidence": 0.44,
+      "noul": 0.5
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "text": "First-generation immigrants can never be fully integrated within their new country.",
+      "repeat": 0,
+      "score": 0.34,
+      "score_probabilities": {
+        "0": 0.68,
+        "1": 0.3,
+        "2": 0.01,
+        "3": 0.01
+      },
+      "score_confidence": 0.66,
+      "noul": 0.09
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "text": "First-generation immigrants can never be fully integrated within their new country.",
+      "repeat": 1,
+      "score": 0.36,
+      "score_probabilities": {
+        "0": 0.67,
+        "1": 0.31,
+        "2": 0.01,
+        "3": 0.01
+      },
+      "score_confidence": 0.64,
+      "noul": 0.09
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "text": "First-generation immigrants can never be fully integrated within their new country.",
+      "repeat": 2,
+      "score": 0.33,
+      "score_probabilities": {
+        "0": 0.7,
+        "1": 0.29,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.67,
+      "noul": 0.09
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "text": "First-generation immigrants can never be fully integrated within their new country.",
+      "repeat": 3,
+      "score": 0.34,
+      "score_probabilities": {
+        "0": 0.69,
+        "1": 0.29,
+        "2": 0.01,
+        "3": 0.01
+      },
+      "score_confidence": 0.66,
+      "noul": 0.09
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "text": "First-generation immigrants can never be fully integrated within their new country.",
+      "repeat": 4,
+      "score": 0.33,
+      "score_probabilities": {
+        "0": 0.6799999999999999,
+        "1": 0.3,
+        "2": 0.01,
+        "3": 0.01
+      },
+      "score_confidence": 0.67,
+      "noul": 0.09
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "repeat": 0,
+      "score": 0.46,
+      "score_probabilities": {
+        "0": 0.58,
+        "1": 0.38,
+        "2": 0.03,
+        "3": 0.01
+      },
+      "score_confidence": 0.54,
+      "noul": 0.12
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "repeat": 1,
+      "score": 0.48,
+      "score_probabilities": {
+        "0": 0.5599999999999999,
+        "1": 0.4,
+        "2": 0.03,
+        "3": 0.01
+      },
+      "score_confidence": 0.52,
+      "noul": 0.11
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "repeat": 2,
+      "score": 0.46,
+      "score_probabilities": {
+        "0": 0.57,
+        "1": 0.4,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.54,
+      "noul": 0.12
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "repeat": 3,
+      "score": 0.51,
+      "score_probabilities": {
+        "0": 0.53,
+        "1": 0.43,
+        "2": 0.03,
+        "3": 0.01
+      },
+      "score_confidence": 0.49,
+      "noul": 0.12
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "repeat": 4,
+      "score": 0.45,
+      "score_probabilities": {
+        "0": 0.57,
+        "1": 0.4,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.55,
+      "noul": 0.12
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "text": "No broadcasting institution, however independent its content, should receive public funding.",
+      "repeat": 0,
+      "score": 0.83,
+      "score_probabilities": {
+        "0": 0.42,
+        "1": 0.39,
+        "2": 0.13,
+        "3": 0.06
+      },
+      "score_confidence": 0.17,
+      "noul": 0.27
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "text": "No broadcasting institution, however independent its content, should receive public funding.",
+      "repeat": 1,
+      "score": 0.85,
+      "score_probabilities": {
+        "0": 0.4,
+        "1": 0.41,
+        "2": 0.13,
+        "3": 0.06
+      },
+      "score_confidence": 0.35,
+      "noul": 0.28
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "text": "No broadcasting institution, however independent its content, should receive public funding.",
+      "repeat": 2,
+      "score": 0.91,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.39,
+        "2": 0.17,
+        "3": 0.06
+      },
+      "score_confidence": 0.33,
+      "noul": 0.28
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "text": "No broadcasting institution, however independent its content, should receive public funding.",
+      "repeat": 3,
+      "score": 0.81,
+      "score_probabilities": {
+        "0": 0.45,
+        "1": 0.36,
+        "2": 0.14,
+        "3": 0.05
+      },
+      "score_confidence": 0.19,
+      "noul": 0.27
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "text": "No broadcasting institution, however independent its content, should receive public funding.",
+      "repeat": 4,
+      "score": 0.89,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.41,
+        "2": 0.15,
+        "3": 0.06
+      },
+      "score_confidence": 0.35,
+      "noul": 0.28
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "repeat": 0,
+      "score": 1.78,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.18,
+        "2": 0.65,
+        "3": 0.1
+      },
+      "score_confidence": 0.58,
+      "noul": 0.45
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "repeat": 1,
+      "score": 1.78,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.17,
+        "2": 0.67,
+        "3": 0.09
+      },
+      "score_confidence": 0.6,
+      "noul": 0.45
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "repeat": 2,
+      "score": 1.78,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.18,
+        "2": 0.64,
+        "3": 0.11
+      },
+      "score_confidence": 0.56,
+      "noul": 0.45
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "repeat": 3,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.19,
+        "2": 0.68,
+        "3": 0.07
+      },
+      "score_confidence": 0.61,
+      "noul": 0.44
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "repeat": 4,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.18,
+        "2": 0.66,
+        "3": 0.09
+      },
+      "score_confidence": 0.58,
+      "noul": 0.44
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "repeat": 0,
+      "score": 0.87,
+      "score_probabilities": {
+        "0": 0.37,
+        "1": 0.42,
+        "2": 0.18,
+        "3": 0.03
+      },
+      "score_confidence": 0.38,
+      "noul": 0.22
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "repeat": 1,
+      "score": 0.9,
+      "score_probabilities": {
+        "0": 0.33,
+        "1": 0.48,
+        "2": 0.17,
+        "3": 0.02
+      },
+      "score_confidence": 0.45,
+      "noul": 0.23
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "repeat": 2,
+      "score": 0.88,
+      "score_probabilities": {
+        "0": 0.37,
+        "1": 0.41,
+        "2": 0.19,
+        "3": 0.03
+      },
+      "score_confidence": 0.38,
+      "noul": 0.23
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "repeat": 3,
+      "score": 0.84,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.43,
+        "2": 0.17,
+        "3": 0.02
+      },
+      "score_confidence": 0.4,
+      "noul": 0.23
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "repeat": 4,
+      "score": 0.84,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.4,
+        "2": 0.18,
+        "3": 0.03
+      },
+      "score_confidence": 0.37,
+      "noul": 0.22
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "repeat": 0,
+      "score": 0.55,
+      "score_probabilities": {
+        "0": 0.52,
+        "1": 0.41,
+        "2": 0.06,
+        "3": 0.01
+      },
+      "score_confidence": 0.45,
+      "noul": 0.19
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "repeat": 1,
+      "score": 0.51,
+      "score_probabilities": {
+        "0": 0.55,
+        "1": 0.39,
+        "2": 0.05,
+        "3": 0.01
+      },
+      "score_confidence": 0.49,
+      "noul": 0.17
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "repeat": 2,
+      "score": 0.55,
+      "score_probabilities": {
+        "0": 0.53,
+        "1": 0.4,
+        "2": 0.06,
+        "3": 0.01
+      },
+      "score_confidence": 0.45,
+      "noul": 0.18
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "repeat": 3,
+      "score": 0.53,
+      "score_probabilities": {
+        "0": 0.53,
+        "1": 0.42,
+        "2": 0.04,
+        "3": 0.01
+      },
+      "score_confidence": 0.47,
+      "noul": 0.17
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "repeat": 4,
+      "score": 0.52,
+      "score_probabilities": {
+        "0": 0.56,
+        "1": 0.37,
+        "2": 0.06,
+        "3": 0.01
+      },
+      "score_confidence": 0.48,
+      "noul": 0.18
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "text": "The death penalty should be an option for the most serious crimes.",
+      "repeat": 0,
+      "score": 1.63,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.2,
+        "2": 0.55,
+        "3": 0.11
+      },
+      "score_confidence": 0.41,
+      "noul": 0.45
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "text": "The death penalty should be an option for the most serious crimes.",
+      "repeat": 1,
+      "score": 1.6,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.21,
+        "2": 0.53,
+        "3": 0.11
+      },
+      "score_confidence": 0.37,
+      "noul": 0.47
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "text": "The death penalty should be an option for the most serious crimes.",
+      "repeat": 2,
+      "score": 1.69,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.17,
+        "2": 0.59,
+        "3": 0.11
+      },
+      "score_confidence": 0.46,
+      "noul": 0.46
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "text": "The death penalty should be an option for the most serious crimes.",
+      "repeat": 3,
+      "score": 1.63,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.21,
+        "2": 0.54,
+        "3": 0.11
+      },
+      "score_confidence": 0.4,
+      "noul": 0.47
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "text": "The death penalty should be an option for the most serious crimes.",
+      "repeat": 4,
+      "score": 1.65,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.19,
+        "2": 0.58,
+        "3": 0.1
+      },
+      "score_confidence": 0.46,
+      "noul": 0.47
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "repeat": 0,
+      "score": 0.55,
+      "score_probabilities": {
+        "0": 0.58,
+        "1": 0.31,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.45,
+      "noul": 0.14
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "repeat": 1,
+      "score": 0.57,
+      "score_probabilities": {
+        "0": 0.59,
+        "1": 0.3,
+        "2": 0.07,
+        "3": 0.04
+      },
+      "score_confidence": 0.43,
+      "noul": 0.14
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "repeat": 2,
+      "score": 0.55,
+      "score_probabilities": {
+        "0": 0.58,
+        "1": 0.33,
+        "2": 0.06,
+        "3": 0.03
+      },
+      "score_confidence": 0.45,
+      "noul": 0.13
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "repeat": 3,
+      "score": 0.5,
+      "score_probabilities": {
+        "0": 0.62,
+        "1": 0.3,
+        "2": 0.05,
+        "3": 0.03
+      },
+      "score_confidence": 0.5,
+      "noul": 0.12
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "repeat": 4,
+      "score": 0.51,
+      "score_probabilities": {
+        "0": 0.62,
+        "1": 0.29,
+        "2": 0.06,
+        "3": 0.03
+      },
+      "score_confidence": 0.49,
+      "noul": 0.12
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "repeat": 0,
+      "score": 0.42,
+      "score_probabilities": {
+        "0": 0.6799999999999999,
+        "1": 0.23,
+        "2": 0.06,
+        "3": 0.03
+      },
+      "score_confidence": 0.58,
+      "noul": 0.13
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "repeat": 1,
+      "score": 0.39,
+      "score_probabilities": {
+        "0": 0.7,
+        "1": 0.22,
+        "2": 0.05,
+        "3": 0.03
+      },
+      "score_confidence": 0.61,
+      "noul": 0.12
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "repeat": 2,
+      "score": 0.41,
+      "score_probabilities": {
+        "0": 0.69,
+        "1": 0.22,
+        "2": 0.06,
+        "3": 0.03
+      },
+      "score_confidence": 0.59,
+      "noul": 0.12
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "repeat": 3,
+      "score": 0.41,
+      "score_probabilities": {
+        "0": 0.7,
+        "1": 0.22,
+        "2": 0.05,
+        "3": 0.03
+      },
+      "score_confidence": 0.59,
+      "noul": 0.12
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "repeat": 4,
+      "score": 0.39,
+      "score_probabilities": {
+        "0": 0.7,
+        "1": 0.22,
+        "2": 0.05,
+        "3": 0.03
+      },
+      "score_confidence": 0.61,
+      "noul": 0.12
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "text": "In criminal justice, punishment should be more important than rehabilitation.",
+      "repeat": 0,
+      "score": 1.29,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.49,
+        "2": 0.35,
+        "3": 0.03
+      },
+      "score_confidence": 0.45,
+      "noul": 0.34
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "text": "In criminal justice, punishment should be more important than rehabilitation.",
+      "repeat": 1,
+      "score": 1.24,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.51,
+        "2": 0.31,
+        "3": 0.04
+      },
+      "score_confidence": 0.47,
+      "noul": 0.32
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "text": "In criminal justice, punishment should be more important than rehabilitation.",
+      "repeat": 2,
+      "score": 1.25,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.5,
+        "2": 0.32,
+        "3": 0.04
+      },
+      "score_confidence": 0.47,
+      "noul": 0.32
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "text": "In criminal justice, punishment should be more important than rehabilitation.",
+      "repeat": 3,
+      "score": 1.23,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.51,
+        "2": 0.3,
+        "3": 0.04
+      },
+      "score_confidence": 0.47,
+      "noul": 0.32
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "text": "In criminal justice, punishment should be more important than rehabilitation.",
+      "repeat": 4,
+      "score": 1.21,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.52,
+        "2": 0.3,
+        "3": 0.03
+      },
+      "score_confidence": 0.5,
+      "noul": 0.31
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "text": "It is a waste of time to try to rehabilitate some criminals.",
+      "repeat": 0,
+      "score": 1.07,
+      "score_probabilities": {
+        "0": 0.27,
+        "1": 0.43,
+        "2": 0.26,
+        "3": 0.04
+      },
+      "score_confidence": 0.38,
+      "noul": 0.33
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "text": "It is a waste of time to try to rehabilitate some criminals.",
+      "repeat": 1,
+      "score": 1.12,
+      "score_probabilities": {
+        "0": 0.26,
+        "1": 0.41,
+        "2": 0.28,
+        "3": 0.05
+      },
+      "score_confidence": 0.37,
+      "noul": 0.34
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "text": "It is a waste of time to try to rehabilitate some criminals.",
+      "repeat": 2,
+      "score": 1.12,
+      "score_probabilities": {
+        "0": 0.25,
+        "1": 0.43,
+        "2": 0.28,
+        "3": 0.04
+      },
+      "score_confidence": 0.38,
+      "noul": 0.33
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "text": "It is a waste of time to try to rehabilitate some criminals.",
+      "repeat": 3,
+      "score": 1.15,
+      "score_probabilities": {
+        "0": 0.25,
+        "1": 0.4,
+        "2": 0.3,
+        "3": 0.05
+      },
+      "score_confidence": 0.35,
+      "noul": 0.34
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "text": "It is a waste of time to try to rehabilitate some criminals.",
+      "repeat": 4,
+      "score": 1.11,
+      "score_probabilities": {
+        "0": 0.26,
+        "1": 0.41,
+        "2": 0.28,
+        "3": 0.05
+      },
+      "score_confidence": 0.37,
+      "noul": 0.33
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "repeat": 0,
+      "score": 0.92,
+      "score_probabilities": {
+        "0": 0.31,
+        "1": 0.47,
+        "2": 0.21,
+        "3": 0.01
+      },
+      "score_confidence": 0.45,
+      "noul": 0.25
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "repeat": 1,
+      "score": 0.91,
+      "score_probabilities": {
+        "0": 0.31,
+        "1": 0.48,
+        "2": 0.2,
+        "3": 0.01
+      },
+      "score_confidence": 0.47,
+      "noul": 0.24
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "repeat": 2,
+      "score": 0.92,
+      "score_probabilities": {
+        "0": 0.3,
+        "1": 0.49,
+        "2": 0.2,
+        "3": 0.01
+      },
+      "score_confidence": 0.47,
+      "noul": 0.25
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "repeat": 3,
+      "score": 0.88,
+      "score_probabilities": {
+        "0": 0.34,
+        "1": 0.45,
+        "2": 0.2,
+        "3": 0.01
+      },
+      "score_confidence": 0.44,
+      "noul": 0.25
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "repeat": 4,
+      "score": 0.87,
+      "score_probabilities": {
+        "0": 0.33,
+        "1": 0.48,
+        "2": 0.18,
+        "3": 0.01
+      },
+      "score_confidence": 0.47,
+      "noul": 0.25
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "text": "Mothers may have careers, but their first duty is to be homemakers.",
+      "repeat": 0,
+      "score": 0.85,
+      "score_probabilities": {
+        "0": 0.37,
+        "1": 0.45,
+        "2": 0.14,
+        "3": 0.04
+      },
+      "score_confidence": 0.41,
+      "noul": 0.25
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "text": "Mothers may have careers, but their first duty is to be homemakers.",
+      "repeat": 1,
+      "score": 0.84,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.43,
+        "2": 0.15,
+        "3": 0.04
+      },
+      "score_confidence": 0.39,
+      "noul": 0.24
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "text": "Mothers may have careers, but their first duty is to be homemakers.",
+      "repeat": 2,
+      "score": 0.88,
+      "score_probabilities": {
+        "0": 0.38,
+        "1": 0.41000000000000003,
+        "2": 0.17,
+        "3": 0.04
+      },
+      "score_confidence": 0.36,
+      "noul": 0.24
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "text": "Mothers may have careers, but their first duty is to be homemakers.",
+      "repeat": 3,
+      "score": 0.8,
+      "score_probabilities": {
+        "0": 0.41,
+        "1": 0.42,
+        "2": 0.13,
+        "3": 0.04
+      },
+      "score_confidence": 0.39,
+      "noul": 0.25
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "text": "Mothers may have careers, but their first duty is to be homemakers.",
+      "repeat": 4,
+      "score": 0.81,
+      "score_probabilities": {
+        "0": 0.41,
+        "1": 0.42,
+        "2": 0.13,
+        "3": 0.04
+      },
+      "score_confidence": 0.38,
+      "noul": 0.25
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "repeat": 0,
+      "score": 1.81,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.21,
+        "2": 0.56,
+        "3": 0.16
+      },
+      "score_confidence": 0.49,
+      "noul": 0.41
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "repeat": 1,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.23,
+        "2": 0.56,
+        "3": 0.14
+      },
+      "score_confidence": 0.48,
+      "noul": 0.4
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "repeat": 2,
+      "score": 1.8,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.22,
+        "2": 0.55,
+        "3": 0.16
+      },
+      "score_confidence": 0.49,
+      "noul": 0.41
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "repeat": 3,
+      "score": 1.73,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.25,
+        "2": 0.52,
+        "3": 0.15
+      },
+      "score_confidence": 0.44,
+      "noul": 0.41
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "repeat": 4,
+      "score": 1.75,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.24,
+        "2": 0.53,
+        "3": 0.15
+      },
+      "score_confidence": 0.46,
+      "noul": 0.4
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "text": "Making peace with the establishment is an important aspect of maturity.",
+      "repeat": 0,
+      "score": 1.67,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.29,
+        "2": 0.6,
+        "3": 0.06
+      },
+      "score_confidence": 0.56,
+      "noul": 0.47
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "text": "Making peace with the establishment is an important aspect of maturity.",
+      "repeat": 1,
+      "score": 1.68,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.28,
+        "2": 0.61,
+        "3": 0.06
+      },
+      "score_confidence": 0.56,
+      "noul": 0.47
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "text": "Making peace with the establishment is an important aspect of maturity.",
+      "repeat": 2,
+      "score": 1.67,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.29,
+        "2": 0.6,
+        "3": 0.06
+      },
+      "score_confidence": 0.55,
+      "noul": 0.46
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "text": "Making peace with the establishment is an important aspect of maturity.",
+      "repeat": 3,
+      "score": 1.66,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.29,
+        "2": 0.6,
+        "3": 0.06
+      },
+      "score_confidence": 0.55,
+      "noul": 0.47
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "text": "Making peace with the establishment is an important aspect of maturity.",
+      "repeat": 4,
+      "score": 1.66,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.28,
+        "2": 0.62,
+        "3": 0.05
+      },
+      "score_confidence": 0.56,
+      "noul": 0.47
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "text": "Astrology accurately explains many things.",
+      "repeat": 0,
+      "score": 0.12,
+      "score_probabilities": {
+        "0": 0.9,
+        "1": 0.09,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.88,
+      "noul": 0.06
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "text": "Astrology accurately explains many things.",
+      "repeat": 1,
+      "score": 0.11,
+      "score_probabilities": {
+        "0": 0.9,
+        "1": 0.09,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.89,
+      "noul": 0.07
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "text": "Astrology accurately explains many things.",
+      "repeat": 2,
+      "score": 0.13,
+      "score_probabilities": {
+        "0": 0.9,
+        "1": 0.09,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.87,
+      "noul": 0.06
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "text": "Astrology accurately explains many things.",
+      "repeat": 3,
+      "score": 0.13,
+      "score_probabilities": {
+        "0": 0.89,
+        "1": 0.1,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.87,
+      "noul": 0.07
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "text": "Astrology accurately explains many things.",
+      "repeat": 4,
+      "score": 0.12,
+      "score_probabilities": {
+        "0": 0.9,
+        "1": 0.09,
+        "2": 0.01,
+        "3": 0
+      },
+      "score_confidence": 0.88,
+      "noul": 0.07
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "text": "You cannot be moral without being religious.",
+      "repeat": 0,
+      "score": 0.36,
+      "score_probabilities": {
+        "0": 0.68,
+        "1": 0.28,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.64,
+      "noul": 0.11
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "text": "You cannot be moral without being religious.",
+      "repeat": 1,
+      "score": 0.39,
+      "score_probabilities": {
+        "0": 0.66,
+        "1": 0.31,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.61,
+      "noul": 0.1
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "text": "You cannot be moral without being religious.",
+      "repeat": 2,
+      "score": 0.38,
+      "score_probabilities": {
+        "0": 0.66,
+        "1": 0.3,
+        "2": 0.03,
+        "3": 0.01
+      },
+      "score_confidence": 0.62,
+      "noul": 0.12
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "text": "You cannot be moral without being religious.",
+      "repeat": 3,
+      "score": 0.39,
+      "score_probabilities": {
+        "0": 0.65,
+        "1": 0.32,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.61,
+      "noul": 0.11
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "text": "You cannot be moral without being religious.",
+      "repeat": 4,
+      "score": 0.36,
+      "score_probabilities": {
+        "0": 0.68,
+        "1": 0.28,
+        "2": 0.02,
+        "3": 0.01
+      },
+      "score_confidence": 0.64,
+      "noul": 0.11
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "repeat": 0,
+      "score": 0.74,
+      "score_probabilities": {
+        "0": 0.41,
+        "1": 0.46,
+        "2": 0.11,
+        "3": 0.02
+      },
+      "score_confidence": 0.44,
+      "noul": 0.22
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "repeat": 1,
+      "score": 0.83,
+      "score_probabilities": {
+        "0": 0.37,
+        "1": 0.46,
+        "2": 0.15,
+        "3": 0.02
+      },
+      "score_confidence": 0.44,
+      "noul": 0.25
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "repeat": 2,
+      "score": 0.79,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.46,
+        "2": 0.13,
+        "3": 0.02
+      },
+      "score_confidence": 0.44,
+      "noul": 0.24
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "repeat": 3,
+      "score": 0.7,
+      "score_probabilities": {
+        "0": 0.43,
+        "1": 0.46,
+        "2": 0.09,
+        "3": 0.02
+      },
+      "score_confidence": 0.44,
+      "noul": 0.23
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "repeat": 4,
+      "score": 0.78,
+      "score_probabilities": {
+        "0": 0.39,
+        "1": 0.46,
+        "2": 0.13,
+        "3": 0.02
+      },
+      "score_confidence": 0.43,
+      "noul": 0.23
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "text": "Some people are naturally unlucky.",
+      "repeat": 0,
+      "score": 1.33,
+      "score_probabilities": {
+        "0": 0.19,
+        "1": 0.33,
+        "2": 0.44,
+        "3": 0.04
+      },
+      "score_confidence": 0.24,
+      "noul": 0.41
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "text": "Some people are naturally unlucky.",
+      "repeat": 1,
+      "score": 1.46,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.29,
+        "2": 0.5,
+        "3": 0.06
+      },
+      "score_confidence": 0.34,
+      "noul": 0.46
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "text": "Some people are naturally unlucky.",
+      "repeat": 2,
+      "score": 1.42,
+      "score_probabilities": {
+        "0": 0.16,
+        "1": 0.32,
+        "2": 0.47,
+        "3": 0.05
+      },
+      "score_confidence": 0.31,
+      "noul": 0.42
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "text": "Some people are naturally unlucky.",
+      "repeat": 3,
+      "score": 1.33,
+      "score_probabilities": {
+        "0": 0.18,
+        "1": 0.36,
+        "2": 0.41,
+        "3": 0.05
+      },
+      "score_confidence": 0.24,
+      "noul": 0.46
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "text": "Some people are naturally unlucky.",
+      "repeat": 4,
+      "score": 1.37,
+      "score_probabilities": {
+        "0": 0.17,
+        "1": 0.33,
+        "2": 0.45,
+        "3": 0.05
+      },
+      "score_confidence": 0.28,
+      "noul": 0.46
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "text": "It is important that my child's school instills religious values.",
+      "repeat": 0,
+      "score": 1.8,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.18,
+        "2": 0.56,
+        "3": 0.17
+      },
+      "score_confidence": 0.46,
+      "noul": 0.45
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "text": "It is important that my child's school instills religious values.",
+      "repeat": 1,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.19,
+        "2": 0.56,
+        "3": 0.15
+      },
+      "score_confidence": 0.46,
+      "noul": 0.46
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "text": "It is important that my child's school instills religious values.",
+      "repeat": 2,
+      "score": 1.76,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.2,
+        "2": 0.56,
+        "3": 0.14
+      },
+      "score_confidence": 0.47,
+      "noul": 0.46
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "text": "It is important that my child's school instills religious values.",
+      "repeat": 3,
+      "score": 1.75,
+      "score_probabilities": {
+        "0": 0.1,
+        "1": 0.2,
+        "2": 0.56,
+        "3": 0.14
+      },
+      "score_confidence": 0.46,
+      "noul": 0.43
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "text": "It is important that my child's school instills religious values.",
+      "repeat": 4,
+      "score": 1.74,
+      "score_probabilities": {
+        "0": 0.11,
+        "1": 0.2,
+        "2": 0.54,
+        "3": 0.15
+      },
+      "score_confidence": 0.44,
+      "noul": 0.44
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "text": "Sex outside marriage is usually immoral.",
+      "repeat": 0,
+      "score": 1.07,
+      "score_probabilities": {
+        "0": 0.26,
+        "1": 0.48,
+        "2": 0.2,
+        "3": 0.06
+      },
+      "score_confidence": 0.42,
+      "noul": 0.31
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "text": "Sex outside marriage is usually immoral.",
+      "repeat": 1,
+      "score": 1.13,
+      "score_probabilities": {
+        "0": 0.25,
+        "1": 0.44,
+        "2": 0.24,
+        "3": 0.07
+      },
+      "score_confidence": 0.37,
+      "noul": 0.33
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "text": "Sex outside marriage is usually immoral.",
+      "repeat": 2,
+      "score": 1.1,
+      "score_probabilities": {
+        "0": 0.25,
+        "1": 0.46,
+        "2": 0.22,
+        "3": 0.07
+      },
+      "score_confidence": 0.4,
+      "noul": 0.3
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "text": "Sex outside marriage is usually immoral.",
+      "repeat": 3,
+      "score": 1.12,
+      "score_probabilities": {
+        "0": 0.24,
+        "1": 0.46,
+        "2": 0.24,
+        "3": 0.06
+      },
+      "score_confidence": 0.39,
+      "noul": 0.31
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "text": "Sex outside marriage is usually immoral.",
+      "repeat": 4,
+      "score": 1.02,
+      "score_probabilities": {
+        "0": 0.26,
+        "1": 0.5,
+        "2": 0.19,
+        "3": 0.05
+      },
+      "score_confidence": 0.46,
+      "noul": 0.3
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "repeat": 0,
+      "score": 2.52,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.03,
+        "2": 0.32,
+        "3": 0.62
+      },
+      "score_confidence": 0.52,
+      "noul": 0.8
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "repeat": 1,
+      "score": 2.58,
+      "score_probabilities": {
+        "0": 0.03,
+        "1": 0.02,
+        "2": 0.28,
+        "3": 0.67
+      },
+      "score_confidence": 0.58,
+      "noul": 0.81
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "repeat": 2,
+      "score": 2.51,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.03,
+        "2": 0.29,
+        "3": 0.63
+      },
+      "score_confidence": 0.51,
+      "noul": 0.82
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "repeat": 3,
+      "score": 2.53,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.03,
+        "2": 0.28,
+        "3": 0.64
+      },
+      "score_confidence": 0.53,
+      "noul": 0.8
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "repeat": 4,
+      "score": 2.53,
+      "score_probabilities": {
+        "0": 0.04,
+        "1": 0.03,
+        "2": 0.29,
+        "3": 0.64
+      },
+      "score_confidence": 0.53,
+      "noul": 0.82
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "repeat": 0,
+      "score": 2.17,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.07,
+        "2": 0.45999999999999996,
+        "3": 0.39
+      },
+      "score_confidence": 0.4,
+      "noul": 0.69
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "repeat": 1,
+      "score": 2.17,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.07,
+        "2": 0.48,
+        "3": 0.38
+      },
+      "score_confidence": 0.41,
+      "noul": 0.67
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "repeat": 2,
+      "score": 2.12,
+      "score_probabilities": {
+        "0": 0.09,
+        "1": 0.08,
+        "2": 0.45999999999999996,
+        "3": 0.37
+      },
+      "score_confidence": 0.38,
+      "noul": 0.69
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "repeat": 3,
+      "score": 2.26,
+      "score_probabilities": {
+        "0": 0.05,
+        "1": 0.05,
+        "2": 0.49,
+        "3": 0.41
+      },
+      "score_confidence": 0.44,
+      "noul": 0.68
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "repeat": 4,
+      "score": 2.19,
+      "score_probabilities": {
+        "0": 0.06,
+        "1": 0.07,
+        "2": 0.48,
+        "3": 0.39
+      },
+      "score_confidence": 0.41,
+      "noul": 0.69
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "repeat": 0,
+      "score": 2.15,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.14,
+        "2": 0.35,
+        "3": 0.44
+      },
+      "score_confidence": 0.15,
+      "noul": 0.58
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "repeat": 1,
+      "score": 2.24,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.12,
+        "2": 0.32,
+        "3": 0.49
+      },
+      "score_confidence": 0.24,
+      "noul": 0.61
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "repeat": 2,
+      "score": 2.19,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.14,
+        "2": 0.3,
+        "3": 0.49
+      },
+      "score_confidence": 0.19,
+      "noul": 0.61
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "repeat": 3,
+      "score": 2.2,
+      "score_probabilities": {
+        "0": 0.07,
+        "1": 0.14,
+        "2": 0.32,
+        "3": 0.47
+      },
+      "score_confidence": 0.2,
+      "noul": 0.59
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "repeat": 4,
+      "score": 2.16,
+      "score_probabilities": {
+        "0": 0.08,
+        "1": 0.14,
+        "2": 0.33,
+        "3": 0.45
+      },
+      "score_confidence": 0.16,
+      "noul": 0.6
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "text": "No one can feel naturally homosexual.",
+      "repeat": 0,
+      "score": 0.27,
+      "score_probabilities": {
+        "0": 0.84,
+        "1": 0.08,
+        "2": 0.05,
+        "3": 0.03
+      },
+      "score_confidence": 0.73,
+      "noul": 0.08
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "text": "No one can feel naturally homosexual.",
+      "repeat": 1,
+      "score": 0.3,
+      "score_probabilities": {
+        "0": 0.82,
+        "1": 0.09,
+        "2": 0.05,
+        "3": 0.04
+      },
+      "score_confidence": 0.7,
+      "noul": 0.07
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "text": "No one can feel naturally homosexual.",
+      "repeat": 2,
+      "score": 0.3,
+      "score_probabilities": {
+        "0": 0.82,
+        "1": 0.09,
+        "2": 0.05,
+        "3": 0.04
+      },
+      "score_confidence": 0.7,
+      "noul": 0.08
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "text": "No one can feel naturally homosexual.",
+      "repeat": 3,
+      "score": 0.3,
+      "score_probabilities": {
+        "0": 0.8099999999999999,
+        "1": 0.1,
+        "2": 0.05,
+        "3": 0.04
+      },
+      "score_confidence": 0.7,
+      "noul": 0.08
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "text": "No one can feel naturally homosexual.",
+      "repeat": 4,
+      "score": 0.26,
+      "score_probabilities": {
+        "0": 0.84,
+        "1": 0.09,
+        "2": 0.04,
+        "3": 0.03
+      },
+      "score_confidence": 0.74,
+      "noul": 0.07
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "text": "These days openness about sex has gone too far.",
+      "repeat": 0,
+      "score": 1.38,
+      "score_probabilities": {
+        "0": 0.15,
+        "1": 0.38,
+        "2": 0.42,
+        "3": 0.05
+      },
+      "score_confidence": 0.29,
+      "noul": 0.33
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "text": "These days openness about sex has gone too far.",
+      "repeat": 1,
+      "score": 1.41,
+      "score_probabilities": {
+        "0": 0.13,
+        "1": 0.37,
+        "2": 0.47,
+        "3": 0.03
+      },
+      "score_confidence": 0.34,
+      "noul": 0.33
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "text": "These days openness about sex has gone too far.",
+      "repeat": 2,
+      "score": 1.36,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.4,
+        "2": 0.43,
+        "3": 0.03
+      },
+      "score_confidence": 0.29,
+      "noul": 0.33
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "text": "These days openness about sex has gone too far.",
+      "repeat": 3,
+      "score": 1.36,
+      "score_probabilities": {
+        "0": 0.14,
+        "1": 0.4,
+        "2": 0.42,
+        "3": 0.04
+      },
+      "score_confidence": 0.28,
+      "noul": 0.33
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "text": "These days openness about sex has gone too far.",
+      "repeat": 4,
+      "score": 1.42,
+      "score_probabilities": {
+        "0": 0.12,
+        "1": 0.37,
+        "2": 0.47,
+        "3": 0.04
+      },
+      "score_confidence": 0.34,
+      "noul": 0.34
+    }
+  ]
+}

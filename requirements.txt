@@ -1,0 +1,2 @@
+# No third-party dependencies: the client uses urllib from the standard library.
+# Python 3.10+ required (PEP 604 union syntax).

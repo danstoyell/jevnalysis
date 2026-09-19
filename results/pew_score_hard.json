@@ -1,0 +1,442 @@
+{
+  "model": "typesafe/jev-1.13",
+  "instrument": "pew_typology_2026",
+  "repeats": 5,
+  "shuffled": true,
+  "assignment_mode": "hard",
+  "ideology_score": -5.7683,
+  "polarity_corrected_items": [
+    "natprobclim"
+  ],
+  "group_posterior": {
+    "Order and Opportunity Left": 0.92129,
+    "Loyal Liberals": 0.03602,
+    "Pragmatic and Polite Right": 0.02728,
+    "Left-Out Left": 0.01316,
+    "Tuned-Out Middle": 0.00205,
+    "Unconventional Right": 0.00011,
+    "Leftward Progressives": 9e-05,
+    "Faith First Conservatives": 0.0,
+    "No Apologies Right": 0.0
+  },
+  "assigned_group": "Order and Opportunity Left",
+  "assigned_group_us_population_pct": 18,
+  "items_that_flipped": [
+    "govsize1",
+    "nationid_bord3",
+    "comfort_guns3",
+    "nationid_cap",
+    "nationid_chrstn3",
+    "comfort_pronouns3",
+    "cntryfair2_othusnet"
+  ],
+  "items": {
+    "govsize1": {
+      "probabilities": {
+        "A smaller government providing fewer services": 0.43399999999999994,
+        "A bigger government providing more services": 0.566
+      },
+      "top_choice": "A bigger government providing more services",
+      "top_prob": 0.566,
+      "mean_confidence": 0.186,
+      "n_draws": 5,
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "flipped": true,
+      "points": -0.9798,
+      "pct_of_public_agreeing": 53
+    },
+    "nationid_bord3": {
+      "probabilities": {
+        "Not too important": 0.002,
+        "Somewhat important": 0.016,
+        "Very important": 0.418,
+        "Not at all important": 0.002,
+        "Extremely important": 0.562
+      },
+      "top_choice": "Extremely important",
+      "top_prob": 0.562,
+      "mean_confidence": 0.46799999999999997,
+      "n_draws": 5,
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "flipped": true,
+      "points": 0.8735,
+      "pct_of_public_agreeing": 38
+    },
+    "nationid_refug3": {
+      "probabilities": {
+        "Not at all important": 0.01,
+        "Very important": 0.474,
+        "Not too important": 0.014,
+        "Extremely important": 0.33,
+        "Somewhat important": 0.172
+      },
+      "top_choice": "Very important",
+      "top_prob": 0.474,
+      "mean_confidence": 0.336,
+      "n_draws": 5,
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "flipped": false,
+      "points": -0.9168,
+      "pct_of_public_agreeing": 25
+    },
+    "run_serve2": {
+      "probabilities": {
+        "All of them": 0.042,
+        "A few of them": 0.13,
+        "None of them": 0.036000000000000004,
+        "Some of them": 0.494,
+        "Most of them": 0.298
+      },
+      "top_choice": "Some of them",
+      "top_prob": 0.494,
+      "mean_confidence": 0.366,
+      "n_draws": 5,
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "flipped": false,
+      "points": -0.6893,
+      "pct_of_public_agreeing": 44
+    },
+    "society_ssm3": {
+      "probabilities": {
+        "Very bad for society": 0.004,
+        "Somewhat bad for society": 0.008,
+        "Very good for society": 0.53,
+        "Neither good nor bad for society": 0.17600000000000002,
+        "Somewhat good for society": 0.28200000000000003
+      },
+      "top_choice": "Very good for society",
+      "top_prob": 0.53,
+      "mean_confidence": 0.41200000000000003,
+      "n_draws": 5,
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "flipped": false,
+      "points": -1.3254,
+      "pct_of_public_agreeing": 20
+    },
+    "comfort_guns3": {
+      "probabilities": {
+        "Extremely comfortable": 0.014,
+        "Not at all comfortable": 0.25,
+        "Very comfortable": 0.03,
+        "Somewhat comfortable": 0.392,
+        "Not too comfortable": 0.314
+      },
+      "top_choice": "Somewhat comfortable",
+      "top_prob": 0.392,
+      "mean_confidence": 0.32199999999999995,
+      "n_draws": 5,
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "flipped": true,
+      "points": 0.4645,
+      "pct_of_public_agreeing": 23
+    },
+    "natprobclim": {
+      "probabilities": {
+        "A small problem": 0.002,
+        "A very big problem": 0.8819999999999999,
+        "A moderately big problem": 0.1,
+        "Not a problem at all": 0.014
+      },
+      "top_choice": "A very big problem",
+      "top_prob": 0.8819999999999999,
+      "mean_confidence": 0.842,
+      "n_draws": 5,
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "flipped": false,
+      "points": -1.0576,
+      "pct_of_public_agreeing": 36
+    },
+    "superpwr2net": {
+      "probabilities": {
+        "Somewhat important": 0.366,
+        "Very important": 0.258,
+        "Not too important": 0.134,
+        "Not at all important": 0.09800000000000002,
+        "Extremely important": 0.144
+      },
+      "top_choice": "Somewhat important",
+      "top_prob": 0.366,
+      "mean_confidence": 0.21000000000000002,
+      "n_draws": 5,
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "flipped": false,
+      "points": -0.1746,
+      "pct_of_public_agreeing": 33
+    },
+    "divrs_fair3": {
+      "probabilities": {
+        "A lot more fair": 0.1,
+        "No more or less fair": 0.188,
+        "A lot less fair": 0.002,
+        "A little less fair": 0.006,
+        "A little more fair": 0.7040000000000001
+      },
+      "top_choice": "A little more fair",
+      "top_prob": 0.7040000000000001,
+      "mean_confidence": 0.63,
+      "n_draws": 5,
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "flipped": false,
+      "points": -0.8548,
+      "pct_of_public_agreeing": 29
+    },
+    "folgovalt": {
+      "probabilities": {
+        "Some of the time": 0.43199999999999994,
+        "Most of the time": 0.21,
+        "Only now and then": 0.22200000000000003,
+        "Hardly at all": 0.13599999999999998
+      },
+      "top_choice": "Some of the time",
+      "top_prob": 0.43199999999999994,
+      "mean_confidence": 0.24,
+      "n_draws": 5,
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "flipped": false,
+      "points": -0.2136,
+      "pct_of_public_agreeing": 39
+    },
+    "finagency": {
+      "probabilities": {
+        "A fair amount": 0.63,
+        "Not too much": 0.044000000000000004,
+        "A great deal": 0.326,
+        "None at all": 0.0
+      },
+      "top_choice": "A fair amount",
+      "top_prob": 0.63,
+      "mean_confidence": 0.502,
+      "n_draws": 5,
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "flipped": false,
+      "points": 0.1602,
+      "pct_of_public_agreeing": 48
+    },
+    "nationid_cap": {
+      "probabilities": {
+        "Somewhat important": 0.034,
+        "Not at all important": 0.01,
+        "Extremely important": 0.518,
+        "Not too important": 0.01,
+        "Very important": 0.42800000000000005
+      },
+      "top_choice": "Extremely important",
+      "top_prob": 0.518,
+      "mean_confidence": 0.44000000000000006,
+      "n_draws": 5,
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "flipped": true,
+      "points": 1.3153,
+      "pct_of_public_agreeing": 20
+    },
+    "nationid_chrstn3": {
+      "probabilities": {
+        "Not at all important": 0.18000000000000002,
+        "Somewhat important": 0.28200000000000003,
+        "Very important": 0.3,
+        "Extremely important": 0.12400000000000001,
+        "Not too important": 0.11399999999999999
+      },
+      "top_choice": "Very important",
+      "top_prob": 0.3,
+      "mean_confidence": 0.138,
+      "n_draws": 5,
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "flipped": true,
+      "points": 1.0039,
+      "pct_of_public_agreeing": 16
+    },
+    "allies": {
+      "probabilities": {
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.8339999999999999,
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.166
+      },
+      "top_choice": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "top_prob": 0.8339999999999999,
+      "mean_confidence": 0.6699999999999999,
+      "n_draws": 5,
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "flipped": false,
+      "points": -0.7255,
+      "pct_of_public_agreeing": 62
+    },
+    "comfort_pronouns3": {
+      "probabilities": {
+        "Somewhat comfortable": 0.08000000000000002,
+        "Extremely comfortable": 0.408,
+        "Very comfortable": 0.49000000000000005,
+        "Not at all comfortable": 0.012,
+        "Not too comfortable": 0.01
+      },
+      "top_choice": "Very comfortable",
+      "top_prob": 0.49000000000000005,
+      "mean_confidence": 0.43600000000000005,
+      "n_draws": 5,
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "flipped": true,
+      "points": -1.2038,
+      "pct_of_public_agreeing": 13
+    },
+    "openiden": {
+      "probabilities": {
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.942,
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.058
+      },
+      "top_choice": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "top_prob": 0.942,
+      "mean_confidence": 0.8859999999999999,
+      "n_draws": 5,
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "flipped": false,
+      "points": -0.7505,
+      "pct_of_public_agreeing": 61
+    },
+    "regulatemod": {
+      "probabilities": {
+        "More good than harm": 0.296,
+        "More harm than good": 0.049999999999999996,
+        "About the same amount of harm and good": 0.654
+      },
+      "top_choice": "About the same amount of harm and good",
+      "top_prob": 0.654,
+      "mean_confidence": 0.47800000000000004,
+      "n_draws": 5,
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "flipped": false,
+      "points": -0.0416,
+      "pct_of_public_agreeing": 44
+    },
+    "racesurv17": {
+      "probabilities": {
+        "Not much": 0.0,
+        "A fair amount": 0.046000000000000006,
+        "A great deal": 0.952,
+        "Not at all": 0.002
+      },
+      "top_choice": "A great deal",
+      "top_prob": 0.952,
+      "mean_confidence": 0.9259999999999999,
+      "n_draws": 5,
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "flipped": false,
+      "points": -1.2042,
+      "pct_of_public_agreeing": 28
+    },
+    "humil_opp": {
+      "probabilities": {
+        "Like it a lot": 0.14,
+        "Like it a little": 0.35000000000000003,
+        "Dislike it a lot": 0.226,
+        "Dislike it a little": 0.28400000000000003
+      },
+      "top_choice": "Like it a little",
+      "top_prob": 0.35000000000000003,
+      "mean_confidence": 0.132,
+      "n_draws": 5,
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "flipped": false,
+      "points": 1.2337,
+      "pct_of_public_agreeing": 22
+    },
+    "relrole_gov": {
+      "probabilities": {
+        "Religion should be kept separate from government policies": 0.976,
+        "Government policies should support religious values and beliefs": 0.024
+      },
+      "top_choice": "Religion should be kept separate from government policies",
+      "top_prob": 0.976,
+      "mean_confidence": 0.954,
+      "n_draws": 5,
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "flipped": false,
+      "points": -0.5925,
+      "pct_of_public_agreeing": 71
+    },
+    "cntryfair2_othusnet": {
+      "probabilities": {
+        "Somewhat fairly": 0.464,
+        "Very fairly": 0.026000000000000002,
+        "Not at all fairly": 0.118,
+        "Not too fairly": 0.384,
+        "Extremely fairly": 0.008
+      },
+      "top_choice": "Somewhat fairly",
+      "top_prob": 0.464,
+      "mean_confidence": 0.366,
+      "n_draws": 5,
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "flipped": true,
+      "points": -0.1993,
+      "pct_of_public_agreeing": 49
+    },
+    "proboff_off": {
+      "probabilities": {
+        "Minor problem": 0.21599999999999997,
+        "Not a problem": 0.09000000000000001,
+        "Major problem": 0.6940000000000001
+      },
+      "top_choice": "Major problem",
+      "top_prob": 0.6940000000000001,
+      "mean_confidence": 0.542,
+      "n_draws": 5,
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "flipped": false,
+      "points": 0.7968,
+      "pct_of_public_agreeing": 57
+    },
+    "proboff_say": {
+      "probabilities": {
+        "Not a problem": 0.014,
+        "Minor problem": 0.076,
+        "Major problem": 0.9099999999999999
+      },
+      "top_choice": "Major problem",
+      "top_prob": 0.9099999999999999,
+      "mean_confidence": 0.8720000000000001,
+      "n_draws": 5,
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "flipped": false,
+      "points": -0.9125,
+      "pct_of_public_agreeing": 48
+    },
+    "poorassist": {
+      "probabilities": {
+        "Should provide less assistance": 0.042,
+        "Should provide more assistance": 0.318,
+        "Is providing about the right amount of assistance": 0.64
+      },
+      "top_choice": "Is providing about the right amount of assistance",
+      "top_prob": 0.64,
+      "mean_confidence": 0.458,
+      "n_draws": 5,
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "flipped": false,
+      "points": 0.2256,
+      "pct_of_public_agreeing": 30
+    }
+  }
+}

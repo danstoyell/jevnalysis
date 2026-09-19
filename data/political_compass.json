@@ -1,0 +1,393 @@
+{
+  "source": "The Political Compass test (politicalcompass.org)",
+  "source_url": "https://www.politicalcompass.org/test/en",
+  "retrieved": "2026-09-18",
+  "n_items": 62,
+  "scale": [
+    "Strongly disagree",
+    "Disagree",
+    "Agree",
+    "Strongly agree"
+  ],
+  "scale_values": {
+    "Strongly disagree": 0,
+    "Disagree": 1,
+    "Agree": 2,
+    "Strongly agree": 3
+  },
+  "scoring_note": "The official axis weights are proprietary and not published. Authoritative scoring is obtained by POSTing answers to https://www.politicalcompass.org/test/en (see src/score_compass.py). Form field values are 0-3 matching scale_values above.",
+  "items": [
+    {
+      "id": "globalisationinevitable",
+      "page": 1,
+      "index_on_page": 1,
+      "text": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations."
+    },
+    {
+      "id": "countryrightorwrong",
+      "page": 1,
+      "index_on_page": 2,
+      "text": "I'd always support my country, whether it was right or wrong."
+    },
+    {
+      "id": "proudofcountry",
+      "page": 1,
+      "index_on_page": 3,
+      "text": "No one chooses their country of birth, so it's foolish to be proud of it."
+    },
+    {
+      "id": "racequalities",
+      "page": 1,
+      "index_on_page": 4,
+      "text": "Our race has many superior qualities, compared with other races."
+    },
+    {
+      "id": "enemyenemyfriend",
+      "page": 1,
+      "index_on_page": 5,
+      "text": "The enemy of my enemy is my friend."
+    },
+    {
+      "id": "militaryactionlaw",
+      "page": 1,
+      "index_on_page": 6,
+      "text": "Military action that defies international law is sometimes justified."
+    },
+    {
+      "id": "fusioninfotainment",
+      "page": 1,
+      "index_on_page": 7,
+      "text": "There is now a worrying fusion of information and entertainment."
+    },
+    {
+      "id": "classthannationality",
+      "page": 2,
+      "index_on_page": 1,
+      "text": "People are ultimately divided more by class than by nationality."
+    },
+    {
+      "id": "inflationoverunemployment",
+      "page": 2,
+      "index_on_page": 2,
+      "text": "Controlling inflation is more important than controlling unemployment."
+    },
+    {
+      "id": "corporationstrust",
+      "page": 2,
+      "index_on_page": 3,
+      "text": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation."
+    },
+    {
+      "id": "fromeachability",
+      "page": 2,
+      "index_on_page": 4,
+      "text": "“from each according to his ability, to each according to his need” is a fundamentally good idea."
+    },
+    {
+      "id": "freermarketfreerpeople",
+      "page": 2,
+      "index_on_page": 5,
+      "text": "The freer the market, the freer the people."
+    },
+    {
+      "id": "bottledwater",
+      "page": 2,
+      "index_on_page": 6,
+      "text": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product."
+    },
+    {
+      "id": "landcommodity",
+      "page": 2,
+      "index_on_page": 7,
+      "text": "Land shouldn't be a commodity to be bought and sold."
+    },
+    {
+      "id": "manipulatemoney",
+      "page": 2,
+      "index_on_page": 8,
+      "text": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+    },
+    {
+      "id": "protectionismnecessary",
+      "page": 2,
+      "index_on_page": 9,
+      "text": "Protectionism is sometimes necessary in trade."
+    },
+    {
+      "id": "companyshareholders",
+      "page": 2,
+      "index_on_page": 10,
+      "text": "The only social responsibility of a company should be to deliver a profit to its shareholders."
+    },
+    {
+      "id": "richtaxed",
+      "page": 2,
+      "index_on_page": 11,
+      "text": "The rich are too highly taxed."
+    },
+    {
+      "id": "paymedical",
+      "page": 2,
+      "index_on_page": 12,
+      "text": "Those with the ability to pay should have access to higher standards of medical care."
+    },
+    {
+      "id": "penalisemislead",
+      "page": 2,
+      "index_on_page": 13,
+      "text": "Governments should penalise businesses that mislead the public."
+    },
+    {
+      "id": "freepredatormulinational",
+      "page": 2,
+      "index_on_page": 14,
+      "text": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies."
+    },
+    {
+      "id": "abortionillegal",
+      "page": 3,
+      "index_on_page": 1,
+      "text": "Abortion, when the woman's life is not threatened, should always be illegal."
+    },
+    {
+      "id": "questionauthority",
+      "page": 3,
+      "index_on_page": 2,
+      "text": "All authority should be questioned."
+    },
+    {
+      "id": "eyeforeye",
+      "page": 3,
+      "index_on_page": 3,
+      "text": "An eye for an eye and a tooth for a tooth."
+    },
+    {
+      "id": "taxtotheatres",
+      "page": 3,
+      "index_on_page": 4,
+      "text": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis."
+    },
+    {
+      "id": "schoolscompulsory",
+      "page": 3,
+      "index_on_page": 5,
+      "text": "Schools should not make classroom attendance compulsory."
+    },
+    {
+      "id": "ownkind",
+      "page": 3,
+      "index_on_page": 6,
+      "text": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind."
+    },
+    {
+      "id": "spankchildren",
+      "page": 3,
+      "index_on_page": 7,
+      "text": "Good parents sometimes have to spank their children."
+    },
+    {
+      "id": "naturalsecrets",
+      "page": 3,
+      "index_on_page": 8,
+      "text": "It's natural for children to keep some secrets from their parents."
+    },
+    {
+      "id": "marijuanalegal",
+      "page": 3,
+      "index_on_page": 9,
+      "text": "Possessing marijuana for personal use should not be a criminal offence."
+    },
+    {
+      "id": "schooljobs",
+      "page": 3,
+      "index_on_page": 10,
+      "text": "The prime function of schooling should be to equip the future generation to find jobs."
+    },
+    {
+      "id": "inheritablereproduce",
+      "page": 3,
+      "index_on_page": 11,
+      "text": "People with serious inheritable disabilities should not be allowed to reproduce."
+    },
+    {
+      "id": "childrendiscipline",
+      "page": 3,
+      "index_on_page": 12,
+      "text": "The most important thing for children to learn is to accept discipline."
+    },
+    {
+      "id": "savagecivilised",
+      "page": 3,
+      "index_on_page": 13,
+      "text": "There are no savage and civilised peoples; there are only different cultures."
+    },
+    {
+      "id": "abletowork",
+      "page": 3,
+      "index_on_page": 14,
+      "text": "Those who are able to work, and refuse the opportunity, should not expect society's support."
+    },
+    {
+      "id": "represstroubles",
+      "page": 3,
+      "index_on_page": 15,
+      "text": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things."
+    },
+    {
+      "id": "immigrantsintegrated",
+      "page": 3,
+      "index_on_page": 16,
+      "text": "First-generation immigrants can never be fully integrated within their new country."
+    },
+    {
+      "id": "goodforcorporations",
+      "page": 3,
+      "index_on_page": 17,
+      "text": "What's good for the most successful corporations is always, ultimately, good for all of us."
+    },
+    {
+      "id": "broadcastingfunding",
+      "page": 3,
+      "index_on_page": 18,
+      "text": "No broadcasting institution, however independent its content, should receive public funding."
+    },
+    {
+      "id": "libertyterrorism",
+      "page": 4,
+      "index_on_page": 1,
+      "text": "Our civil liberties are being excessively curbed in the name of counter-terrorism."
+    },
+    {
+      "id": "onepartystate",
+      "page": 4,
+      "index_on_page": 2,
+      "text": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system."
+    },
+    {
+      "id": "serveillancewrongdoers",
+      "page": 4,
+      "index_on_page": 3,
+      "text": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried."
+    },
+    {
+      "id": "deathpenalty",
+      "page": 4,
+      "index_on_page": 4,
+      "text": "The death penalty should be an option for the most serious crimes."
+    },
+    {
+      "id": "societyheirarchy",
+      "page": 4,
+      "index_on_page": 5,
+      "text": "In a civilised society, one must always have people above to be obeyed and people below to be commanded."
+    },
+    {
+      "id": "abstractart",
+      "page": 4,
+      "index_on_page": 6,
+      "text": "Abstract art that doesn't represent anything shouldn't be considered art at all."
+    },
+    {
+      "id": "punishmentrehabilitation",
+      "page": 4,
+      "index_on_page": 7,
+      "text": "In criminal justice, punishment should be more important than rehabilitation."
+    },
+    {
+      "id": "wastecriminals",
+      "page": 4,
+      "index_on_page": 8,
+      "text": "It is a waste of time to try to rehabilitate some criminals."
+    },
+    {
+      "id": "businessart",
+      "page": 4,
+      "index_on_page": 9,
+      "text": "The businessperson and the manufacturer are more important than the writer and the artist."
+    },
+    {
+      "id": "mothershomemakers",
+      "page": 4,
+      "index_on_page": 10,
+      "text": "Mothers may have careers, but their first duty is to be homemakers."
+    },
+    {
+      "id": "plantresources",
+      "page": 4,
+      "index_on_page": 11,
+      "text": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming."
+    },
+    {
+      "id": "peacewithestablishment",
+      "page": 4,
+      "index_on_page": 12,
+      "text": "Making peace with the establishment is an important aspect of maturity."
+    },
+    {
+      "id": "astrology",
+      "page": 5,
+      "index_on_page": 1,
+      "text": "Astrology accurately explains many things."
+    },
+    {
+      "id": "moralreligious",
+      "page": 5,
+      "index_on_page": 2,
+      "text": "You cannot be moral without being religious."
+    },
+    {
+      "id": "charitysocialsecurity",
+      "page": 5,
+      "index_on_page": 3,
+      "text": "Charity is better than social security as a means of helping the genuinely disadvantaged."
+    },
+    {
+      "id": "naturallyunlucky",
+      "page": 5,
+      "index_on_page": 4,
+      "text": "Some people are naturally unlucky."
+    },
+    {
+      "id": "schoolreligious",
+      "page": 5,
+      "index_on_page": 5,
+      "text": "It is important that my child's school instills religious values."
+    },
+    {
+      "id": "sexoutsidemarriage",
+      "page": 6,
+      "index_on_page": 1,
+      "text": "Sex outside marriage is usually immoral."
+    },
+    {
+      "id": "homosexualadoption",
+      "page": 6,
+      "index_on_page": 2,
+      "text": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption."
+    },
+    {
+      "id": "pornography",
+      "page": 6,
+      "index_on_page": 3,
+      "text": "Pornography, depicting consenting adults, should be legal for the adult population."
+    },
+    {
+      "id": "consentingprivate",
+      "page": 6,
+      "index_on_page": 4,
+      "text": "What goes on in a private bedroom between consenting adults is no business of the state."
+    },
+    {
+      "id": "naturallyhomosexual",
+      "page": 6,
+      "index_on_page": 5,
+      "text": "No one can feel naturally homosexual."
+    },
+    {
+      "id": "opennessaboutsex",
+      "page": 6,
+      "index_on_page": 6,
+      "text": "These days openness about sex has gone too far."
+    }
+  ]
+}

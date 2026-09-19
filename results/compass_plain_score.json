@@ -1,0 +1,903 @@
+{
+  "model": "typesafe/jev-1.13",
+  "rubric": "plain",
+  "repeats": 5,
+  "items": {
+    "globalisationinevitable": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.046,
+        "1": 0.060000000000000005,
+        "2": 0.46399999999999997,
+        "3": 0.42999999999999994
+      },
+      "mean_score": 2.278,
+      "mean_noul": 0.734,
+      "mean_confidence": 0.40199999999999997,
+      "n_draws": 5,
+      "modal_share": 0.46399999999999997
+    },
+    "countryrightorwrong": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.38599999999999995,
+        "1": 0.35600000000000004,
+        "2": 0.17800000000000002,
+        "3": 0.08
+      },
+      "mean_score": 0.9460000000000001,
+      "mean_noul": 0.198,
+      "mean_confidence": 0.10800000000000001,
+      "n_draws": 5,
+      "modal_share": 0.38599999999999995
+    },
+    "proudofcountry": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.20999999999999996,
+        "1": 0.494,
+        "2": 0.248,
+        "3": 0.048
+      },
+      "mean_score": 1.1320000000000001,
+      "mean_noul": 0.262,
+      "mean_confidence": 0.446,
+      "n_draws": 5,
+      "modal_share": 0.494
+    },
+    "racequalities": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.8179999999999998,
+        "1": 0.07,
+        "2": 0.055999999999999994,
+        "3": 0.055999999999999994
+      },
+      "mean_score": 0.35,
+      "mean_noul": 0.06,
+      "mean_confidence": 0.65,
+      "n_draws": 5,
+      "modal_share": 0.8179999999999998
+    },
+    "enemyenemyfriend": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.068,
+        "1": 0.292,
+        "2": 0.582,
+        "3": 0.055999999999999994
+      },
+      "mean_score": 1.636,
+      "mean_noul": 0.404,
+      "mean_confidence": 0.518,
+      "n_draws": 5,
+      "modal_share": 0.582
+    },
+    "militaryactionlaw": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.398,
+        "1": 0.306,
+        "2": 0.256,
+        "3": 0.04
+      },
+      "mean_score": 0.9400000000000001,
+      "mean_noul": 0.33399999999999996,
+      "mean_confidence": 0.06000000000000001,
+      "n_draws": 5,
+      "modal_share": 0.398
+    },
+    "fusioninfotainment": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.014,
+        "1": 0.06,
+        "2": 0.664,
+        "3": 0.262
+      },
+      "mean_score": 2.176,
+      "mean_noul": 0.598,
+      "mean_confidence": 0.65,
+      "n_draws": 5,
+      "modal_share": 0.664
+    },
+    "classthannationality": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.11199999999999999,
+        "1": 0.22999999999999998,
+        "2": 0.52,
+        "3": 0.13799999999999998
+      },
+      "mean_score": 1.684,
+      "mean_noul": 0.42800000000000005,
+      "mean_confidence": 0.40800000000000003,
+      "n_draws": 5,
+      "modal_share": 0.52
+    },
+    "inflationoverunemployment": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.086,
+        "1": 0.322,
+        "2": 0.568,
+        "3": 0.022000000000000002
+      },
+      "mean_score": 1.53,
+      "mean_noul": 0.41,
+      "mean_confidence": 0.47800000000000004,
+      "n_draws": 5,
+      "modal_share": 0.568
+    },
+    "corporationstrust": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.034,
+        "1": 0.11000000000000001,
+        "2": 0.592,
+        "3": 0.264
+      },
+      "mean_score": 2.084,
+      "mean_noul": 0.558,
+      "mean_confidence": 0.558,
+      "n_draws": 5,
+      "modal_share": 0.592
+    },
+    "fromeachability": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.078,
+        "1": 0.18,
+        "2": 0.504,
+        "3": 0.238
+      },
+      "mean_score": 1.9,
+      "mean_noul": 0.542,
+      "mean_confidence": 0.42400000000000004,
+      "n_draws": 5,
+      "modal_share": 0.504
+    },
+    "freermarketfreerpeople": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.094,
+        "1": 0.21999999999999997,
+        "2": 0.528,
+        "3": 0.158
+      },
+      "mean_score": 1.752,
+      "mean_noul": 0.40800000000000003,
+      "mean_confidence": 0.44000000000000006,
+      "n_draws": 5,
+      "modal_share": 0.528
+    },
+    "bottledwater": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.036,
+        "1": 0.11599999999999999,
+        "2": 0.528,
+        "3": 0.32
+      },
+      "mean_score": 2.134,
+      "mean_noul": 0.564,
+      "mean_confidence": 0.488,
+      "n_draws": 5,
+      "modal_share": 0.528
+    },
+    "landcommodity": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.2,
+        "1": 0.248,
+        "2": 0.392,
+        "3": 0.16
+      },
+      "mean_score": 1.51,
+      "mean_noul": 0.48599999999999993,
+      "mean_confidence": 0.192,
+      "n_draws": 5,
+      "modal_share": 0.392
+    },
+    "manipulatemoney": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.046000000000000006,
+        "1": 0.14400000000000002,
+        "2": 0.5579999999999999,
+        "3": 0.252
+      },
+      "mean_score": 2.022,
+      "mean_noul": 0.624,
+      "mean_confidence": 0.522,
+      "n_draws": 5,
+      "modal_share": 0.5579999999999999
+    },
+    "protectionismnecessary": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.054,
+        "1": 0.134,
+        "2": 0.72,
+        "3": 0.09200000000000001
+      },
+      "mean_score": 1.844,
+      "mean_noul": 0.662,
+      "mean_confidence": 0.662,
+      "n_draws": 5,
+      "modal_share": 0.72
+    },
+    "companyshareholders": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.41999999999999993,
+        "1": 0.42599999999999993,
+        "2": 0.118,
+        "3": 0.036000000000000004
+      },
+      "mean_score": 0.774,
+      "mean_noul": 0.22200000000000003,
+      "mean_confidence": 0.33799999999999997,
+      "n_draws": 5,
+      "modal_share": 0.42599999999999993
+    },
+    "richtaxed": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.206,
+        "1": 0.524,
+        "2": 0.246,
+        "3": 0.024
+      },
+      "mean_score": 1.092,
+      "mean_noul": 0.308,
+      "mean_confidence": 0.496,
+      "n_draws": 5,
+      "modal_share": 0.524
+    },
+    "paymedical": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.21199999999999997,
+        "1": 0.274,
+        "2": 0.35400000000000004,
+        "3": 0.16
+      },
+      "mean_score": 1.4620000000000002,
+      "mean_noul": 0.322,
+      "mean_confidence": 0.142,
+      "n_draws": 5,
+      "modal_share": 0.35400000000000004
+    },
+    "penalisemislead": {
+      "answer": 3,
+      "mean_probabilities": {
+        "0": 0.01,
+        "1": 0.01,
+        "2": 0.20799999999999996,
+        "3": 0.772
+      },
+      "mean_score": 2.742,
+      "mean_noul": 0.8560000000000001,
+      "mean_confidence": 0.742,
+      "n_draws": 5,
+      "modal_share": 0.772
+    },
+    "freepredatormulinational": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.094,
+        "1": 0.138,
+        "2": 0.49,
+        "3": 0.278
+      },
+      "mean_score": 1.95,
+      "mean_noul": 0.592,
+      "mean_confidence": 0.396,
+      "n_draws": 5,
+      "modal_share": 0.49
+    },
+    "abortionillegal": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.44799999999999995,
+        "1": 0.336,
+        "2": 0.15200000000000002,
+        "3": 0.064
+      },
+      "mean_score": 0.8220000000000001,
+      "mean_noul": 0.21000000000000002,
+      "mean_confidence": 0.178,
+      "n_draws": 5,
+      "modal_share": 0.44799999999999995
+    },
+    "questionauthority": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.084,
+        "1": 0.248,
+        "2": 0.46199999999999997,
+        "3": 0.20600000000000002
+      },
+      "mean_score": 1.786,
+      "mean_noul": 0.45999999999999996,
+      "mean_confidence": 0.376,
+      "n_draws": 5,
+      "modal_share": 0.46199999999999997
+    },
+    "eyeforeye": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.5399999999999999,
+        "1": 0.22999999999999998,
+        "2": 0.164,
+        "3": 0.066
+      },
+      "mean_score": 0.752,
+      "mean_noul": 0.22800000000000004,
+      "mean_confidence": 0.248,
+      "n_draws": 5,
+      "modal_share": 0.5399999999999999
+    },
+    "taxtotheatres": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.152,
+        "1": 0.322,
+        "2": 0.396,
+        "3": 0.13
+      },
+      "mean_score": 1.5,
+      "mean_noul": 0.466,
+      "mean_confidence": 0.242,
+      "n_draws": 5,
+      "modal_share": 0.396
+    },
+    "schoolscompulsory": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.42,
+        "1": 0.396,
+        "2": 0.154,
+        "3": 0.03
+      },
+      "mean_score": 0.792,
+      "mean_noul": 0.276,
+      "mean_confidence": 0.256,
+      "n_draws": 5,
+      "modal_share": 0.42
+    },
+    "ownkind": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.618,
+        "1": 0.23399999999999999,
+        "2": 0.10799999999999998,
+        "3": 0.04
+      },
+      "mean_score": 0.5740000000000001,
+      "mean_noul": 0.154,
+      "mean_confidence": 0.426,
+      "n_draws": 5,
+      "modal_share": 0.618
+    },
+    "spankchildren": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.11199999999999999,
+        "1": 0.21799999999999997,
+        "2": 0.534,
+        "3": 0.136
+      },
+      "mean_score": 1.6960000000000002,
+      "mean_noul": 0.514,
+      "mean_confidence": 0.42400000000000004,
+      "n_draws": 5,
+      "modal_share": 0.534
+    },
+    "naturalsecrets": {
+      "answer": 3,
+      "mean_probabilities": {
+        "0": 0.01,
+        "1": 0.026000000000000002,
+        "2": 0.314,
+        "3": 0.65
+      },
+      "mean_score": 2.598,
+      "mean_noul": 0.844,
+      "mean_confidence": 0.598,
+      "n_draws": 5,
+      "modal_share": 0.65
+    },
+    "marijuanalegal": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.11400000000000002,
+        "1": 0.092,
+        "2": 0.482,
+        "3": 0.312
+      },
+      "mean_score": 1.9919999999999998,
+      "mean_noul": 0.5660000000000001,
+      "mean_confidence": 0.366,
+      "n_draws": 5,
+      "modal_share": 0.482
+    },
+    "schooljobs": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.136,
+        "1": 0.47,
+        "2": 0.32,
+        "3": 0.07400000000000001
+      },
+      "mean_score": 1.332,
+      "mean_noul": 0.332,
+      "mean_confidence": 0.4,
+      "n_draws": 5,
+      "modal_share": 0.47
+    },
+    "inheritablereproduce": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.728,
+        "1": 0.158,
+        "2": 0.07200000000000001,
+        "3": 0.042
+      },
+      "mean_score": 0.426,
+      "mean_noul": 0.088,
+      "mean_confidence": 0.5740000000000001,
+      "n_draws": 5,
+      "modal_share": 0.728
+    },
+    "childrendiscipline": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.19399999999999998,
+        "1": 0.55,
+        "2": 0.208,
+        "3": 0.044000000000000004
+      },
+      "mean_score": 1.1019999999999999,
+      "mean_noul": 0.298,
+      "mean_confidence": 0.51,
+      "n_draws": 5,
+      "modal_share": 0.55
+    },
+    "savagecivilised": {
+      "answer": 3,
+      "mean_probabilities": {
+        "0": 0.066,
+        "1": 0.06,
+        "2": 0.178,
+        "3": 0.696
+      },
+      "mean_score": 2.508,
+      "mean_noul": 0.748,
+      "mean_confidence": 0.508,
+      "n_draws": 5,
+      "modal_share": 0.696
+    },
+    "abletowork": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.064,
+        "1": 0.17,
+        "2": 0.514,
+        "3": 0.252
+      },
+      "mean_score": 1.956,
+      "mean_noul": 0.54,
+      "mean_confidence": 0.44399999999999995,
+      "n_draws": 5,
+      "modal_share": 0.514
+    },
+    "represstroubles": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.07200000000000001,
+        "1": 0.34,
+        "2": 0.508,
+        "3": 0.08
+      },
+      "mean_score": 1.59,
+      "mean_noul": 0.49399999999999994,
+      "mean_confidence": 0.43599999999999994,
+      "n_draws": 5,
+      "modal_share": 0.508
+    },
+    "immigrantsintegrated": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.684,
+        "1": 0.298,
+        "2": 0.01,
+        "3": 0.008
+      },
+      "mean_score": 0.34,
+      "mean_noul": 0.09,
+      "mean_confidence": 0.66,
+      "n_draws": 5,
+      "modal_share": 0.684
+    },
+    "goodforcorporations": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.5619999999999999,
+        "1": 0.40199999999999997,
+        "2": 0.026,
+        "3": 0.01
+      },
+      "mean_score": 0.472,
+      "mean_noul": 0.118,
+      "mean_confidence": 0.528,
+      "n_draws": 5,
+      "modal_share": 0.5619999999999999
+    },
+    "broadcastingfunding": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.40599999999999997,
+        "1": 0.392,
+        "2": 0.14400000000000002,
+        "3": 0.05800000000000001
+      },
+      "mean_score": 0.858,
+      "mean_noul": 0.276,
+      "mean_confidence": 0.27799999999999997,
+      "n_draws": 5,
+      "modal_share": 0.40599999999999997
+    },
+    "libertyterrorism": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.068,
+        "1": 0.18000000000000002,
+        "2": 0.66,
+        "3": 0.092
+      },
+      "mean_score": 1.7719999999999998,
+      "mean_noul": 0.446,
+      "mean_confidence": 0.586,
+      "n_draws": 5,
+      "modal_share": 0.66
+    },
+    "onepartystate": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.36800000000000005,
+        "1": 0.428,
+        "2": 0.17800000000000002,
+        "3": 0.026000000000000002
+      },
+      "mean_score": 0.866,
+      "mean_noul": 0.22600000000000003,
+      "mean_confidence": 0.396,
+      "n_draws": 5,
+      "modal_share": 0.428
+    },
+    "serveillancewrongdoers": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.538,
+        "1": 0.39799999999999996,
+        "2": 0.054000000000000006,
+        "3": 0.01
+      },
+      "mean_score": 0.532,
+      "mean_noul": 0.178,
+      "mean_confidence": 0.46799999999999997,
+      "n_draws": 5,
+      "modal_share": 0.538
+    },
+    "deathpenalty": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.138,
+        "1": 0.19599999999999998,
+        "2": 0.558,
+        "3": 0.108
+      },
+      "mean_score": 1.64,
+      "mean_noul": 0.46399999999999997,
+      "mean_confidence": 0.42000000000000004,
+      "n_draws": 5,
+      "modal_share": 0.558
+    },
+    "societyheirarchy": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.598,
+        "1": 0.306,
+        "2": 0.06200000000000001,
+        "3": 0.033999999999999996
+      },
+      "mean_score": 0.536,
+      "mean_noul": 0.13,
+      "mean_confidence": 0.46399999999999997,
+      "n_draws": 5,
+      "modal_share": 0.598
+    },
+    "abstractart": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.694,
+        "1": 0.22199999999999998,
+        "2": 0.054000000000000006,
+        "3": 0.03
+      },
+      "mean_score": 0.404,
+      "mean_noul": 0.122,
+      "mean_confidence": 0.596,
+      "n_draws": 5,
+      "modal_share": 0.694
+    },
+    "punishmentrehabilitation": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.14200000000000002,
+        "1": 0.506,
+        "2": 0.316,
+        "3": 0.036
+      },
+      "mean_score": 1.244,
+      "mean_noul": 0.322,
+      "mean_confidence": 0.472,
+      "n_draws": 5,
+      "modal_share": 0.506
+    },
+    "wastecriminals": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.258,
+        "1": 0.41600000000000004,
+        "2": 0.28,
+        "3": 0.046000000000000006
+      },
+      "mean_score": 1.114,
+      "mean_noul": 0.334,
+      "mean_confidence": 0.37,
+      "n_draws": 5,
+      "modal_share": 0.41600000000000004
+    },
+    "businessart": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.318,
+        "1": 0.474,
+        "2": 0.198,
+        "3": 0.01
+      },
+      "mean_score": 0.9,
+      "mean_noul": 0.248,
+      "mean_confidence": 0.45999999999999996,
+      "n_draws": 5,
+      "modal_share": 0.474
+    },
+    "mothershomemakers": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.3899999999999999,
+        "1": 0.42599999999999993,
+        "2": 0.144,
+        "3": 0.04
+      },
+      "mean_score": 0.836,
+      "mean_noul": 0.246,
+      "mean_confidence": 0.386,
+      "n_draws": 5,
+      "modal_share": 0.42599999999999993
+    },
+    "plantresources": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.07400000000000001,
+        "1": 0.22999999999999998,
+        "2": 0.544,
+        "3": 0.152
+      },
+      "mean_score": 1.77,
+      "mean_noul": 0.40599999999999997,
+      "mean_confidence": 0.472,
+      "n_draws": 5,
+      "modal_share": 0.544
+    },
+    "peacewithestablishment": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.05,
+        "1": 0.286,
+        "2": 0.606,
+        "3": 0.058
+      },
+      "mean_score": 1.668,
+      "mean_noul": 0.46799999999999997,
+      "mean_confidence": 0.556,
+      "n_draws": 5,
+      "modal_share": 0.606
+    },
+    "astrology": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.8979999999999999,
+        "1": 0.092,
+        "2": 0.01,
+        "3": 0.0
+      },
+      "mean_score": 0.122,
+      "mean_noul": 0.066,
+      "mean_confidence": 0.8779999999999999,
+      "n_draws": 5,
+      "modal_share": 0.8979999999999999
+    },
+    "moralreligious": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.666,
+        "1": 0.298,
+        "2": 0.022000000000000002,
+        "3": 0.01
+      },
+      "mean_score": 0.376,
+      "mean_noul": 0.11000000000000001,
+      "mean_confidence": 0.624,
+      "n_draws": 5,
+      "modal_share": 0.666
+    },
+    "charitysocialsecurity": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.39799999999999996,
+        "1": 0.45999999999999996,
+        "2": 0.122,
+        "3": 0.02
+      },
+      "mean_score": 0.768,
+      "mean_noul": 0.23399999999999999,
+      "mean_confidence": 0.438,
+      "n_draws": 5,
+      "modal_share": 0.45999999999999996
+    },
+    "naturallyunlucky": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.17,
+        "1": 0.326,
+        "2": 0.45399999999999996,
+        "3": 0.05
+      },
+      "mean_score": 1.3820000000000001,
+      "mean_noul": 0.442,
+      "mean_confidence": 0.28200000000000003,
+      "n_draws": 5,
+      "modal_share": 0.45399999999999996
+    },
+    "schoolreligious": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.098,
+        "1": 0.194,
+        "2": 0.556,
+        "3": 0.15
+      },
+      "mean_score": 1.762,
+      "mean_noul": 0.44800000000000006,
+      "mean_confidence": 0.458,
+      "n_draws": 5,
+      "modal_share": 0.556
+    },
+    "sexoutsidemarriage": {
+      "answer": 1,
+      "mean_probabilities": {
+        "0": 0.252,
+        "1": 0.46799999999999997,
+        "2": 0.218,
+        "3": 0.062000000000000006
+      },
+      "mean_score": 1.088,
+      "mean_noul": 0.31,
+      "mean_confidence": 0.40800000000000003,
+      "n_draws": 5,
+      "modal_share": 0.46799999999999997
+    },
+    "homosexualadoption": {
+      "answer": 3,
+      "mean_probabilities": {
+        "0": 0.04,
+        "1": 0.027999999999999997,
+        "2": 0.292,
+        "3": 0.64
+      },
+      "mean_score": 2.534,
+      "mean_noul": 0.8099999999999999,
+      "mean_confidence": 0.534,
+      "n_draws": 5,
+      "modal_share": 0.64
+    },
+    "pornography": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.07,
+        "1": 0.068,
+        "2": 0.474,
+        "3": 0.38799999999999996
+      },
+      "mean_score": 2.182,
+      "mean_noul": 0.6839999999999999,
+      "mean_confidence": 0.40800000000000003,
+      "n_draws": 5,
+      "modal_share": 0.474
+    },
+    "consentingprivate": {
+      "answer": 3,
+      "mean_probabilities": {
+        "0": 0.07200000000000001,
+        "1": 0.136,
+        "2": 0.324,
+        "3": 0.46799999999999997
+      },
+      "mean_score": 2.188,
+      "mean_noul": 0.598,
+      "mean_confidence": 0.188,
+      "n_draws": 5,
+      "modal_share": 0.46799999999999997
+    },
+    "naturallyhomosexual": {
+      "answer": 0,
+      "mean_probabilities": {
+        "0": 0.8259999999999998,
+        "1": 0.09000000000000001,
+        "2": 0.048,
+        "3": 0.036
+      },
+      "mean_score": 0.286,
+      "mean_noul": 0.076,
+      "mean_confidence": 0.714,
+      "n_draws": 5,
+      "modal_share": 0.8259999999999998
+    },
+    "opennessaboutsex": {
+      "answer": 2,
+      "mean_probabilities": {
+        "0": 0.136,
+        "1": 0.384,
+        "2": 0.44199999999999995,
+        "3": 0.038
+      },
+      "mean_score": 1.386,
+      "mean_noul": 0.332,
+      "mean_confidence": 0.308,
+      "n_draws": 5,
+      "modal_share": 0.44199999999999995
+    }
+  },
+  "coordinates": {
+    "economic": -3.88,
+    "social": -4.56,
+    "final_html_len": 70708
+  },
+  "mean_noul_overall": 0.38667741935483874,
+  "lowest_confidence_items": [
+    {
+      "id": "militaryactionlaw",
+      "confidence": 0.06000000000000001
+    },
+    {
+      "id": "countryrightorwrong",
+      "confidence": 0.10800000000000001
+    },
+    {
+      "id": "paymedical",
+      "confidence": 0.142
+    },
+    {
+      "id": "abortionillegal",
+      "confidence": 0.178
+    },
+    {
+      "id": "consentingprivate",
+      "confidence": 0.188
+    }
+  ]
+}

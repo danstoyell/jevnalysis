@@ -1,0 +1,1970 @@
+{
+  "source": "Pew Research Center Political Typology Quiz (2026 edition)",
+  "source_url": "https://www.pewresearch.org/politics/quiz/political-typology/",
+  "report_url": "https://www.pewresearch.org/politics/2026/06/10/beyond-red-vs-blue-the-political-typology/",
+  "retrieved": "2026-09-18",
+  "scoring_note": "Each answer carries an official Pew point weight on a single left-right dimension. Positive = conservative/right, negative = liberal/left. Total score = sum of chosen answers' points. Group assignment buckets are NOT exposed client-side; see README.",
+  "group_names": {
+    "group1": "Leftward Progressives",
+    "group2": "Loyal Liberals",
+    "group3": "Left-Out Left",
+    "group4": "Order and Opportunity Left",
+    "group5": "Tuned-Out Middle",
+    "group6": "Pragmatic and Polite Right",
+    "group7": "Unconventional Right",
+    "group8": "Faith First Conservatives",
+    "group9": "No Apologies Right"
+  },
+  "group_populations_pct": {
+    "group1": 7,
+    "group2": 11,
+    "group3": 12,
+    "group4": 18,
+    "group5": 9,
+    "group6": 11,
+    "group7": 12,
+    "group8": 12,
+    "group9": 9
+  },
+  "group_descriptions": {
+    "group1": "This younger and majority White group stands out for the intensity of their views. They support expanding government services, overwhelmingly back legal abortion and LGBT rights and are deeply concerned about racial and ethnic discrimination.",
+    "group2": "Highly educated and relatively economically secure, they have broadly progressive political values across most issues and a deep allegiance to the Democratic Party. They strongly support the U.S.'s traditional diplomatic alliances and social safety net programs.",
+    "group3": "A Democratic-oriented group with relatively low expectations of the political system, they generally feel not well-represented. While they like the Democratic Party considerably more than the Republican Party, their evaluations of Democrats are lukewarm at best.",
+    "group4": "The largest typology group, they tilt Democratic and generally support a larger government with more services. But they have a greater sense of economic individualism and a stronger desire for order and safety in society than others on the left.",
+    "group5": "Defined by lower levels of interest in politics and participation in elections, they are roughly equally likely to associate with the Republican and Democratic parties. Many identify as moderate, and they tend not to hold strong positions on issues.",
+    "group6": "A politically mixed (though Republican-tilting) group, they lean conservative on economics and the role of government, while tilting more liberal on issues related to race and foreign policy. They prize civility and cooperation in politics.",
+    "group7": "A Republican-oriented group, they generally hold conservative values in many areas – but not across-the-board. Conservative on immigration, racial attitudes, sexuality and gender identity, they are more moderate on abortion, the social safety net and foreign policy.",
+    "group8": "Strong supporters of the Republican Party and Donald Trump, they are highly religious and stand out for their traditional social views. They also hold conservative positions across a wide range of issues.",
+    "group9": "Deeply conservative with a hard-edged approach to politics, they strongly support gun rights, restrictive immigration policies and a limited welfare state. They place high importance on American military power and view the U.S. as superior to other countries."
+  },
+  "n_items": 24,
+  "items": [
+    {
+      "uuid": "4691e9ca-2b8c-4c09-9cfd-d809502f4e5b",
+      "internal_id": "govsize1",
+      "category": "Government",
+      "preamble": null,
+      "text": "If you had to choose, would you rather have...",
+      "options": [
+        {
+          "uuid": "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+          "text": "A smaller government providing fewer services",
+          "points": 1.02058,
+          "results_label": "You would rather have a smaller government providing fewer services",
+          "pct_by_group": {
+            "gp": 46,
+            "group1": 10,
+            "group2": 9,
+            "group3": 23,
+            "group4": 10,
+            "group5": 23,
+            "group6": 80,
+            "group7": 77,
+            "group8": 91,
+            "group9": 98
+          }
+        },
+        {
+          "uuid": "16e27d76-1351-47af-9be3-f2525e0af1b9",
+          "text": "A bigger government providing more services",
+          "points": -0.97983,
+          "results_label": "You would rather have a bigger government providing more services",
+          "pct_by_group": {
+            "gp": 53,
+            "group1": 90,
+            "group2": 89,
+            "group3": 75,
+            "group4": 88,
+            "group5": 74,
+            "group6": 17,
+            "group7": 22,
+            "group8": 8,
+            "group9": 2
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "263aefe0-b939-42b3-830d-8d304a546d2c",
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "preamble": "How important is it for the United States to…",
+      "text": "Maintain secure borders",
+      "options": [
+        {
+          "uuid": "0884b7c0-6e3f-468e-b99f-718834ecc433",
+          "text": "Extremely important",
+          "points": 0.873466,
+          "results_label": "You think maintaining secure borders is extremely important for the United States",
+          "pct_by_group": {
+            "gp": 38,
+            "group1": 3,
+            "group2": 8,
+            "group3": 10,
+            "group4": 30,
+            "group5": 19,
+            "group6": 45,
+            "group7": 47,
+            "group8": 84,
+            "group9": 93
+          }
+        },
+        {
+          "uuid": "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+          "text": "Very important",
+          "points": 0.229295,
+          "results_label": "You think maintaining secure borders is very important for the United States",
+          "pct_by_group": {
+            "gp": 30,
+            "group1": 17,
+            "group2": 35,
+            "group3": 28,
+            "group4": 44,
+            "group5": 32,
+            "group6": 39,
+            "group7": 36,
+            "group8": 14,
+            "group9": 7
+          }
+        },
+        {
+          "uuid": "242e8722-1793-4203-a0f0-0144fe1f4232",
+          "text": "Somewhat important",
+          "points": -1.05905,
+          "results_label": "You think maintaining secure borders is somewhat important for the United States",
+          "pct_by_group": {
+            "gp": 24,
+            "group1": 45,
+            "group2": 46,
+            "group3": 45,
+            "group4": 22,
+            "group5": 35,
+            "group6": 14,
+            "group7": 14,
+            "group8": 1,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "db842a88-e67b-4166-a0c4-3d4062e5767e",
+          "text": "Not too important",
+          "points": -2.34739,
+          "results_label": "You think maintaining secure borders is not too important for the United States",
+          "pct_by_group": {
+            "gp": 6,
+            "group1": 26,
+            "group2": 9,
+            "group3": 13,
+            "group4": 2,
+            "group5": 9,
+            "group6": 1,
+            "group7": 2,
+            "group8": 1,
+            "group9": 0
+          }
+        },
+        {
+          "uuid": "e7fc459f-d9ee-47c2-98b3-7264f630712f",
+          "text": "Not at all important",
+          "points": -2.99156,
+          "results_label": "You think maintaining secure borders is not at all important for the United States",
+          "pct_by_group": {
+            "gp": 2,
+            "group1": 8,
+            "group2": 2,
+            "group3": 3,
+            "group4": 1,
+            "group5": 5,
+            "group6": 0,
+            "group7": 1,
+            "group8": 1,
+            "group9": 0
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "49807be0-fb55-48d8-9ad9-604ff7e214a7",
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "preamble": "How important is it for the United States to…",
+      "text": "Take in refugees from countries where people are escaping violence",
+      "options": [
+        {
+          "uuid": "a7549f3b-b9ae-45f9-a95a-323025d1f18f",
+          "text": "Extremely important",
+          "points": -1.46669,
+          "results_label": "You think taking in refugees from countries where people are escaping violence is extremely important for the United States",
+          "pct_by_group": {
+            "gp": 11,
+            "group1": 43,
+            "group2": 26,
+            "group3": 9,
+            "group4": 10,
+            "group5": 10,
+            "group6": 9,
+            "group7": 2,
+            "group8": 3,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+          "text": "Very important",
+          "points": -0.91679,
+          "results_label": "You think taking in refugees from countries where people are escaping violence is very important for the United States",
+          "pct_by_group": {
+            "gp": 25,
+            "group1": 42,
+            "group2": 46,
+            "group3": 33,
+            "group4": 31,
+            "group5": 26,
+            "group6": 25,
+            "group7": 12,
+            "group8": 10,
+            "group9": 3
+          }
+        },
+        {
+          "uuid": "784bcdad-5a38-4168-b616-b5b578c00a18",
+          "text": "Somewhat important",
+          "points": 0.183006,
+          "results_label": "You think taking in refugees from countries where people are escaping violence is somewhat important for the United States",
+          "pct_by_group": {
+            "gp": 39,
+            "group1": 13,
+            "group2": 25,
+            "group3": 39,
+            "group4": 43,
+            "group5": 42,
+            "group6": 48,
+            "group7": 46,
+            "group8": 44,
+            "group9": 31
+          }
+        },
+        {
+          "uuid": "2faae081-95a6-446b-8f60-82d74d5c0db3",
+          "text": "Not too important",
+          "points": 1.282803,
+          "results_label": "You think taking in refugees from countries where people are escaping violence is not too important for the United States",
+          "pct_by_group": {
+            "gp": 16,
+            "group1": 1,
+            "group2": 2,
+            "group3": 13,
+            "group4": 12,
+            "group5": 16,
+            "group6": 15,
+            "group7": 27,
+            "group8": 27,
+            "group9": 34
+          }
+        },
+        {
+          "uuid": "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6",
+          "text": "Not at all important",
+          "points": 1.832702,
+          "results_label": "You think taking in refugees from countries where people are escaping violence is not at all important for the United States",
+          "pct_by_group": {
+            "gp": 8,
+            "group1": 1,
+            "group2": 1,
+            "group3": 6,
+            "group4": 3,
+            "group5": 5,
+            "group6": 3,
+            "group7": 12,
+            "group8": 15,
+            "group9": 31
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "6f6bc325-42cf-49be-a6eb-b69dc80bed49",
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "preamble": null,
+      "text": "How many elected officials run for office because they wanted to serve the public?",
+      "options": [
+        {
+          "uuid": "bed31f7c-ffba-46f6-975b-3016dce95510",
+          "text": "All of them",
+          "points": -0.68931,
+          "results_label": "You think all of the people who serve in elected office ran for office because they wanted to serve the public",
+          "pct_by_group": {
+            "gp": 3,
+            "group1": 1,
+            "group2": 3,
+            "group3": 1,
+            "group4": 6,
+            "group5": 10,
+            "group6": 3,
+            "group7": 3,
+            "group8": 2,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "944cbcb7-6b80-47c4-92b7-62c606e119c3",
+          "text": "Most of them",
+          "points": -0.68931,
+          "results_label": "You think most of the people who serve in elected office ran for office because they wanted to serve the public",
+          "pct_by_group": {
+            "gp": 15,
+            "group1": 10,
+            "group2": 18,
+            "group3": 5,
+            "group4": 19,
+            "group5": 23,
+            "group6": 22,
+            "group7": 20,
+            "group8": 10,
+            "group9": 8
+          }
+        },
+        {
+          "uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+          "text": "Some of them",
+          "points": -0.68931,
+          "results_label": "You think some of the people who serve in elected office ran for office because they wanted to serve the public",
+          "pct_by_group": {
+            "gp": 44,
+            "group1": 50,
+            "group2": 57,
+            "group3": 19,
+            "group4": 53,
+            "group5": 50,
+            "group6": 51,
+            "group7": 47,
+            "group8": 37,
+            "group9": 32
+          }
+        },
+        {
+          "uuid": "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+          "text": "A few of them",
+          "points": 1.062119,
+          "results_label": "You think only a few of the people who serve in elected office ran for office because they wanted to serve the public",
+          "pct_by_group": {
+            "gp": 31,
+            "group1": 37,
+            "group2": 21,
+            "group3": 60,
+            "group4": 20,
+            "group5": 14,
+            "group6": 23,
+            "group7": 27,
+            "group8": 41,
+            "group9": 48
+          }
+        },
+        {
+          "uuid": "2a541dcb-1c5e-45e8-9c2d-61ee3271773e",
+          "text": "None of them",
+          "points": 2.813548,
+          "results_label": "You think none of the people who serve in elected office ran for office because they wanted to serve the public",
+          "pct_by_group": {
+            "gp": 5,
+            "group1": 2,
+            "group2": 1,
+            "group3": 15,
+            "group4": 1,
+            "group5": 1,
+            "group6": 2,
+            "group7": 3,
+            "group8": 9,
+            "group9": 10
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "950b7b83-8602-41ec-b90a-03ca51f83a44",
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "preamble": null,
+      "text": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "options": [
+        {
+          "uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+          "text": "Very good for society",
+          "points": -1.32536,
+          "results_label": "You think same-sex marriages being legal is very good for society",
+          "pct_by_group": {
+            "gp": 20,
+            "group1": 82,
+            "group2": 66,
+            "group3": 26,
+            "group4": 13,
+            "group5": 3,
+            "group6": 7,
+            "group7": 5,
+            "group8": 1,
+            "group9": 3
+          }
+        },
+        {
+          "uuid": "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+          "text": "Somewhat good for society",
+          "points": -0.86321,
+          "results_label": "You think same-sex marriages being legal is somewhat good for society",
+          "pct_by_group": {
+            "gp": 10,
+            "group1": 9,
+            "group2": 17,
+            "group3": 18,
+            "group4": 14,
+            "group5": 7,
+            "group6": 9,
+            "group7": 10,
+            "group8": 1,
+            "group9": 3
+          }
+        },
+        {
+          "uuid": "504ef8a5-0f3e-4740-8275-5890ea12f327",
+          "text": "Neither good nor bad for society",
+          "points": 0.061106,
+          "results_label": "You think same-sex marriages being legal is neither good nor bad for society",
+          "pct_by_group": {
+            "gp": 37,
+            "group1": 9,
+            "group2": 16,
+            "group3": 47,
+            "group4": 51,
+            "group5": 42,
+            "group6": 41,
+            "group7": 50,
+            "group8": 21,
+            "group9": 39
+          }
+        },
+        {
+          "uuid": "fd668976-71cc-4e97-87af-8e9ed6469d66",
+          "text": "Somewhat bad for society",
+          "points": 0.985419,
+          "results_label": "You think same-sex marriages being legal is somewhat bad for society",
+          "pct_by_group": {
+            "gp": 12,
+            "group1": 1,
+            "group2": 1,
+            "group3": 3,
+            "group4": 11,
+            "group5": 19,
+            "group6": 16,
+            "group7": 17,
+            "group8": 22,
+            "group9": 19
+          }
+        },
+        {
+          "uuid": "a845183d-6f60-4624-9577-cd9262c96ef7",
+          "text": "Very bad for society",
+          "points": 1.447576,
+          "results_label": "You think same-sex marriages being legal is very bad for society",
+          "pct_by_group": {
+            "gp": 20,
+            "group1": 1,
+            "group2": 1,
+            "group3": 6,
+            "group4": 10,
+            "group5": 28,
+            "group6": 25,
+            "group7": 17,
+            "group8": 56,
+            "group9": 35
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "69968bcc-9381-45e4-9bc3-cdd35dd01c0e",
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "preamble": null,
+      "text": "How comfortable are you with people openly carrying guns in public places?",
+      "options": [
+        {
+          "uuid": "29863143-d64b-47dd-8646-829eb9ab3ec9",
+          "text": "Extremely comfortable",
+          "points": 1.883267,
+          "results_label": "You are extremely comfortable with people openly carrying guns in public places",
+          "pct_by_group": {
+            "gp": 11,
+            "group1": 1,
+            "group2": 1,
+            "group3": 9,
+            "group4": 2,
+            "group5": 8,
+            "group6": 5,
+            "group7": 7,
+            "group8": 28,
+            "group9": 43
+          }
+        },
+        {
+          "uuid": "1f855ead-f735-43f7-a903-3bfa8b16587a",
+          "text": "Very comfortable",
+          "points": 1.410342,
+          "results_label": "You are very comfortable with people openly carrying guns in public places",
+          "pct_by_group": {
+            "gp": 12,
+            "group1": 2,
+            "group2": 2,
+            "group3": 11,
+            "group4": 5,
+            "group5": 13,
+            "group6": 7,
+            "group7": 17,
+            "group8": 27,
+            "group9": 27
+          }
+        },
+        {
+          "uuid": "c43c66f2-ad90-4d37-b333-a896977da196",
+          "text": "Somewhat comfortable",
+          "points": 0.464491,
+          "results_label": "You are somewhat comfortable with people openly carrying guns in public places",
+          "pct_by_group": {
+            "gp": 23,
+            "group1": 7,
+            "group2": 6,
+            "group3": 25,
+            "group4": 21,
+            "group5": 36,
+            "group6": 20,
+            "group7": 33,
+            "group8": 31,
+            "group9": 23
+          }
+        },
+        {
+          "uuid": "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+          "text": "Not too comfortable",
+          "points": -0.48136,
+          "results_label": "You are not too comfortable with people openly carrying guns in public places",
+          "pct_by_group": {
+            "gp": 22,
+            "group1": 31,
+            "group2": 27,
+            "group3": 27,
+            "group4": 27,
+            "group5": 22,
+            "group6": 26,
+            "group7": 26,
+            "group8": 8,
+            "group9": 6
+          }
+        },
+        {
+          "uuid": "3b8e9d21-00f8-4dce-999b-511402037716",
+          "text": "Not at all comfortable",
+          "points": -0.95428,
+          "results_label": "You are not at all comfortable with people openly carrying guns in public places",
+          "pct_by_group": {
+            "gp": 31,
+            "group1": 59,
+            "group2": 65,
+            "group3": 29,
+            "group4": 44,
+            "group5": 18,
+            "group6": 42,
+            "group7": 17,
+            "group8": 5,
+            "group9": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "6188bc35-2e44-483d-98cc-7f9b766d7c1d",
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "preamble": null,
+      "text": "How much of a problem do you think climate change is?",
+      "options": [
+        {
+          "uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+          "text": "A very big problem",
+          "points": 1.057576,
+          "results_label": "You think climate change is a very big problem in the country today",
+          "pct_by_group": {
+            "gp": 36,
+            "group1": 84,
+            "group2": 78,
+            "group3": 53,
+            "group4": 43,
+            "group5": 28,
+            "group6": 31,
+            "group7": 9,
+            "group8": 5,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "a4cc286e-1120-4eeb-b1f5-cacdca8fd782",
+          "text": "A moderately big problem",
+          "points": 0.138859,
+          "results_label": "You think climate change is a moderately big problem in the country today",
+          "pct_by_group": {
+            "gp": 28,
+            "group1": 15,
+            "group2": 20,
+            "group3": 37,
+            "group4": 40,
+            "group5": 41,
+            "group6": 38,
+            "group7": 30,
+            "group8": 14,
+            "group9": 4
+          }
+        },
+        {
+          "uuid": "cdedae35-df61-4cef-915a-e91fc6f2454a",
+          "text": "A small problem",
+          "points": -0.77986,
+          "results_label": "You think climate change is a small problem in the country today",
+          "pct_by_group": {
+            "gp": 21,
+            "group1": 1,
+            "group2": 2,
+            "group3": 9,
+            "group4": 13,
+            "group5": 26,
+            "group6": 24,
+            "group7": 46,
+            "group8": 38,
+            "group9": 30
+          }
+        },
+        {
+          "uuid": "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c",
+          "text": "Not a problem at all",
+          "points": -1.69858,
+          "results_label": "You think climate change is not a problem at all in the country today",
+          "pct_by_group": {
+            "gp": 14,
+            "group1": 0,
+            "group2": 1,
+            "group3": 1,
+            "group4": 2,
+            "group5": 4,
+            "group6": 6,
+            "group7": 15,
+            "group8": 43,
+            "group9": 66
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "9afad0a1-007e-4416-a09d-453b77023d51",
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "preamble": null,
+      "text": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "options": [
+        {
+          "uuid": "eb09b111-85b5-49b1-83c1-296f4fdaffe6",
+          "text": "Extremely important",
+          "points": 1.365178,
+          "results_label": "You think it is extremely important for the U.S. to be the only military superpower in the world",
+          "pct_by_group": {
+            "gp": 16,
+            "group1": 1,
+            "group2": 6,
+            "group3": 7,
+            "group4": 14,
+            "group5": 13,
+            "group6": 18,
+            "group7": 16,
+            "group8": 28,
+            "group9": 47
+          }
+        },
+        {
+          "uuid": "15b24040-b350-4fec-a5d4-9f5b026eb955",
+          "text": "Very important",
+          "points": 0.851928,
+          "results_label": "You think it is very important for the U.S. to be the only military superpower in the world",
+          "pct_by_group": {
+            "gp": 21,
+            "group1": 1,
+            "group2": 16,
+            "group3": 14,
+            "group4": 24,
+            "group5": 20,
+            "group6": 28,
+            "group7": 26,
+            "group8": 28,
+            "group9": 27
+          }
+        },
+        {
+          "uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+          "text": "Somewhat important",
+          "points": -0.17457,
+          "results_label": "You think it is somewhat important for the U.S. to be the only military superpower in the world",
+          "pct_by_group": {
+            "gp": 33,
+            "group1": 13,
+            "group2": 43,
+            "group3": 33,
+            "group4": 36,
+            "group5": 43,
+            "group6": 34,
+            "group7": 38,
+            "group8": 28,
+            "group9": 19
+          }
+        },
+        {
+          "uuid": "4f76e5b3-17c4-4da3-ad86-598265c6a37c",
+          "text": "Not too important",
+          "points": -1.20107,
+          "results_label": "You think it is not too important for the U.S. to be the only military superpower in the world",
+          "pct_by_group": {
+            "gp": 19,
+            "group1": 41,
+            "group2": 26,
+            "group3": 31,
+            "group4": 18,
+            "group5": 16,
+            "group6": 12,
+            "group7": 16,
+            "group8": 10,
+            "group9": 5
+          }
+        },
+        {
+          "uuid": "04e68f12-d100-4b6b-aee3-b16f0c8f1342",
+          "text": "Not at all important",
+          "points": -1.71432,
+          "results_label": "You think it is not at all important for the U.S. to be the only military superpower in the world",
+          "pct_by_group": {
+            "gp": 9,
+            "group1": 44,
+            "group2": 8,
+            "group3": 13,
+            "group4": 6,
+            "group5": 5,
+            "group6": 5,
+            "group7": 4,
+            "group8": 4,
+            "group9": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "1dcaacfd-18cb-457c-9593-491ac8726622",
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "preamble": null,
+      "text": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "options": [
+        {
+          "uuid": "da0a49ee-6fed-4914-9797-c9e2799d785c",
+          "text": "A lot more fair",
+          "points": -1.31002,
+          "results_label": "You think efforts to promote diversity have made society a lot more fair",
+          "pct_by_group": {
+            "gp": 12,
+            "group1": 30,
+            "group2": 29,
+            "group3": 14,
+            "group4": 18,
+            "group5": 10,
+            "group6": 8,
+            "group7": 3,
+            "group8": 2,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+          "text": "A little more fair",
+          "points": -0.85478,
+          "results_label": "You think efforts to promote diversity have made society a little more fair",
+          "pct_by_group": {
+            "gp": 29,
+            "group1": 58,
+            "group2": 59,
+            "group3": 45,
+            "group4": 36,
+            "group5": 26,
+            "group6": 23,
+            "group7": 13,
+            "group8": 6,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "4e2337c4-434d-47c6-8a11-e5399b7ca09a",
+          "text": "No more or less fair",
+          "points": 0.055709,
+          "results_label": "You think efforts to promote diversity have made society no more or less fair",
+          "pct_by_group": {
+            "gp": 25,
+            "group1": 10,
+            "group2": 9,
+            "group3": 31,
+            "group4": 32,
+            "group5": 46,
+            "group6": 31,
+            "group7": 34,
+            "group8": 18,
+            "group9": 8
+          }
+        },
+        {
+          "uuid": "198d82fd-3bb1-4cc4-a026-8cff42c2187e",
+          "text": "A little less fair",
+          "points": 0.966195,
+          "results_label": "You think efforts to promote diversity have made society a little less fair",
+          "pct_by_group": {
+            "gp": 13,
+            "group1": 1,
+            "group2": 1,
+            "group3": 6,
+            "group4": 10,
+            "group5": 11,
+            "group6": 22,
+            "group7": 28,
+            "group8": 20,
+            "group9": 14
+          }
+        },
+        {
+          "uuid": "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+          "text": "A lot less fair",
+          "points": 1.421438,
+          "results_label": "You think efforts to promote diversity have made society a lot less fair",
+          "pct_by_group": {
+            "gp": 19,
+            "group1": 1,
+            "group2": 1,
+            "group3": 4,
+            "group4": 3,
+            "group5": 6,
+            "group6": 15,
+            "group7": 20,
+            "group8": 52,
+            "group9": 76
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "ef2212c0-a458-48dc-97ac-9da3f2134fa7",
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "preamble": null,
+      "text": "Would you say you follow what's going on in government...",
+      "options": [
+        {
+          "uuid": "444c2af7-728b-4b03-9f4c-53ad20fa7cfc",
+          "text": "Most of the time",
+          "points": 0.924336,
+          "results_label": "You follow what's going on in government and public affairs most of the time",
+          "pct_by_group": {
+            "gp": 33,
+            "group1": 36,
+            "group2": 68,
+            "group3": 18,
+            "group4": 25,
+            "group5": 11,
+            "group6": 34,
+            "group7": 22,
+            "group8": 35,
+            "group9": 65
+          }
+        },
+        {
+          "uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+          "text": "Some of the time",
+          "points": -0.21361,
+          "results_label": "You follow what's going on in government and public affairs some of the time",
+          "pct_by_group": {
+            "gp": 39,
+            "group1": 46,
+            "group2": 28,
+            "group3": 45,
+            "group4": 40,
+            "group5": 41,
+            "group6": 41,
+            "group7": 43,
+            "group8": 37,
+            "group9": 30
+          }
+        },
+        {
+          "uuid": "a703930c-d041-4b1f-9d9b-cb087fef884d",
+          "text": "Only now and then",
+          "points": -1.35156,
+          "results_label": "You only follow what's going on in government and public affairs now and then",
+          "pct_by_group": {
+            "gp": 18,
+            "group1": 13,
+            "group2": 3,
+            "group3": 23,
+            "group4": 21,
+            "group5": 31,
+            "group6": 19,
+            "group7": 25,
+            "group8": 18,
+            "group9": 4
+          }
+        },
+        {
+          "uuid": "7b4badd5-96bb-4c73-82f4-5fcef165f870",
+          "text": "Hardly at all",
+          "points": -2.48951,
+          "results_label": "You hardly follow what's going on in government and public affairs at all",
+          "pct_by_group": {
+            "gp": 9,
+            "group1": 5,
+            "group2": 1,
+            "group3": 14,
+            "group4": 15,
+            "group5": 15,
+            "group6": 7,
+            "group7": 10,
+            "group8": 9,
+            "group9": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "559938dc-5783-448f-ab8a-435026f9e9b7",
+      "internal_id": "finagency",
+      "category": "Economics",
+      "preamble": null,
+      "text": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "options": [
+        {
+          "uuid": "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+          "text": "A great deal",
+          "points": 1.509782,
+          "results_label": "You think most Americans have a great deal of personal control over how financially successful they will be",
+          "pct_by_group": {
+            "gp": 18,
+            "group1": 1,
+            "group2": 6,
+            "group3": 2,
+            "group4": 15,
+            "group5": 6,
+            "group6": 26,
+            "group7": 22,
+            "group8": 33,
+            "group9": 46
+          }
+        },
+        {
+          "uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+          "text": "A fair amount",
+          "points": 0.160175,
+          "results_label": "You think most Americans have a fair amount of personal control over how financially successful they will be",
+          "pct_by_group": {
+            "gp": 48,
+            "group1": 19,
+            "group2": 61,
+            "group3": 33,
+            "group4": 56,
+            "group5": 42,
+            "group6": 58,
+            "group7": 55,
+            "group8": 50,
+            "group9": 42
+          }
+        },
+        {
+          "uuid": "2ca927f4-4851-4156-b233-5725b3043292",
+          "text": "Not too much",
+          "points": -1.18943,
+          "results_label": "You think most Americans do not have too much personal control over how financially successful they will be",
+          "pct_by_group": {
+            "gp": 31,
+            "group1": 74,
+            "group2": 32,
+            "group3": 56,
+            "group4": 28,
+            "group5": 43,
+            "group6": 15,
+            "group7": 22,
+            "group8": 16,
+            "group9": 11
+          }
+        },
+        {
+          "uuid": "57edbc73-c364-4704-8fa9-7cc05c6d8100",
+          "text": "None at all",
+          "points": -2.53904,
+          "results_label": "You think most Americans have no personal control at all over how financially successful they will be",
+          "pct_by_group": {
+            "gp": 3,
+            "group1": 7,
+            "group2": 1,
+            "group3": 9,
+            "group4": 1,
+            "group5": 9,
+            "group6": 1,
+            "group7": 2,
+            "group8": 1,
+            "group9": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "d0d3db87-6a22-4912-bd45-5c5e32e1efd3",
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "preamble": "How important is it for the United States to…",
+      "text": "Have an economic system based on capitalism",
+      "options": [
+        {
+          "uuid": "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+          "text": "Extremely important",
+          "points": 1.315275,
+          "results_label": "You think having an economic system based on capitalism is extremely important for the United States",
+          "pct_by_group": {
+            "gp": 20,
+            "group1": 1,
+            "group2": 5,
+            "group3": 5,
+            "group4": 7,
+            "group5": 9,
+            "group6": 27,
+            "group7": 24,
+            "group8": 42,
+            "group9": 69
+          }
+        },
+        {
+          "uuid": "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+          "text": "Very important",
+          "points": 0.469847,
+          "results_label": "You think having an economic system based on capitalism is very important for the United States",
+          "pct_by_group": {
+            "gp": 24,
+            "group1": 5,
+            "group2": 21,
+            "group3": 18,
+            "group4": 23,
+            "group5": 22,
+            "group6": 37,
+            "group7": 32,
+            "group8": 30,
+            "group9": 22
+          }
+        },
+        {
+          "uuid": "8a5ed183-0a5d-42f7-9769-de6bb1b871e1",
+          "text": "Somewhat important",
+          "points": -0.37558,
+          "results_label": "You think having an economic system based on capitalism is somewhat important for the United States",
+          "pct_by_group": {
+            "gp": 32,
+            "group1": 27,
+            "group2": 42,
+            "group3": 39,
+            "group4": 45,
+            "group5": 45,
+            "group6": 25,
+            "group7": 31,
+            "group8": 18,
+            "group9": 6
+          }
+        },
+        {
+          "uuid": "9729e101-281d-4859-84f9-356cd31ab7ec",
+          "text": "Not too important",
+          "points": -1.22101,
+          "results_label": "You think having an economic system based on capitalism is not too important for the United States",
+          "pct_by_group": {
+            "gp": 13,
+            "group1": 36,
+            "group2": 22,
+            "group3": 22,
+            "group4": 14,
+            "group5": 15,
+            "group6": 6,
+            "group7": 8,
+            "group8": 5,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+          "text": "Not at all important",
+          "points": -2.06644,
+          "results_label": "You think having an economic system based on capitalism is not at all important for the United States",
+          "pct_by_group": {
+            "gp": 8,
+            "group1": 30,
+            "group2": 8,
+            "group3": 12,
+            "group4": 8,
+            "group5": 5,
+            "group6": 3,
+            "group7": 3,
+            "group8": 4,
+            "group9": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "84a7380c-a7af-4f4c-b22b-169ccfbac3a6",
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "preamble": "How important is it for the United States to…",
+      "text": "Have a culture based in Christian religious beliefs",
+      "options": [
+        {
+          "uuid": "6181dea4-6123-4d44-a85e-0c388d58d598",
+          "text": "Extremely important",
+          "points": 1.430841,
+          "results_label": "You think having a culture based in Christian religious beliefs is extremely important for the United States",
+          "pct_by_group": {
+            "gp": 18,
+            "group1": 1,
+            "group2": 1,
+            "group3": 3,
+            "group4": 11,
+            "group5": 24,
+            "group6": 18,
+            "group7": 12,
+            "group8": 55,
+            "group9": 40
+          }
+        },
+        {
+          "uuid": "d495005f-7ad5-4071-8eec-ff87d4288109",
+          "text": "Very important",
+          "points": 1.003858,
+          "results_label": "You think having a culture based in Christian religious beliefs is very important for the United States",
+          "pct_by_group": {
+            "gp": 16,
+            "group1": 1,
+            "group2": 2,
+            "group3": 4,
+            "group4": 18,
+            "group5": 19,
+            "group6": 24,
+            "group7": 19,
+            "group8": 27,
+            "group9": 28
+          }
+        },
+        {
+          "uuid": "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+          "text": "Somewhat important",
+          "points": 0.149891,
+          "results_label": "You think having a culture based in Christian religious beliefs is somewhat important for the United States",
+          "pct_by_group": {
+            "gp": 21,
+            "group1": 2,
+            "group2": 8,
+            "group3": 13,
+            "group4": 28,
+            "group5": 37,
+            "group6": 29,
+            "group7": 32,
+            "group8": 12,
+            "group9": 19
+          }
+        },
+        {
+          "uuid": "b6c02190-9127-46f6-9f9d-dea8f39f7163",
+          "text": "Not too important",
+          "points": -0.70407,
+          "results_label": "You think having a culture based in Christian religious beliefs is not too important for the United States",
+          "pct_by_group": {
+            "gp": 16,
+            "group1": 8,
+            "group2": 20,
+            "group3": 26,
+            "group4": 22,
+            "group5": 12,
+            "group6": 15,
+            "group7": 19,
+            "group8": 2,
+            "group9": 7
+          }
+        },
+        {
+          "uuid": "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7",
+          "text": "Not at all important",
+          "points": -1.13106,
+          "results_label": "You think having a culture based in Christian religious beliefs is not at all important for the United States",
+          "pct_by_group": {
+            "gp": 28,
+            "group1": 88,
+            "group2": 68,
+            "group3": 53,
+            "group4": 21,
+            "group5": 7,
+            "group6": 13,
+            "group7": 17,
+            "group8": 2,
+            "group9": 6
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "51c5a848-4cfb-4000-8385-e5f94f2cdbd1",
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "preamble": null,
+      "text": "Which statement about foreign policy comes closest to your view?",
+      "options": [
+        {
+          "uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+          "text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+          "points": -0.72551,
+          "results_label": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+          "pct_by_group": {
+            "gp": 62,
+            "group1": 96,
+            "group2": 95,
+            "group3": 77,
+            "group4": 75,
+            "group5": 33,
+            "group6": 73,
+            "group7": 63,
+            "group8": 20,
+            "group9": 15
+          }
+        },
+        {
+          "uuid": "0568710f-2971-4c19-8fb5-3e4441cb0a9b",
+          "text": "The U.S. should follow its own national interests even when its allies strongly disagree",
+          "points": 1.378333,
+          "results_label": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree",
+          "pct_by_group": {
+            "gp": 37,
+            "group1": 4,
+            "group2": 4,
+            "group3": 21,
+            "group4": 22,
+            "group5": 64,
+            "group6": 24,
+            "group7": 35,
+            "group8": 79,
+            "group9": 84
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "85f85ddb-2099-4188-9317-e11795195145",
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "preamble": null,
+      "text": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "options": [
+        {
+          "uuid": "52b6d5e8-2726-4861-9d62-6b6732ce5a23",
+          "text": "Extremely comfortable",
+          "points": -1.65241,
+          "results_label": "You are extremely comfortable with someone using the pronouns “they/them” to describe themselves",
+          "pct_by_group": {
+            "gp": 13,
+            "group1": 71,
+            "group2": 37,
+            "group3": 17,
+            "group4": 5,
+            "group5": 7,
+            "group6": 3,
+            "group7": 3,
+            "group8": 2,
+            "group9": 2
+          }
+        },
+        {
+          "uuid": "74578703-f6e0-45f1-a566-989014c5934a",
+          "text": "Very comfortable",
+          "points": -1.20376,
+          "results_label": "You are very comfortable with someone using the pronouns “they/them” to describe themselves",
+          "pct_by_group": {
+            "gp": 13,
+            "group1": 22,
+            "group2": 32,
+            "group3": 22,
+            "group4": 10,
+            "group5": 17,
+            "group6": 8,
+            "group7": 8,
+            "group8": 2,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171",
+          "text": "Somewhat comfortable",
+          "points": -0.30644,
+          "results_label": "You are somewhat comfortable with someone using the pronouns “they/them” to describe themselves",
+          "pct_by_group": {
+            "gp": 22,
+            "group1": 6,
+            "group2": 22,
+            "group3": 32,
+            "group4": 33,
+            "group5": 34,
+            "group6": 20,
+            "group7": 22,
+            "group8": 8,
+            "group9": 5
+          }
+        },
+        {
+          "uuid": "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+          "text": "Not too comfortable",
+          "points": 0.590868,
+          "results_label": "You are not too comfortable with someone using the pronouns “they/them” to describe themselves",
+          "pct_by_group": {
+            "gp": 22,
+            "group1": 1,
+            "group2": 7,
+            "group3": 18,
+            "group4": 30,
+            "group5": 23,
+            "group6": 32,
+            "group7": 31,
+            "group8": 20,
+            "group9": 22
+          }
+        },
+        {
+          "uuid": "26ef099b-4b21-40ff-a707-bad19835c632",
+          "text": "Not at all comfortable",
+          "points": 1.039524,
+          "results_label": "You are not at all comfortable with someone using the pronouns “they/them” to describe themselves",
+          "pct_by_group": {
+            "gp": 29,
+            "group1": 1,
+            "group2": 2,
+            "group3": 11,
+            "group4": 22,
+            "group5": 16,
+            "group6": 36,
+            "group7": 35,
+            "group8": 68,
+            "group9": 69
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "918b3f92-69a7-4030-b156-5a38b01fd91e",
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "preamble": null,
+      "text": "Which statement comes closest to your view?",
+      "options": [
+        {
+          "uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+          "text": "America’s openness to people from all over the world is essential to who we are as a nation",
+          "points": -0.7505,
+          "results_label": "America's openness to people from all over the world is essential to who we are as a nation",
+          "pct_by_group": {
+            "gp": 61,
+            "group1": 99,
+            "group2": 97,
+            "group3": 87,
+            "group4": 77,
+            "group5": 61,
+            "group6": 77,
+            "group7": 22,
+            "group8": 19,
+            "group9": 13
+          }
+        },
+        {
+          "uuid": "8466281f-f02f-485d-8152-f8fe7625263c",
+          "text": "If America is too open to people from all over the world, we risk losing our identity as a nation",
+          "points": 1.332439,
+          "results_label": "If America is too open to people from all over the world, we risk losing our identity as a nation",
+          "pct_by_group": {
+            "gp": 37,
+            "group1": 1,
+            "group2": 2,
+            "group3": 11,
+            "group4": 21,
+            "group5": 35,
+            "group6": 21,
+            "group7": 76,
+            "group8": 80,
+            "group9": 86
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "f499e52a-fba8-474b-8c47-d2bcd75d3503",
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "preamble": null,
+      "text": "Do you think government regulation of business does...",
+      "options": [
+        {
+          "uuid": "0577127c-66b4-4ab1-b6e7-e88c35ec9644",
+          "text": "More good than harm",
+          "points": -1.35669,
+          "results_label": "You think government regulation of business does more good than harm",
+          "pct_by_group": {
+            "gp": 24,
+            "group1": 61,
+            "group2": 71,
+            "group3": 22,
+            "group4": 18,
+            "group5": 21,
+            "group6": 14,
+            "group7": 12,
+            "group8": 8,
+            "group9": 2
+          }
+        },
+        {
+          "uuid": "64c66064-8d3f-45e6-a327-7bd519373732",
+          "text": "More harm than good",
+          "points": 1.273568,
+          "results_label": "You think government regulation of business does more harm than good",
+          "pct_by_group": {
+            "gp": 30,
+            "group1": 8,
+            "group2": 2,
+            "group3": 27,
+            "group4": 20,
+            "group5": 25,
+            "group6": 32,
+            "group7": 31,
+            "group8": 50,
+            "group9": 79
+          }
+        },
+        {
+          "uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+          "text": "About the same amount of harm and good",
+          "points": -0.04156,
+          "results_label": "You think government regulation of business does about the same amount of harm and good",
+          "pct_by_group": {
+            "gp": 44,
+            "group1": 31,
+            "group2": 25,
+            "group3": 49,
+            "group4": 59,
+            "group5": 51,
+            "group6": 51,
+            "group7": 56,
+            "group8": 40,
+            "group9": 17
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "77793247-46e6-496d-89f3-4c91dacf750c",
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "preamble": null,
+      "text": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "options": [
+        {
+          "uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+          "text": "A great deal",
+          "points": -1.20424,
+          "results_label": "You think the legacy of slavery affects the position of Black people in American society a great deal",
+          "pct_by_group": {
+            "gp": 28,
+            "group1": 72,
+            "group2": 52,
+            "group3": 34,
+            "group4": 37,
+            "group5": 23,
+            "group6": 26,
+            "group7": 5,
+            "group8": 7,
+            "group9": 3
+          }
+        },
+        {
+          "uuid": "9879f296-e63b-48d6-9404-90695769eed4",
+          "text": "A fair amount",
+          "points": -0.29215,
+          "results_label": "You think the legacy of slavery affects the position of Black people in American society a fair amount",
+          "pct_by_group": {
+            "gp": 30,
+            "group1": 24,
+            "group2": 39,
+            "group3": 40,
+            "group4": 40,
+            "group5": 42,
+            "group6": 34,
+            "group7": 23,
+            "group8": 12,
+            "group9": 7
+          }
+        },
+        {
+          "uuid": "9a1dc3ad-2060-49ce-8126-298d654e5506",
+          "text": "Not much",
+          "points": 0.619932,
+          "results_label": "You think the legacy of slavery does not affect the position of Black people in American society much",
+          "pct_by_group": {
+            "gp": 22,
+            "group1": 4,
+            "group2": 7,
+            "group3": 18,
+            "group4": 15,
+            "group5": 24,
+            "group6": 30,
+            "group7": 39,
+            "group8": 32,
+            "group9": 21
+          }
+        },
+        {
+          "uuid": "f6e84c0f-4d0b-44c6-aae3-124bad7ec623",
+          "text": "Not at all",
+          "points": 1.532019,
+          "results_label": "You think the legacy of slavery does not affect the position of Black people in American society at all",
+          "pct_by_group": {
+            "gp": 20,
+            "group1": 1,
+            "group2": 1,
+            "group3": 7,
+            "group4": 7,
+            "group5": 10,
+            "group6": 10,
+            "group7": 33,
+            "group8": 47,
+            "group9": 69
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "9610a4e8-2ad3-4f8c-a97d-871c9684df0d",
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "preamble": null,
+      "text": "When politicians you agree with humiliate their political opponents, do you...",
+      "options": [
+        {
+          "uuid": "a471065f-a3fb-4cb1-933b-4496edb0c824",
+          "text": "Like it a lot",
+          "points": 2.353634,
+          "results_label": "You like it a lot when politicians you agree with humiliate their political opponents",
+          "pct_by_group": {
+            "gp": 5,
+            "group1": 6,
+            "group2": 5,
+            "group3": 5,
+            "group4": 3,
+            "group5": 5,
+            "group6": 1,
+            "group7": 4,
+            "group8": 4,
+            "group9": 17
+          }
+        },
+        {
+          "uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+          "text": "Like it a little",
+          "points": 1.233721,
+          "results_label": "You like it a little when politicians you agree with humiliate their political opponents",
+          "pct_by_group": {
+            "gp": 22,
+            "group1": 26,
+            "group2": 22,
+            "group3": 21,
+            "group4": 19,
+            "group5": 24,
+            "group6": 4,
+            "group7": 24,
+            "group8": 23,
+            "group9": 36
+          }
+        },
+        {
+          "uuid": "eb7f5a2a-a17d-4efb-bf7b-ad976d197252",
+          "text": "Dislike it a little",
+          "points": 0.113808,
+          "results_label": "You dislike it a little when politicians you agree with humiliate their political opponents",
+          "pct_by_group": {
+            "gp": 35,
+            "group1": 35,
+            "group2": 26,
+            "group3": 31,
+            "group4": 35,
+            "group5": 41,
+            "group6": 24,
+            "group7": 45,
+            "group8": 40,
+            "group9": 33
+          }
+        },
+        {
+          "uuid": "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+          "text": "Dislike it a lot",
+          "points": -1.006105,
+          "results_label": "You dislike it a lot when politicians you agree with humiliate their political opponents",
+          "pct_by_group": {
+            "gp": 37,
+            "group1": 32,
+            "group2": 45,
+            "group3": 41,
+            "group4": 40,
+            "group5": 28,
+            "group6": 70,
+            "group7": 26,
+            "group8": 32,
+            "group9": 12
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "490a70f3-53f8-49fc-a86d-cde2d40a5a6c",
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "preamble": null,
+      "text": "Which statement comes closest to your view?",
+      "options": [
+        {
+          "uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+          "text": "Religion should be kept separate from government policies",
+          "points": -0.59245,
+          "results_label": "Religion should be kept separate from government policies",
+          "pct_by_group": {
+            "gp": 71,
+            "group1": 98,
+            "group2": 97,
+            "group3": 92,
+            "group4": 79,
+            "group5": 29,
+            "group6": 76,
+            "group7": 85,
+            "group8": 16,
+            "group9": 69
+          }
+        },
+        {
+          "uuid": "3d7f35be-d10c-4238-948e-ea475a2fcb32",
+          "text": "Government policies should support religious values and beliefs",
+          "points": 1.687902,
+          "results_label": "Government policies should support religious values and beliefs",
+          "pct_by_group": {
+            "gp": 27,
+            "group1": 2,
+            "group2": 3,
+            "group3": 6,
+            "group4": 19,
+            "group5": 68,
+            "group6": 23,
+            "group7": 13,
+            "group8": 83,
+            "group9": 30
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "7a44bc63-4ad2-456f-9938-f0bed4b06225",
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "preamble": null,
+      "text": "Do you think other countries generally treat the U.S...",
+      "options": [
+        {
+          "uuid": "75ae99d3-4e86-46d1-9b3d-6fa799475285",
+          "text": "Extremely fairly",
+          "points": -2.125465,
+          "results_label": "You think other countries generally treat the U.S. extremely fairly",
+          "pct_by_group": {
+            "gp": 3,
+            "group1": 13,
+            "group2": 4,
+            "group3": 4,
+            "group4": 3,
+            "group5": 6,
+            "group6": 1,
+            "group7": 1,
+            "group8": 1,
+            "group9": 1
+          }
+        },
+        {
+          "uuid": "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+          "text": "Very fairly",
+          "points": -1.483406,
+          "results_label": "You think other countries generally treat the U.S. very fairly",
+          "pct_by_group": {
+            "gp": 15,
+            "group1": 45,
+            "group2": 27,
+            "group3": 14,
+            "group4": 15,
+            "group5": 17,
+            "group6": 11,
+            "group7": 9,
+            "group8": 3,
+            "group9": 2
+          }
+        },
+        {
+          "uuid": "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+          "text": "Somewhat fairly",
+          "points": -0.199288,
+          "results_label": "You think other countries generally treat the U.S. somewhat fairly",
+          "pct_by_group": {
+            "gp": 49,
+            "group1": 37,
+            "group2": 58,
+            "group3": 60,
+            "group4": 57,
+            "group5": 54,
+            "group6": 57,
+            "group7": 56,
+            "group8": 34,
+            "group9": 16
+          }
+        },
+        {
+          "uuid": "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+          "text": "Not too fairly",
+          "points": 1.08483,
+          "results_label": "You think other countries generally treat the U.S. not too fairly",
+          "pct_by_group": {
+            "gp": 24,
+            "group1": 3,
+            "group2": 8,
+            "group3": 18,
+            "group4": 19,
+            "group5": 16,
+            "group6": 25,
+            "group7": 27,
+            "group8": 44,
+            "group9": 52
+          }
+        },
+        {
+          "uuid": "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+          "text": "Not at all fairly",
+          "points": 1.726889,
+          "results_label": "You think other countries generally treat the U.S. not at all fairly",
+          "pct_by_group": {
+            "gp": 8,
+            "group1": 0,
+            "group2": 1,
+            "group3": 3,
+            "group4": 4,
+            "group5": 5,
+            "group6": 5,
+            "group7": 6,
+            "group8": 18,
+            "group9": 31
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "8386f3fa-7534-4105-bb28-f6c2982b15ac",
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "preamble": "How much of a problem is each of the following in the country today?",
+      "text": "People being too easily offended by things others say",
+      "options": [
+        {
+          "uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+          "text": "Major problem",
+          "points": 0.79678,
+          "results_label": "You think people being too easily offended by things others say is a major problem in the country today",
+          "pct_by_group": {
+            "gp": 57,
+            "group1": 17,
+            "group2": 22,
+            "group3": 39,
+            "group4": 77,
+            "group5": 35,
+            "group6": 80,
+            "group7": 46,
+            "group8": 85,
+            "group9": 89
+          }
+        },
+        {
+          "uuid": "e448fa8b-c328-487b-abe8-27a85f9222c1",
+          "text": "Minor problem",
+          "points": -0.82372,
+          "results_label": "You think people being too easily offended by things others say is a minor problem in the country today",
+          "pct_by_group": {
+            "gp": 35,
+            "group1": 57,
+            "group2": 62,
+            "group3": 53,
+            "group4": 21,
+            "group5": 55,
+            "group6": 20,
+            "group7": 45,
+            "group8": 14,
+            "group9": 9
+          }
+        },
+        {
+          "uuid": "30181c03-9b2e-488d-99e4-02a53a282e38",
+          "text": "Not a problem",
+          "points": -2.44423,
+          "results_label": "You think people being too easily offended by things others say is not a problem in the country today",
+          "pct_by_group": {
+            "gp": 7,
+            "group1": 26,
+            "group2": 16,
+            "group3": 7,
+            "group4": 1,
+            "group5": 10,
+            "group6": 1,
+            "group7": 9,
+            "group8": 1,
+            "group9": 2
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "30539741-12c9-4904-87f0-5007a95bcf73",
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "preamble": "How much of a problem is each of the following in the country today?",
+      "text": "People saying things that are very offensive to others",
+      "options": [
+        {
+          "uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+          "text": "Major problem",
+          "points": -0.91253,
+          "results_label": "You think people saying things that are very offensive to others is a major problem in the country today",
+          "pct_by_group": {
+            "gp": 48,
+            "group1": 74,
+            "group2": 47,
+            "group3": 40,
+            "group4": 81,
+            "group5": 36,
+            "group6": 72,
+            "group7": 18,
+            "group8": 33,
+            "group9": 18
+          }
+        },
+        {
+          "uuid": "5132c57a-b246-4404-bf13-cf50ca955c43",
+          "text": "Minor problem",
+          "points": 0.647028,
+          "results_label": "You think people saying things that are very offensive to others is a minor problem in the country today",
+          "pct_by_group": {
+            "gp": 42,
+            "group1": 24,
+            "group2": 46,
+            "group3": 50,
+            "group4": 18,
+            "group5": 55,
+            "group6": 27,
+            "group7": 67,
+            "group8": 50,
+            "group9": 46
+          }
+        },
+        {
+          "uuid": "a509429a-eb12-44ec-9c25-8952a684e20c",
+          "text": "Not a problem",
+          "points": 2.206585,
+          "results_label": "You think people saying things that are very offensive to others is not a problem in the country today",
+          "pct_by_group": {
+            "gp": 9,
+            "group1": 2,
+            "group2": 6,
+            "group3": 9,
+            "group4": 1,
+            "group5": 8,
+            "group6": 1,
+            "group7": 15,
+            "group8": 16,
+            "group9": 36
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "919c2ab5-c8d8-42a5-9165-b3ab7ca3dbb4",
+      "internal_id": "poorassist",
+      "category": "Government",
+      "preamble": null,
+      "text": "Thinking about assistance to people in need, do you think the government...",
+      "options": [
+        {
+          "uuid": "df7232cb-3be2-4dae-ae89-e8fa46d243eb",
+          "text": "Should provide more assistance",
+          "points": -0.99343,
+          "results_label": "You think the government should provide more assistance to people in need",
+          "pct_by_group": {
+            "gp": 45,
+            "group1": 91,
+            "group2": 82,
+            "group3": 72,
+            "group4": 69,
+            "group5": 39,
+            "group6": 19,
+            "group7": 19,
+            "group8": 7,
+            "group9": 3
+          }
+        },
+        {
+          "uuid": "166ee740-d392-45a4-a806-05d36f57e872",
+          "text": "Should provide less assistance",
+          "points": 1.444539,
+          "results_label": "You think the government should provide less assistance to people in need",
+          "pct_by_group": {
+            "gp": 25,
+            "group1": 1,
+            "group2": 1,
+            "group3": 4,
+            "group4": 5,
+            "group5": 18,
+            "group6": 28,
+            "group7": 38,
+            "group8": 62,
+            "group9": 75
+          }
+        },
+        {
+          "uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+          "text": "Is providing about the right amount of assistance",
+          "points": 0.225554,
+          "results_label": "You think the government is providing about the right amount of assistance to people in need",
+          "pct_by_group": {
+            "gp": 30,
+            "group1": 8,
+            "group2": 17,
+            "group3": 22,
+            "group4": 26,
+            "group5": 42,
+            "group6": 52,
+            "group7": 42,
+            "group8": 30,
+            "group9": 22
+          }
+        }
+      ]
+    }
+  ],
+  "answer_stats_note": "pct_by_group gives the percentage of each population choosing that answer: 'gp' is the general public, group1..group9 are the nine typology groups. Source: Pew's own quiz payload."
+}

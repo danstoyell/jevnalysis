@@ -1,0 +1,4160 @@
+{
+  "Jev 1.13": {
+    "model": "typesafe/jev-1.13",
+    "label": "Jev 1.13",
+    "repeats": 5,
+    "condition": "control",
+    "economic": -6.88,
+    "social": -4.97,
+    "mean_confidence": 0.3829,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Disagree": 0.027999999999999997,
+          "Agree": 0.44399999999999995,
+          "Strongly agree": 0.488,
+          "Strongly disagree": 0.04
+        },
+        "confidence": 0.318
+      },
+      "countryrightorwrong": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.338,
+          "Agree": 0.092,
+          "Strongly agree": 0.092,
+          "Strongly disagree": 0.478
+        },
+        "confidence": 0.298
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.278,
+          "Disagree": 0.542,
+          "Strongly agree": 0.072,
+          "Agree": 0.10600000000000001
+        },
+        "confidence": 0.39
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.032,
+          "Disagree": 0.10399999999999998,
+          "Strongly disagree": 0.8259999999999998,
+          "Strongly agree": 0.038
+        },
+        "confidence": 0.774
+      },
+      "enemyenemyfriend": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.084,
+          "Disagree": 0.266,
+          "Strongly disagree": 0.066,
+          "Agree": 0.584
+        },
+        "confidence": 0.442
+      },
+      "militaryactionlaw": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.136,
+          "Strongly disagree": 0.44799999999999995,
+          "Disagree": 0.382,
+          "Strongly agree": 0.034
+        },
+        "confidence": 0.266
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Disagree": 0.02,
+          "Strongly agree": 0.308,
+          "Agree": 0.652,
+          "Strongly disagree": 0.02
+        },
+        "confidence": 0.536
+      },
+      "classthannationality": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.21200000000000002,
+          "Strongly disagree": 0.166,
+          "Disagree": 0.22199999999999998,
+          "Agree": 0.39999999999999997
+        },
+        "confidence": 0.198
+      },
+      "inflationoverunemployment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Agree": 0.36000000000000004,
+          "Strongly disagree": 0.154,
+          "Disagree": 0.43600000000000005,
+          "Strongly agree": 0.05
+        },
+        "confidence": 0.248
+      },
+      "corporationstrust": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Disagree": 0.07200000000000001,
+          "Agree": 0.556,
+          "Strongly disagree": 0.062,
+          "Strongly agree": 0.31
+        },
+        "confidence": 0.40599999999999997
+      },
+      "fromeachability": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.33999999999999997,
+          "Strongly disagree": 0.09,
+          "Disagree": 0.128,
+          "Agree": 0.44199999999999995
+        },
+        "confidence": 0.254
+      },
+      "freermarketfreerpeople": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.262,
+          "Disagree": 0.206,
+          "Strongly disagree": 0.146,
+          "Agree": 0.386
+        },
+        "confidence": 0.182
+      },
+      "bottledwater": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Disagree": 0.054000000000000006,
+          "Agree": 0.43799999999999994,
+          "Strongly agree": 0.45999999999999996,
+          "Strongly disagree": 0.048
+        },
+        "confidence": 0.28
+      },
+      "landcommodity": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.23399999999999999,
+          "Agree": 0.278,
+          "Strongly disagree": 0.236,
+          "Disagree": 0.252
+        },
+        "confidence": 0.042
+      },
+      "manipulatemoney": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Agree": 0.55,
+          "Disagree": 0.082,
+          "Strongly agree": 0.302,
+          "Strongly disagree": 0.066
+        },
+        "confidence": 0.394
+      },
+      "protectionismnecessary": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Agree": 0.762,
+          "Strongly agree": 0.1,
+          "Disagree": 0.06799999999999999,
+          "Strongly disagree": 0.07
+        },
+        "confidence": 0.6799999999999999
+      },
+      "companyshareholders": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.048,
+          "Strongly disagree": 0.546,
+          "Strongly agree": 0.028,
+          "Disagree": 0.378
+        },
+        "confidence": 0.398
+      },
+      "richtaxed": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.338,
+          "Disagree": 0.478,
+          "Strongly agree": 0.052,
+          "Agree": 0.132
+        },
+        "confidence": 0.302
+      },
+      "paymedical": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.27999999999999997,
+          "Agree": 0.248,
+          "Strongly agree": 0.152,
+          "Strongly disagree": 0.32
+        },
+        "confidence": 0.094
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Agree": 0.256,
+          "Strongly agree": 0.742,
+          "Strongly disagree": 0.002,
+          "Disagree": 0.0
+        },
+        "confidence": 0.644
+      },
+      "freepredatormulinational": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Agree": 0.45599999999999996,
+          "Strongly agree": 0.268,
+          "Strongly disagree": 0.13,
+          "Disagree": 0.14600000000000002
+        },
+        "confidence": 0.272
+      },
+      "abortionillegal": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.358,
+          "Strongly agree": 0.044000000000000004,
+          "Agree": 0.06200000000000001,
+          "Strongly disagree": 0.536
+        },
+        "confidence": 0.378
+      },
+      "questionauthority": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.10400000000000001,
+          "Strongly agree": 0.266,
+          "Agree": 0.4039999999999999,
+          "Disagree": 0.226
+        },
+        "confidence": 0.20600000000000002
+      },
+      "eyeforeye": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.552,
+          "Strongly agree": 0.076,
+          "Disagree": 0.244,
+          "Agree": 0.128
+        },
+        "confidence": 0.40599999999999997
+      },
+      "taxtotheatres": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Agree": 0.248,
+          "Strongly agree": 0.148,
+          "Disagree": 0.36,
+          "Strongly disagree": 0.244
+        },
+        "confidence": 0.15
+      },
+      "schoolscompulsory": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.40800000000000003,
+          "Agree": 0.072,
+          "Strongly agree": 0.04,
+          "Strongly disagree": 0.48
+        },
+        "confidence": 0.312
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.09,
+          "Strongly agree": 0.042,
+          "Disagree": 0.27,
+          "Strongly disagree": 0.598
+        },
+        "confidence": 0.466
+      },
+      "spankchildren": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.176,
+          "Disagree": 0.13799999999999998,
+          "Agree": 0.518,
+          "Strongly disagree": 0.168
+        },
+        "confidence": 0.358
+      },
+      "naturalsecrets": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Agree": 0.42199999999999993,
+          "Disagree": 0.01,
+          "Strongly disagree": 0.01,
+          "Strongly agree": 0.558
+        },
+        "confidence": 0.41200000000000003
+      },
+      "marijuanalegal": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly agree": 0.378,
+          "Disagree": 0.084,
+          "Agree": 0.4139999999999999,
+          "Strongly disagree": 0.124
+        },
+        "confidence": 0.22000000000000003
+      },
+      "schooljobs": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Disagree": 0.46199999999999997,
+          "Agree": 0.194,
+          "Strongly agree": 0.1,
+          "Strongly disagree": 0.244
+        },
+        "confidence": 0.27999999999999997
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.026000000000000002,
+          "Strongly agree": 0.024,
+          "Disagree": 0.124,
+          "Strongly disagree": 0.8259999999999998
+        },
+        "confidence": 0.764
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly agree": 0.04,
+          "Disagree": 0.564,
+          "Agree": 0.096,
+          "Strongly disagree": 0.3
+        },
+        "confidence": 0.42000000000000004
+      },
+      "savagecivilised": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.05600000000000001,
+          "Agree": 0.21,
+          "Strongly agree": 0.7100000000000001,
+          "Disagree": 0.024
+        },
+        "confidence": 0.612
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Disagree": 0.128,
+          "Strongly disagree": 0.076,
+          "Agree": 0.44199999999999995,
+          "Strongly agree": 0.354
+        },
+        "confidence": 0.258
+      },
+      "represstroubles": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.12,
+          "Disagree": 0.31,
+          "Agree": 0.47,
+          "Strongly agree": 0.1
+        },
+        "confidence": 0.28600000000000003
+      },
+      "immigrantsintegrated": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.654,
+          "Disagree": 0.338,
+          "Agree": 0.008,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.536
+      },
+      "goodforcorporations": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly agree": 0.01,
+          "Disagree": 0.328,
+          "Agree": 0.012,
+          "Strongly disagree": 0.65
+        },
+        "confidence": 0.528
+      },
+      "broadcastingfunding": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.51,
+          "Strongly agree": 0.048,
+          "Agree": 0.066,
+          "Disagree": 0.376
+        },
+        "confidence": 0.344
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.11199999999999999,
+          "Agree": 0.554,
+          "Strongly agree": 0.138,
+          "Disagree": 0.194
+        },
+        "confidence": 0.40800000000000003
+      },
+      "onepartystate": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly agree": 0.042,
+          "Agree": 0.11200000000000002,
+          "Disagree": 0.476,
+          "Strongly disagree": 0.37
+        },
+        "confidence": 0.3
+      },
+      "serveillancewrongdoers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.01,
+          "Disagree": 0.40800000000000003,
+          "Strongly agree": 0.0,
+          "Strongly disagree": 0.582
+        },
+        "confidence": 0.43
+      },
+      "deathpenalty": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Agree": 0.43399999999999994,
+          "Strongly agree": 0.19200000000000003,
+          "Strongly disagree": 0.21199999999999997,
+          "Disagree": 0.162
+        },
+        "confidence": 0.244
+      },
+      "societyheirarchy": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly agree": 0.027999999999999997,
+          "Disagree": 0.274,
+          "Agree": 0.032,
+          "Strongly disagree": 0.664
+        },
+        "confidence": 0.55
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Agree": 0.01,
+          "Strongly agree": 0.01,
+          "Strongly disagree": 0.776,
+          "Disagree": 0.20400000000000001
+        },
+        "confidence": 0.696
+      },
+      "punishmentrehabilitation": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Disagree": 0.54,
+          "Agree": 0.138,
+          "Strongly agree": 0.04,
+          "Strongly disagree": 0.28
+        },
+        "confidence": 0.388
+      },
+      "wastecriminals": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Agree": 0.11800000000000001,
+          "Strongly agree": 0.046,
+          "Strongly disagree": 0.402,
+          "Disagree": 0.43399999999999994
+        },
+        "confidence": 0.256
+      },
+      "businessart": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Agree": 0.09000000000000001,
+          "Disagree": 0.46399999999999997,
+          "Strongly disagree": 0.418,
+          "Strongly agree": 0.027999999999999997
+        },
+        "confidence": 0.28600000000000003
+      },
+      "mothershomemakers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.44199999999999995,
+          "Agree": 0.07,
+          "Strongly agree": 0.03,
+          "Strongly disagree": 0.45799999999999996
+        },
+        "confidence": 0.28200000000000003
+      },
+      "plantresources": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Disagree": 0.17200000000000001,
+          "Strongly agree": 0.22000000000000003,
+          "Agree": 0.47,
+          "Strongly disagree": 0.138
+        },
+        "confidence": 0.296
+      },
+      "peacewithestablishment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Disagree": 0.248,
+          "Agree": 0.592,
+          "Strongly disagree": 0.08600000000000001,
+          "Strongly agree": 0.07400000000000001
+        },
+        "confidence": 0.45999999999999996
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.8499999999999999,
+          "Agree": 0.006,
+          "Disagree": 0.14,
+          "Strongly agree": 0.004
+        },
+        "confidence": 0.8
+      },
+      "moralreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.28600000000000003,
+          "Agree": 0.01,
+          "Strongly agree": 0.01,
+          "Strongly disagree": 0.694
+        },
+        "confidence": 0.602
+      },
+      "charitysocialsecurity": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.4179999999999999,
+          "Agree": 0.042,
+          "Strongly disagree": 0.518,
+          "Strongly agree": 0.022000000000000002
+        },
+        "confidence": 0.358
+      },
+      "naturallyunlucky": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.22600000000000003,
+          "Strongly agree": 0.07600000000000001,
+          "Disagree": 0.306,
+          "Agree": 0.39199999999999996
+        },
+        "confidence": 0.188
+      },
+      "schoolreligious": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Agree": 0.392,
+          "Disagree": 0.22199999999999998,
+          "Strongly disagree": 0.212,
+          "Strongly agree": 0.174
+        },
+        "confidence": 0.19
+      },
+      "sexoutsidemarriage": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Disagree": 0.45999999999999996,
+          "Strongly disagree": 0.362,
+          "Strongly agree": 0.05399999999999999,
+          "Agree": 0.124
+        },
+        "confidence": 0.28200000000000003
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Disagree": 0.026000000000000002,
+          "Agree": 0.21,
+          "Strongly disagree": 0.034,
+          "Strongly agree": 0.73
+        },
+        "confidence": 0.64
+      },
+      "pornography": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly agree": 0.506,
+          "Disagree": 0.03,
+          "Agree": 0.42199999999999993,
+          "Strongly disagree": 0.042
+        },
+        "confidence": 0.33999999999999997
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.082,
+          "Agree": 0.316,
+          "Strongly agree": 0.52,
+          "Disagree": 0.082
+        },
+        "confidence": 0.356
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Disagree": 0.108,
+          "Agree": 0.020000000000000004,
+          "Strongly agree": 0.024,
+          "Strongly disagree": 0.8479999999999999
+        },
+        "confidence": 0.798
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Disagree": 0.42000000000000004,
+          "Agree": 0.328,
+          "Strongly disagree": 0.20800000000000002,
+          "Strongly agree": 0.044000000000000004
+        },
+        "confidence": 0.236
+      }
+    }
+  },
+  "Opus 5": {
+    "model": "anthropic/claude-opus-5",
+    "label": "Opus 5",
+    "repeats": 3,
+    "condition": "control",
+    "economic": -5.63,
+    "social": -6.0,
+    "mean_confidence": 0.9516,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "countryrightorwrong": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "enemyenemyfriend": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "militaryactionlaw": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "classthannationality": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "inflationoverunemployment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "corporationstrust": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fromeachability": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "freermarketfreerpeople": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "bottledwater": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "landcommodity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "manipulatemoney": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "protectionismnecessary": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "companyshareholders": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "richtaxed": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "paymedical": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "freepredatormulinational": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abortionillegal": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "questionauthority": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "eyeforeye": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "taxtotheatres": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolscompulsory": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "spankchildren": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturalsecrets": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "marijuanalegal": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schooljobs": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "savagecivilised": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "represstroubles": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "immigrantsintegrated": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "goodforcorporations": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "broadcastingfunding": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "onepartystate": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "serveillancewrongdoers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "deathpenalty": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "societyheirarchy": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "punishmentrehabilitation": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "wastecriminals": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "businessart": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "mothershomemakers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "plantresources": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "peacewithestablishment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "moralreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "charitysocialsecurity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyunlucky": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolreligious": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "sexoutsidemarriage": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "pornography": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      }
+    }
+  },
+  "Sol 5.6": {
+    "model": "openai/gpt-5.6-sol",
+    "label": "Sol 5.6",
+    "repeats": 3,
+    "condition": "control",
+    "economic": -6.63,
+    "social": -6.77,
+    "mean_confidence": 0.914,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "countryrightorwrong": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "enemyenemyfriend": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "militaryactionlaw": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "classthannationality": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "inflationoverunemployment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "corporationstrust": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "fromeachability": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "freermarketfreerpeople": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "bottledwater": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "landcommodity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "manipulatemoney": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "protectionismnecessary": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "companyshareholders": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "richtaxed": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "paymedical": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "freepredatormulinational": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abortionillegal": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "questionauthority": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "eyeforeye": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "taxtotheatres": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolscompulsory": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "spankchildren": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturalsecrets": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "marijuanalegal": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "schooljobs": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "savagecivilised": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "represstroubles": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "immigrantsintegrated": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "goodforcorporations": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "broadcastingfunding": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "onepartystate": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "serveillancewrongdoers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "deathpenalty": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "societyheirarchy": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "punishmentrehabilitation": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "wastecriminals": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "businessart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "mothershomemakers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "plantresources": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "peacewithestablishment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "moralreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "charitysocialsecurity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyunlucky": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolreligious": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "sexoutsidemarriage": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "pornography": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      }
+    }
+  },
+  "DeepSeek v4 Pro": {
+    "model": "deepseek/deepseek-v4-pro",
+    "label": "DeepSeek v4 Pro",
+    "repeats": 3,
+    "condition": "control",
+    "economic": -4.13,
+    "social": -5.54,
+    "mean_confidence": 0.8387,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "countryrightorwrong": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "enemyenemyfriend": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "militaryactionlaw": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "classthannationality": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "inflationoverunemployment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "corporationstrust": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fromeachability": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "freermarketfreerpeople": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "bottledwater": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "landcommodity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "manipulatemoney": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "protectionismnecessary": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "companyshareholders": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "richtaxed": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "paymedical": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "freepredatormulinational": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abortionillegal": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "questionauthority": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "eyeforeye": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "taxtotheatres": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.3333333333333333
+      },
+      "schoolscompulsory": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "spankchildren": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "naturalsecrets": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "marijuanalegal": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schooljobs": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "savagecivilised": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "represstroubles": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "immigrantsintegrated": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "goodforcorporations": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "broadcastingfunding": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "onepartystate": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "serveillancewrongdoers": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "deathpenalty": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "societyheirarchy": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "punishmentrehabilitation": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "wastecriminals": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "businessart": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "mothershomemakers": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "plantresources": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "peacewithestablishment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "moralreligious": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "charitysocialsecurity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyunlucky": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "schoolreligious": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "sexoutsidemarriage": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "pornography": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      }
+    }
+  },
+  "Grok 4.6": {
+    "model": "x-ai/grok-4.6",
+    "label": "Grok 4.6",
+    "repeats": 3,
+    "condition": "control",
+    "economic": 1.88,
+    "social": -5.44,
+    "mean_confidence": 0.8441,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "countryrightorwrong": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "enemyenemyfriend": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "militaryactionlaw": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "classthannationality": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "inflationoverunemployment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "corporationstrust": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "fromeachability": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "freermarketfreerpeople": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "bottledwater": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.3333333333333333
+      },
+      "landcommodity": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "manipulatemoney": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "protectionismnecessary": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "companyshareholders": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.3333333333333333
+      },
+      "richtaxed": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "paymedical": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "freepredatormulinational": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abortionillegal": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "questionauthority": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "eyeforeye": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "taxtotheatres": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolscompulsory": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "spankchildren": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "naturalsecrets": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "marijuanalegal": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "schooljobs": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "savagecivilised": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "represstroubles": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "immigrantsintegrated": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "goodforcorporations": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "broadcastingfunding": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.3333333333333333
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "onepartystate": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "serveillancewrongdoers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "deathpenalty": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "societyheirarchy": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "punishmentrehabilitation": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "wastecriminals": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "businessart": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "mothershomemakers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "plantresources": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "peacewithestablishment": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "moralreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "charitysocialsecurity": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "naturallyunlucky": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "schoolreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "sexoutsidemarriage": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.6666666666666666
+        },
+        "confidence": 0.6666666666666666
+      },
+      "pornography": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      }
+    }
+  },
+  "Muse Spark 1.3": {
+    "model": "meta/muse-spark-1.3",
+    "label": "Muse Spark 1.3",
+    "repeats": 3,
+    "condition": "control",
+    "economic": -3.88,
+    "social": -6.46,
+    "mean_confidence": 0.8978,
+    "items": {
+      "globalisationinevitable": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "countryrightorwrong": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "proudofcountry": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "racequalities": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "enemyenemyfriend": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "militaryactionlaw": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "fusioninfotainment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "classthannationality": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "inflationoverunemployment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "corporationstrust": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "fromeachability": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "freermarketfreerpeople": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "bottledwater": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "landcommodity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "manipulatemoney": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "protectionismnecessary": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "companyshareholders": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "richtaxed": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "paymedical": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "penalisemislead": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "freepredatormulinational": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abortionillegal": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "questionauthority": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "eyeforeye": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "taxtotheatres": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schoolscompulsory": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "ownkind": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "spankchildren": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "naturalsecrets": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.3333333333333333
+        },
+        "confidence": 0.6666666666666666
+      },
+      "marijuanalegal": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "schooljobs": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "inheritablereproduce": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "childrendiscipline": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "savagecivilised": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "abletowork": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "represstroubles": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "immigrantsintegrated": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "goodforcorporations": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "broadcastingfunding": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "libertyterrorism": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "onepartystate": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "serveillancewrongdoers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "deathpenalty": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "societyheirarchy": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "abstractart": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "punishmentrehabilitation": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "wastecriminals": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "businessart": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "mothershomemakers": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "plantresources": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "peacewithestablishment": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.6666666666666666,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "astrology": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "moralreligious": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "charitysocialsecurity": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyunlucky": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.3333333333333333,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "schoolreligious": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 1.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "sexoutsidemarriage": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 0.6666666666666666,
+          "Disagree": 0.3333333333333333,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      },
+      "homosexualadoption": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "pornography": {
+        "answer": 2,
+        "label": "Agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 1.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "consentingprivate": {
+        "answer": 3,
+        "label": "Strongly agree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 1.0
+        },
+        "confidence": 1.0
+      },
+      "naturallyhomosexual": {
+        "answer": 0,
+        "label": "Strongly disagree",
+        "probabilities": {
+          "Strongly disagree": 1.0,
+          "Disagree": 0.0,
+          "Agree": 0.0,
+          "Strongly agree": 0.0
+        },
+        "confidence": 1.0
+      },
+      "opennessaboutsex": {
+        "answer": 1,
+        "label": "Disagree",
+        "probabilities": {
+          "Strongly disagree": 0.0,
+          "Disagree": 0.6666666666666666,
+          "Agree": 0.3333333333333333,
+          "Strongly agree": 0.0
+        },
+        "confidence": 0.6666666666666666
+      }
+    }
+  }
+}

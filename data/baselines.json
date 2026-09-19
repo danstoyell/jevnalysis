@@ -1,0 +1,73 @@
+{
+  "_note": "Published results for other models on these two instruments, for comparison. Read the caveats: reported Political Compass coordinates for the same model vary widely across studies because they depend on prompt wording, date, model version and how refusals are handled. Treat these as a rough landscape, not as precise reference values.",
+  "_retrieved": "2026-09-18",
+
+  "political_compass": {
+    "consensus_finding": "Across studies, nearly every RLHF-tuned conversational LLM lands in the left-libertarian quadrant (negative economic, negative social). Base/pretrained models are much more scattered, which is the central result of Feng et al. (2023).",
+    "primary_academic_source": {
+      "citation": "Rozado, D. (2024). The political preferences of LLMs. PLOS ONE 19(7): e0306621.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0306621",
+      "data": "https://doi.org/10.5281/zenodo.10553530",
+      "method": "11 political orientation tests administered to 24 conversational LLMs, 5 base models and 3 politically fine-tuned models; 10 retakes each.",
+      "finding": "Most conversational LLMs are diagnosed as left-of-center on both axes. Base models without instruction tuning are not consistently left-leaning, which points at post-training rather than pretraining as the source.",
+      "coordinates_note": "Per-model coordinates are in the Zenodo deposit (tabulated_results.csv), not reproduced here."
+    },
+    "secondary_trackers": [
+      {
+        "source": "AI Political Compass Benchmark",
+        "url": "https://www.aipoliticalbias.com/",
+        "updated": "November 2025",
+        "reported_range": {"economic": [-7.88, -3.5], "social": [-8.1, -3.59]},
+        "finding": "All tracked models in the libertarian-left quadrant.",
+        "reliability": "Unrefereed aggregator. Useful for range, not for precise per-model values."
+      }
+    ],
+    "widely_circulated_but_unreliable": {
+      "_warning": "These per-model coordinates circulate in blog posts and press. Sources disagree with each other by a factor of two on the same models, so do not cite them as reference points without re-running the test yourself.",
+      "cluster_a": {"Gemini": [-8.25, -8.26], "ChatGPT": [-7.13, -7.59], "Claude": [-6.63, -7.28], "Grok": [-1.25, -4.36]},
+      "cluster_b": {"ChatGPT": [-3.8, -3.2], "Claude": [-3.5, -3.0]}
+    }
+  },
+
+  "pew_typology": {
+    "important": "Rozado's ChatGPT result used the 2021 typology, whose nine groups had DIFFERENT names from the 2026 edition this repo administers. 'Establishment Liberals' does not exist in the 2026 set. Do not compare the labels directly; compare the ideology score or re-run the old instrument.",
+    "rozado_chatgpt": {
+      "source": "Rozado, D. The political orientation of the ChatGPT AI system",
+      "url": "https://davidrozado.substack.com/p/the-political-orientation-of-the",
+      "instrument": "Pew Research Political Typology Quiz (2021 edition, 16 questions)",
+      "result": "Establishment Liberals, consistently across trials",
+      "population_share_at_the_time": "13% of the US public",
+      "notes": "ChatGPT repeatedly refused some items, claiming political neutrality; the researcher had to press for an answer. This refusal problem is precisely what Jev's typed output removes."
+    },
+    "groups_2026": {
+      "_source": "https://www.pewresearch.org/politics/2026/06/10/beyond-red-vs-blue-the-political-typology/",
+      "group1": {"name": "Leftward Progressives", "us_pct": 7},
+      "group2": {"name": "Loyal Liberals", "us_pct": 11},
+      "group3": {"name": "Left-Out Left", "us_pct": 12},
+      "group4": {"name": "Order and Opportunity Left", "us_pct": 18},
+      "group5": {"name": "Tuned-Out Middle", "us_pct": 9},
+      "group6": {"name": "Pragmatic and Polite Right", "us_pct": 11},
+      "group7": {"name": "Unconventional Right", "us_pct": 12},
+      "group8": {"name": "Faith First Conservatives", "us_pct": 12},
+      "group9": {"name": "No Apologies Right", "us_pct": 9}
+    }
+  },
+
+  "methodological_critiques": [
+    {
+      "citation": "Rottger, P. et al. (2024). Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in LLMs. ACL 2024.",
+      "url": "https://aclanthology.org/2024.acl-long.816.pdf",
+      "point": "Forced-choice political tests are a poor proxy for how models behave in open-ended use; results are highly sensitive to prompt form and do not transfer to realistic settings."
+    },
+    {
+      "citation": "Wang, X. et al. (2024). \"My Answer is C\": First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models. ACL Findings 2024.",
+      "url": "https://aclanthology.org/2024.findings-acl.441/",
+      "point": "Probability-based and text-based answers to the same multiple-choice item disagree at rates over 60%. Jev only ever gives the probability-based answer, so its scores are not directly comparable to published text-based scores for chat models."
+    },
+    {
+      "citation": "Feng, S. et al. (2023). From Pretraining Data to Language Models to Downstream Tasks. ACL 2023 Best Paper.",
+      "url": "https://aclanthology.org/2023.acl-long.656/",
+      "point": "Establishes the base-model vs. chat-model distinction that makes Jev interesting: lean measured without a helpfulness-tuned persona layer is a different quantity."
+    }
+  ]
+}

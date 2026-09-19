@@ -1,0 +1,2646 @@
+{
+  "instrument": "pew_typology_2026",
+  "provider": "openrouter",
+  "model": "typesafe/jev-1.13",
+  "repeats": 5,
+  "shuffled": true,
+  "n_items": 24,
+  "dry_run": false,
+  "usage": {
+    "input_tokens": 64366,
+    "output_tokens": 23764
+  },
+  "cost_usd": 0.002703,
+  "records": [
+    {
+      "internal_id": "govsize1",
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "repeat": 0,
+      "chosen_uuid": "16e27d76-1351-47af-9be3-f2525e0af1b9",
+      "chosen_text": "A bigger government providing more services",
+      "points": -0.97983,
+      "confidence": 0.2,
+      "probabilities": {
+        "A smaller government providing fewer services": 0.4,
+        "A bigger government providing more services": 0.6
+      },
+      "option_order": [
+        "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+        "16e27d76-1351-47af-9be3-f2525e0af1b9"
+      ]
+    },
+    {
+      "internal_id": "govsize1",
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "repeat": 1,
+      "chosen_uuid": "16e27d76-1351-47af-9be3-f2525e0af1b9",
+      "chosen_text": "A bigger government providing more services",
+      "points": -0.97983,
+      "confidence": 0.25,
+      "probabilities": {
+        "A bigger government providing more services": 0.63,
+        "A smaller government providing fewer services": 0.37
+      },
+      "option_order": [
+        "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+        "16e27d76-1351-47af-9be3-f2525e0af1b9"
+      ]
+    },
+    {
+      "internal_id": "govsize1",
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "repeat": 2,
+      "chosen_uuid": "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+      "chosen_text": "A smaller government providing fewer services",
+      "points": 1.02058,
+      "confidence": 0.15,
+      "probabilities": {
+        "A smaller government providing fewer services": 0.57,
+        "A bigger government providing more services": 0.43
+      },
+      "option_order": [
+        "16e27d76-1351-47af-9be3-f2525e0af1b9",
+        "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a"
+      ]
+    },
+    {
+      "internal_id": "govsize1",
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "repeat": 3,
+      "chosen_uuid": "16e27d76-1351-47af-9be3-f2525e0af1b9",
+      "chosen_text": "A bigger government providing more services",
+      "points": -0.97983,
+      "confidence": 0.17,
+      "probabilities": {
+        "A smaller government providing fewer services": 0.41,
+        "A bigger government providing more services": 0.59
+      },
+      "option_order": [
+        "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+        "16e27d76-1351-47af-9be3-f2525e0af1b9"
+      ]
+    },
+    {
+      "internal_id": "govsize1",
+      "category": "Government",
+      "question": "If you had to choose, would you rather have...",
+      "repeat": 4,
+      "chosen_uuid": "16e27d76-1351-47af-9be3-f2525e0af1b9",
+      "chosen_text": "A bigger government providing more services",
+      "points": -0.97983,
+      "confidence": 0.16,
+      "probabilities": {
+        "A bigger government providing more services": 0.58,
+        "A smaller government providing fewer services": 0.42
+      },
+      "option_order": [
+        "8458e6c8-9574-46e2-bf3c-76d53e9e2a0a",
+        "16e27d76-1351-47af-9be3-f2525e0af1b9"
+      ]
+    },
+    {
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "repeat": 0,
+      "chosen_uuid": "0884b7c0-6e3f-468e-b99f-718834ecc433",
+      "chosen_text": "Extremely important",
+      "points": 0.873466,
+      "confidence": 0.55,
+      "probabilities": {
+        "Not too important": 0,
+        "Somewhat important": 0.02,
+        "Very important": 0.33,
+        "Not at all important": 0,
+        "Extremely important": 0.65
+      },
+      "option_order": [
+        "0884b7c0-6e3f-468e-b99f-718834ecc433",
+        "e7fc459f-d9ee-47c2-98b3-7264f630712f",
+        "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+        "242e8722-1793-4203-a0f0-0144fe1f4232",
+        "db842a88-e67b-4166-a0c4-3d4062e5767e"
+      ]
+    },
+    {
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "repeat": 1,
+      "chosen_uuid": "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+      "chosen_text": "Very important",
+      "points": 0.229295,
+      "confidence": 0.38,
+      "probabilities": {
+        "Extremely important": 0.48,
+        "Not too important": 0.01,
+        "Very important": 0.5,
+        "Somewhat important": 0.01,
+        "Not at all important": 0
+      },
+      "option_order": [
+        "db842a88-e67b-4166-a0c4-3d4062e5767e",
+        "0884b7c0-6e3f-468e-b99f-718834ecc433",
+        "242e8722-1793-4203-a0f0-0144fe1f4232",
+        "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+        "e7fc459f-d9ee-47c2-98b3-7264f630712f"
+      ]
+    },
+    {
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "repeat": 2,
+      "chosen_uuid": "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+      "chosen_text": "Very important",
+      "points": 0.229295,
+      "confidence": 0.38,
+      "probabilities": {
+        "Somewhat important": 0.02,
+        "Not too important": 0,
+        "Not at all important": 0.01,
+        "Extremely important": 0.47,
+        "Very important": 0.5
+      },
+      "option_order": [
+        "e7fc459f-d9ee-47c2-98b3-7264f630712f",
+        "db842a88-e67b-4166-a0c4-3d4062e5767e",
+        "0884b7c0-6e3f-468e-b99f-718834ecc433",
+        "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+        "242e8722-1793-4203-a0f0-0144fe1f4232"
+      ]
+    },
+    {
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "repeat": 3,
+      "chosen_uuid": "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+      "chosen_text": "Very important",
+      "points": 0.229295,
+      "confidence": 0.37,
+      "probabilities": {
+        "Not too important": 0,
+        "Not at all important": 0,
+        "Very important": 0.51,
+        "Somewhat important": 0.01,
+        "Extremely important": 0.48
+      },
+      "option_order": [
+        "242e8722-1793-4203-a0f0-0144fe1f4232",
+        "0884b7c0-6e3f-468e-b99f-718834ecc433",
+        "db842a88-e67b-4166-a0c4-3d4062e5767e",
+        "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+        "e7fc459f-d9ee-47c2-98b3-7264f630712f"
+      ]
+    },
+    {
+      "internal_id": "nationid_bord3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Maintain secure borders",
+      "repeat": 4,
+      "chosen_uuid": "0884b7c0-6e3f-468e-b99f-718834ecc433",
+      "chosen_text": "Extremely important",
+      "points": 0.873466,
+      "confidence": 0.66,
+      "probabilities": {
+        "Not at all important": 0,
+        "Very important": 0.25,
+        "Not too important": 0,
+        "Extremely important": 0.73,
+        "Somewhat important": 0.02
+      },
+      "option_order": [
+        "db842a88-e67b-4166-a0c4-3d4062e5767e",
+        "e7fc459f-d9ee-47c2-98b3-7264f630712f",
+        "ce3d42b6-d0f9-484d-ade1-7cae7f71d217",
+        "242e8722-1793-4203-a0f0-0144fe1f4232",
+        "0884b7c0-6e3f-468e-b99f-718834ecc433"
+      ]
+    },
+    {
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "repeat": 0,
+      "chosen_uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+      "chosen_text": "Very important",
+      "points": -0.91679,
+      "confidence": 0.39,
+      "probabilities": {
+        "Not at all important": 0.01,
+        "Very important": 0.52,
+        "Not too important": 0.02,
+        "Extremely important": 0.31,
+        "Somewhat important": 0.14
+      },
+      "option_order": [
+        "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6",
+        "a7549f3b-b9ae-45f9-a95a-323025d1f18f",
+        "521b33df-316e-4a55-817e-76175119dd6e",
+        "2faae081-95a6-446b-8f60-82d74d5c0db3",
+        "784bcdad-5a38-4168-b616-b5b578c00a18"
+      ]
+    },
+    {
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "repeat": 1,
+      "chosen_uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+      "chosen_text": "Very important",
+      "points": -0.91679,
+      "confidence": 0.34,
+      "probabilities": {
+        "Not too important": 0.02,
+        "Very important": 0.47,
+        "Not at all important": 0.02,
+        "Somewhat important": 0.18,
+        "Extremely important": 0.31
+      },
+      "option_order": [
+        "a7549f3b-b9ae-45f9-a95a-323025d1f18f",
+        "784bcdad-5a38-4168-b616-b5b578c00a18",
+        "521b33df-316e-4a55-817e-76175119dd6e",
+        "2faae081-95a6-446b-8f60-82d74d5c0db3",
+        "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6"
+      ]
+    },
+    {
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "repeat": 2,
+      "chosen_uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+      "chosen_text": "Very important",
+      "points": -0.91679,
+      "confidence": 0.35,
+      "probabilities": {
+        "Not too important": 0.01,
+        "Not at all important": 0,
+        "Somewhat important": 0.16,
+        "Extremely important": 0.34,
+        "Very important": 0.49
+      },
+      "option_order": [
+        "784bcdad-5a38-4168-b616-b5b578c00a18",
+        "521b33df-316e-4a55-817e-76175119dd6e",
+        "2faae081-95a6-446b-8f60-82d74d5c0db3",
+        "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6",
+        "a7549f3b-b9ae-45f9-a95a-323025d1f18f"
+      ]
+    },
+    {
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "repeat": 3,
+      "chosen_uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+      "chosen_text": "Very important",
+      "points": -0.91679,
+      "confidence": 0.28,
+      "probabilities": {
+        "Not at all important": 0.01,
+        "Not too important": 0.01,
+        "Somewhat important": 0.16,
+        "Extremely important": 0.39,
+        "Very important": 0.43
+      },
+      "option_order": [
+        "784bcdad-5a38-4168-b616-b5b578c00a18",
+        "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6",
+        "521b33df-316e-4a55-817e-76175119dd6e",
+        "2faae081-95a6-446b-8f60-82d74d5c0db3",
+        "a7549f3b-b9ae-45f9-a95a-323025d1f18f"
+      ]
+    },
+    {
+      "internal_id": "nationid_refug3",
+      "category": "Immigration",
+      "question": "How important is it for the United States to… Take in refugees from countries where people are escaping violence",
+      "repeat": 4,
+      "chosen_uuid": "521b33df-316e-4a55-817e-76175119dd6e",
+      "chosen_text": "Very important",
+      "points": -0.91679,
+      "confidence": 0.32,
+      "probabilities": {
+        "Not too important": 0.01,
+        "Not at all important": 0.01,
+        "Somewhat important": 0.22,
+        "Very important": 0.46,
+        "Extremely important": 0.3
+      },
+      "option_order": [
+        "521b33df-316e-4a55-817e-76175119dd6e",
+        "f13d2d18-4bc8-4b3c-82cd-3e7d2c234eb6",
+        "2faae081-95a6-446b-8f60-82d74d5c0db3",
+        "a7549f3b-b9ae-45f9-a95a-323025d1f18f",
+        "784bcdad-5a38-4168-b616-b5b578c00a18"
+      ]
+    },
+    {
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "repeat": 0,
+      "chosen_uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+      "chosen_text": "Some of them",
+      "points": -0.68931,
+      "confidence": 0.29,
+      "probabilities": {
+        "All of them": 0.03,
+        "A few of them": 0.15,
+        "None of them": 0.03,
+        "Some of them": 0.44,
+        "Most of them": 0.35
+      },
+      "option_order": [
+        "bed31f7c-ffba-46f6-975b-3016dce95510",
+        "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+        "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+        "2a541dcb-1c5e-45e8-9c2d-61ee3271773e",
+        "944cbcb7-6b80-47c4-92b7-62c606e119c3"
+      ]
+    },
+    {
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "repeat": 1,
+      "chosen_uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+      "chosen_text": "Some of them",
+      "points": -0.68931,
+      "confidence": 0.31,
+      "probabilities": {
+        "None of them": 0.05,
+        "A few of them": 0.12,
+        "Some of them": 0.45,
+        "Most of them": 0.32,
+        "All of them": 0.06
+      },
+      "option_order": [
+        "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+        "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+        "944cbcb7-6b80-47c4-92b7-62c606e119c3",
+        "2a541dcb-1c5e-45e8-9c2d-61ee3271773e",
+        "bed31f7c-ffba-46f6-975b-3016dce95510"
+      ]
+    },
+    {
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "repeat": 2,
+      "chosen_uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+      "chosen_text": "Some of them",
+      "points": -0.68931,
+      "confidence": 0.39,
+      "probabilities": {
+        "Some of them": 0.5,
+        "All of them": 0.05,
+        "Most of them": 0.3,
+        "A few of them": 0.11,
+        "None of them": 0.04
+      },
+      "option_order": [
+        "2a541dcb-1c5e-45e8-9c2d-61ee3271773e",
+        "944cbcb7-6b80-47c4-92b7-62c606e119c3",
+        "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+        "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+        "bed31f7c-ffba-46f6-975b-3016dce95510"
+      ]
+    },
+    {
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "repeat": 3,
+      "chosen_uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+      "chosen_text": "Some of them",
+      "points": -0.68931,
+      "confidence": 0.51,
+      "probabilities": {
+        "A few of them": 0.17,
+        "All of them": 0.03,
+        "Some of them": 0.61,
+        "None of them": 0.02,
+        "Most of them": 0.17
+      },
+      "option_order": [
+        "944cbcb7-6b80-47c4-92b7-62c606e119c3",
+        "2a541dcb-1c5e-45e8-9c2d-61ee3271773e",
+        "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+        "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+        "bed31f7c-ffba-46f6-975b-3016dce95510"
+      ]
+    },
+    {
+      "internal_id": "run_serve2",
+      "category": "Government",
+      "question": "How many elected officials run for office because they wanted to serve the public?",
+      "repeat": 4,
+      "chosen_uuid": "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+      "chosen_text": "Some of them",
+      "points": -0.68931,
+      "confidence": 0.33,
+      "probabilities": {
+        "A few of them": 0.1,
+        "All of them": 0.04,
+        "Most of them": 0.35,
+        "Some of them": 0.47000000000000003,
+        "None of them": 0.04
+      },
+      "option_order": [
+        "d52ab168-ba4f-48ab-b3d9-3e2c4f3b1200",
+        "bed31f7c-ffba-46f6-975b-3016dce95510",
+        "944cbcb7-6b80-47c4-92b7-62c606e119c3",
+        "b69bbdb2-018a-471e-a4f4-85a2bc791cb2",
+        "2a541dcb-1c5e-45e8-9c2d-61ee3271773e"
+      ]
+    },
+    {
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "repeat": 0,
+      "chosen_uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+      "chosen_text": "Very good for society",
+      "points": -1.32536,
+      "confidence": 0.6,
+      "probabilities": {
+        "Very bad for society": 0.01,
+        "Somewhat bad for society": 0.01,
+        "Very good for society": 0.68,
+        "Neither good nor bad for society": 0.14,
+        "Somewhat good for society": 0.16
+      },
+      "option_order": [
+        "504ef8a5-0f3e-4740-8275-5890ea12f327",
+        "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+        "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+        "fd668976-71cc-4e97-87af-8e9ed6469d66",
+        "a845183d-6f60-4624-9577-cd9262c96ef7"
+      ]
+    },
+    {
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "repeat": 1,
+      "chosen_uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+      "chosen_text": "Very good for society",
+      "points": -1.32536,
+      "confidence": 0.42,
+      "probabilities": {
+        "Very good for society": 0.54,
+        "Neither good nor bad for society": 0.18,
+        "Very bad for society": 0,
+        "Somewhat bad for society": 0.01,
+        "Somewhat good for society": 0.27
+      },
+      "option_order": [
+        "fd668976-71cc-4e97-87af-8e9ed6469d66",
+        "a845183d-6f60-4624-9577-cd9262c96ef7",
+        "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+        "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+        "504ef8a5-0f3e-4740-8275-5890ea12f327"
+      ]
+    },
+    {
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "repeat": 2,
+      "chosen_uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+      "chosen_text": "Very good for society",
+      "points": -1.32536,
+      "confidence": 0.35,
+      "probabilities": {
+        "Somewhat good for society": 0.32,
+        "Neither good nor bad for society": 0.19,
+        "Very good for society": 0.48,
+        "Somewhat bad for society": 0.01,
+        "Very bad for society": 0
+      },
+      "option_order": [
+        "fd668976-71cc-4e97-87af-8e9ed6469d66",
+        "a845183d-6f60-4624-9577-cd9262c96ef7",
+        "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+        "504ef8a5-0f3e-4740-8275-5890ea12f327",
+        "671164f9-7d24-487b-bb1a-89b10eaa9adf"
+      ]
+    },
+    {
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "repeat": 3,
+      "chosen_uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+      "chosen_text": "Very good for society",
+      "points": -1.32536,
+      "confidence": 0.28,
+      "probabilities": {
+        "Somewhat good for society": 0.34,
+        "Somewhat bad for society": 0.01,
+        "Very good for society": 0.42,
+        "Neither good nor bad for society": 0.23,
+        "Very bad for society": 0
+      },
+      "option_order": [
+        "fd668976-71cc-4e97-87af-8e9ed6469d66",
+        "504ef8a5-0f3e-4740-8275-5890ea12f327",
+        "a845183d-6f60-4624-9577-cd9262c96ef7",
+        "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+        "671164f9-7d24-487b-bb1a-89b10eaa9adf"
+      ]
+    },
+    {
+      "internal_id": "society_ssm3",
+      "category": "Gender, Religion & Society",
+      "question": "Do you think same-sex marriages being legal in the U.S. is generally...",
+      "repeat": 4,
+      "chosen_uuid": "671164f9-7d24-487b-bb1a-89b10eaa9adf",
+      "chosen_text": "Very good for society",
+      "points": -1.32536,
+      "confidence": 0.41,
+      "probabilities": {
+        "Very good for society": 0.53,
+        "Somewhat good for society": 0.32,
+        "Very bad for society": 0.01,
+        "Somewhat bad for society": 0,
+        "Neither good nor bad for society": 0.14
+      },
+      "option_order": [
+        "a845183d-6f60-4624-9577-cd9262c96ef7",
+        "885e55a5-bf7d-441f-8b90-c0d9971142f8",
+        "504ef8a5-0f3e-4740-8275-5890ea12f327",
+        "fd668976-71cc-4e97-87af-8e9ed6469d66",
+        "671164f9-7d24-487b-bb1a-89b10eaa9adf"
+      ]
+    },
+    {
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "repeat": 0,
+      "chosen_uuid": "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+      "chosen_text": "Not too comfortable",
+      "points": -0.48136,
+      "confidence": 0.38,
+      "probabilities": {
+        "Extremely comfortable": 0.02,
+        "Not at all comfortable": 0.28,
+        "Very comfortable": 0.01,
+        "Somewhat comfortable": 0.19,
+        "Not too comfortable": 0.5
+      },
+      "option_order": [
+        "c43c66f2-ad90-4d37-b333-a896977da196",
+        "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+        "29863143-d64b-47dd-8646-829eb9ab3ec9",
+        "1f855ead-f735-43f7-a903-3bfa8b16587a",
+        "3b8e9d21-00f8-4dce-999b-511402037716"
+      ]
+    },
+    {
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "repeat": 1,
+      "chosen_uuid": "c43c66f2-ad90-4d37-b333-a896977da196",
+      "chosen_text": "Somewhat comfortable",
+      "points": 0.464491,
+      "confidence": 0.36,
+      "probabilities": {
+        "Extremely comfortable": 0.02,
+        "Not at all comfortable": 0.28,
+        "Very comfortable": 0.02,
+        "Not too comfortable": 0.19,
+        "Somewhat comfortable": 0.49
+      },
+      "option_order": [
+        "29863143-d64b-47dd-8646-829eb9ab3ec9",
+        "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+        "1f855ead-f735-43f7-a903-3bfa8b16587a",
+        "c43c66f2-ad90-4d37-b333-a896977da196",
+        "3b8e9d21-00f8-4dce-999b-511402037716"
+      ]
+    },
+    {
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "repeat": 2,
+      "chosen_uuid": "c43c66f2-ad90-4d37-b333-a896977da196",
+      "chosen_text": "Somewhat comfortable",
+      "points": 0.464491,
+      "confidence": 0.25,
+      "probabilities": {
+        "Not too comfortable": 0.34,
+        "Extremely comfortable": 0.01,
+        "Not at all comfortable": 0.22,
+        "Very comfortable": 0.04,
+        "Somewhat comfortable": 0.39
+      },
+      "option_order": [
+        "3b8e9d21-00f8-4dce-999b-511402037716",
+        "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+        "1f855ead-f735-43f7-a903-3bfa8b16587a",
+        "29863143-d64b-47dd-8646-829eb9ab3ec9",
+        "c43c66f2-ad90-4d37-b333-a896977da196"
+      ]
+    },
+    {
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "repeat": 3,
+      "chosen_uuid": "c43c66f2-ad90-4d37-b333-a896977da196",
+      "chosen_text": "Somewhat comfortable",
+      "points": 0.464491,
+      "confidence": 0.2,
+      "probabilities": {
+        "Extremely comfortable": 0.01,
+        "Not too comfortable": 0.31,
+        "Somewhat comfortable": 0.36,
+        "Not at all comfortable": 0.29,
+        "Very comfortable": 0.03
+      },
+      "option_order": [
+        "1f855ead-f735-43f7-a903-3bfa8b16587a",
+        "3b8e9d21-00f8-4dce-999b-511402037716",
+        "29863143-d64b-47dd-8646-829eb9ab3ec9",
+        "c43c66f2-ad90-4d37-b333-a896977da196",
+        "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7"
+      ]
+    },
+    {
+      "internal_id": "comfort_guns3",
+      "category": "Other Issues",
+      "question": "How comfortable are you with people openly carrying guns in public places?",
+      "repeat": 4,
+      "chosen_uuid": "c43c66f2-ad90-4d37-b333-a896977da196",
+      "chosen_text": "Somewhat comfortable",
+      "points": 0.464491,
+      "confidence": 0.42,
+      "probabilities": {
+        "Very comfortable": 0.05,
+        "Extremely comfortable": 0.01,
+        "Not at all comfortable": 0.18,
+        "Not too comfortable": 0.23,
+        "Somewhat comfortable": 0.53
+      },
+      "option_order": [
+        "1f855ead-f735-43f7-a903-3bfa8b16587a",
+        "81b83b4b-bc0c-41e3-9a5e-afb96fb02eb7",
+        "3b8e9d21-00f8-4dce-999b-511402037716",
+        "c43c66f2-ad90-4d37-b333-a896977da196",
+        "29863143-d64b-47dd-8646-829eb9ab3ec9"
+      ]
+    },
+    {
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "repeat": 0,
+      "chosen_uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+      "chosen_text": "A very big problem",
+      "points": 1.057576,
+      "confidence": 0.74,
+      "probabilities": {
+        "A small problem": 0,
+        "A very big problem": 0.8,
+        "A moderately big problem": 0.17,
+        "Not a problem at all": 0.02
+      },
+      "option_order": [
+        "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c",
+        "a4cc286e-1120-4eeb-b1f5-cacdca8fd782",
+        "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+        "cdedae35-df61-4cef-915a-e91fc6f2454a"
+      ]
+    },
+    {
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "repeat": 1,
+      "chosen_uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+      "chosen_text": "A very big problem",
+      "points": 1.057576,
+      "confidence": 0.86,
+      "probabilities": {
+        "Not a problem at all": 0.01,
+        "A very big problem": 0.89,
+        "A small problem": 0.01,
+        "A moderately big problem": 0.09
+      },
+      "option_order": [
+        "a4cc286e-1120-4eeb-b1f5-cacdca8fd782",
+        "cdedae35-df61-4cef-915a-e91fc6f2454a",
+        "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+        "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c"
+      ]
+    },
+    {
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "repeat": 2,
+      "chosen_uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+      "chosen_text": "A very big problem",
+      "points": 1.057576,
+      "confidence": 0.88,
+      "probabilities": {
+        "A very big problem": 0.91,
+        "A moderately big problem": 0.07,
+        "Not a problem at all": 0.02,
+        "A small problem": 0
+      },
+      "option_order": [
+        "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c",
+        "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+        "cdedae35-df61-4cef-915a-e91fc6f2454a",
+        "a4cc286e-1120-4eeb-b1f5-cacdca8fd782"
+      ]
+    },
+    {
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "repeat": 3,
+      "chosen_uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+      "chosen_text": "A very big problem",
+      "points": 1.057576,
+      "confidence": 0.88,
+      "probabilities": {
+        "A small problem": 0,
+        "Not a problem at all": 0.01,
+        "A moderately big problem": 0.07,
+        "A very big problem": 0.92
+      },
+      "option_order": [
+        "a4cc286e-1120-4eeb-b1f5-cacdca8fd782",
+        "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c",
+        "cdedae35-df61-4cef-915a-e91fc6f2454a",
+        "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61"
+      ]
+    },
+    {
+      "internal_id": "natprobclim",
+      "category": "Other Issues",
+      "question": "How much of a problem do you think climate change is?",
+      "repeat": 4,
+      "chosen_uuid": "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61",
+      "chosen_text": "A very big problem",
+      "points": 1.057576,
+      "confidence": 0.85,
+      "probabilities": {
+        "Not a problem at all": 0.01,
+        "A moderately big problem": 0.1,
+        "A very big problem": 0.89,
+        "A small problem": 0
+      },
+      "option_order": [
+        "a4cc286e-1120-4eeb-b1f5-cacdca8fd782",
+        "cdedae35-df61-4cef-915a-e91fc6f2454a",
+        "71b2afcd-c6dc-49bb-90c2-fbe3be6d8f7c",
+        "6cf8a9bd-b7e4-42bf-93f2-3f9fa3f46f61"
+      ]
+    },
+    {
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "repeat": 0,
+      "chosen_uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+      "chosen_text": "Somewhat important",
+      "points": -0.17457,
+      "confidence": 0.25,
+      "probabilities": {
+        "Somewhat important": 0.41000000000000003,
+        "Very important": 0.28,
+        "Not too important": 0.11,
+        "Not at all important": 0.09,
+        "Extremely important": 0.11
+      },
+      "option_order": [
+        "d82a76f2-a29a-429f-ba54-be2432483fb7",
+        "4f76e5b3-17c4-4da3-ad86-598265c6a37c",
+        "15b24040-b350-4fec-a5d4-9f5b026eb955",
+        "eb09b111-85b5-49b1-83c1-296f4fdaffe6",
+        "04e68f12-d100-4b6b-aee3-b16f0c8f1342"
+      ]
+    },
+    {
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "repeat": 1,
+      "chosen_uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+      "chosen_text": "Somewhat important",
+      "points": -0.17457,
+      "confidence": 0.28,
+      "probabilities": {
+        "Extremely important": 0.15,
+        "Not at all important": 0.09,
+        "Somewhat important": 0.41,
+        "Very important": 0.23,
+        "Not too important": 0.12
+      },
+      "option_order": [
+        "15b24040-b350-4fec-a5d4-9f5b026eb955",
+        "04e68f12-d100-4b6b-aee3-b16f0c8f1342",
+        "4f76e5b3-17c4-4da3-ad86-598265c6a37c",
+        "eb09b111-85b5-49b1-83c1-296f4fdaffe6",
+        "d82a76f2-a29a-429f-ba54-be2432483fb7"
+      ]
+    },
+    {
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "repeat": 2,
+      "chosen_uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+      "chosen_text": "Somewhat important",
+      "points": -0.17457,
+      "confidence": 0.14,
+      "probabilities": {
+        "Somewhat important": 0.31,
+        "Very important": 0.28,
+        "Not at all important": 0.07,
+        "Not too important": 0.16,
+        "Extremely important": 0.18
+      },
+      "option_order": [
+        "4f76e5b3-17c4-4da3-ad86-598265c6a37c",
+        "eb09b111-85b5-49b1-83c1-296f4fdaffe6",
+        "d82a76f2-a29a-429f-ba54-be2432483fb7",
+        "04e68f12-d100-4b6b-aee3-b16f0c8f1342",
+        "15b24040-b350-4fec-a5d4-9f5b026eb955"
+      ]
+    },
+    {
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "repeat": 3,
+      "chosen_uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+      "chosen_text": "Somewhat important",
+      "points": -0.17457,
+      "confidence": 0.15,
+      "probabilities": {
+        "Extremely important": 0.13,
+        "Very important": 0.24,
+        "Not too important": 0.17,
+        "Not at all important": 0.14,
+        "Somewhat important": 0.32
+      },
+      "option_order": [
+        "04e68f12-d100-4b6b-aee3-b16f0c8f1342",
+        "eb09b111-85b5-49b1-83c1-296f4fdaffe6",
+        "d82a76f2-a29a-429f-ba54-be2432483fb7",
+        "15b24040-b350-4fec-a5d4-9f5b026eb955",
+        "4f76e5b3-17c4-4da3-ad86-598265c6a37c"
+      ]
+    },
+    {
+      "internal_id": "superpwr2net",
+      "category": "Foreign Policy",
+      "question": "In the future, how important is it for the U.S. to be the only military superpower in the world?",
+      "repeat": 4,
+      "chosen_uuid": "d82a76f2-a29a-429f-ba54-be2432483fb7",
+      "chosen_text": "Somewhat important",
+      "points": -0.17457,
+      "confidence": 0.23,
+      "probabilities": {
+        "Not too important": 0.11,
+        "Somewhat important": 0.38,
+        "Very important": 0.26,
+        "Extremely important": 0.15,
+        "Not at all important": 0.1
+      },
+      "option_order": [
+        "15b24040-b350-4fec-a5d4-9f5b026eb955",
+        "04e68f12-d100-4b6b-aee3-b16f0c8f1342",
+        "d82a76f2-a29a-429f-ba54-be2432483fb7",
+        "4f76e5b3-17c4-4da3-ad86-598265c6a37c",
+        "eb09b111-85b5-49b1-83c1-296f4fdaffe6"
+      ]
+    },
+    {
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "repeat": 0,
+      "chosen_uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+      "chosen_text": "A little more fair",
+      "points": -0.85478,
+      "confidence": 0.66,
+      "probabilities": {
+        "A lot more fair": 0.08,
+        "No more or less fair": 0.18,
+        "A lot less fair": 0.01,
+        "A little less fair": 0.01,
+        "A little more fair": 0.72
+      },
+      "option_order": [
+        "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+        "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+        "198d82fd-3bb1-4cc4-a026-8cff42c2187e",
+        "da0a49ee-6fed-4914-9797-c9e2799d785c",
+        "4e2337c4-434d-47c6-8a11-e5399b7ca09a"
+      ]
+    },
+    {
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "repeat": 1,
+      "chosen_uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+      "chosen_text": "A little more fair",
+      "points": -0.85478,
+      "confidence": 0.46,
+      "probabilities": {
+        "A little more fair": 0.58,
+        "No more or less fair": 0.29,
+        "A little less fair": 0,
+        "A lot less fair": 0,
+        "A lot more fair": 0.13
+      },
+      "option_order": [
+        "198d82fd-3bb1-4cc4-a026-8cff42c2187e",
+        "da0a49ee-6fed-4914-9797-c9e2799d785c",
+        "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+        "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+        "4e2337c4-434d-47c6-8a11-e5399b7ca09a"
+      ]
+    },
+    {
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "repeat": 2,
+      "chosen_uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+      "chosen_text": "A little more fair",
+      "points": -0.85478,
+      "confidence": 0.62,
+      "probabilities": {
+        "A lot more fair": 0.09,
+        "A little less fair": 0.01,
+        "A lot less fair": 0,
+        "A little more fair": 0.7,
+        "No more or less fair": 0.2
+      },
+      "option_order": [
+        "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+        "4e2337c4-434d-47c6-8a11-e5399b7ca09a",
+        "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+        "198d82fd-3bb1-4cc4-a026-8cff42c2187e",
+        "da0a49ee-6fed-4914-9797-c9e2799d785c"
+      ]
+    },
+    {
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "repeat": 3,
+      "chosen_uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+      "chosen_text": "A little more fair",
+      "points": -0.85478,
+      "confidence": 0.74,
+      "probabilities": {
+        "A little more fair": 0.79,
+        "A little less fair": 0,
+        "No more or less fair": 0.12,
+        "A lot more fair": 0.09,
+        "A lot less fair": 0
+      },
+      "option_order": [
+        "da0a49ee-6fed-4914-9797-c9e2799d785c",
+        "4e2337c4-434d-47c6-8a11-e5399b7ca09a",
+        "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+        "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+        "198d82fd-3bb1-4cc4-a026-8cff42c2187e"
+      ]
+    },
+    {
+      "internal_id": "divrs_fair3",
+      "category": "Race & Diversity",
+      "question": "Do you think efforts to promote diversity in workplaces and schools have made society...",
+      "repeat": 4,
+      "chosen_uuid": "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+      "chosen_text": "A little more fair",
+      "points": -0.85478,
+      "confidence": 0.67,
+      "probabilities": {
+        "No more or less fair": 0.15,
+        "A little more fair": 0.73,
+        "A little less fair": 0.01,
+        "A lot more fair": 0.11,
+        "A lot less fair": 0
+      },
+      "option_order": [
+        "5abd96c2-7d55-4c59-8fa9-4626ab93ba52",
+        "da0a49ee-6fed-4914-9797-c9e2799d785c",
+        "4e2337c4-434d-47c6-8a11-e5399b7ca09a",
+        "88dfa0f5-1b99-4e0a-865b-1acf354971e1",
+        "198d82fd-3bb1-4cc4-a026-8cff42c2187e"
+      ]
+    },
+    {
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "repeat": 0,
+      "chosen_uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+      "chosen_text": "Some of the time",
+      "points": -0.21361,
+      "confidence": 0.21,
+      "probabilities": {
+        "Some of the time": 0.41,
+        "Most of the time": 0.23,
+        "Only now and then": 0.27,
+        "Hardly at all": 0.09
+      },
+      "option_order": [
+        "08a9939d-c199-44a7-9a9f-5821231baacf",
+        "7b4badd5-96bb-4c73-82f4-5fcef165f870",
+        "a703930c-d041-4b1f-9d9b-cb087fef884d",
+        "444c2af7-728b-4b03-9f4c-53ad20fa7cfc"
+      ]
+    },
+    {
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "repeat": 1,
+      "chosen_uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+      "chosen_text": "Some of the time",
+      "points": -0.21361,
+      "confidence": 0.16,
+      "probabilities": {
+        "Some of the time": 0.37,
+        "Most of the time": 0.2,
+        "Only now and then": 0.28,
+        "Hardly at all": 0.15
+      },
+      "option_order": [
+        "444c2af7-728b-4b03-9f4c-53ad20fa7cfc",
+        "a703930c-d041-4b1f-9d9b-cb087fef884d",
+        "7b4badd5-96bb-4c73-82f4-5fcef165f870",
+        "08a9939d-c199-44a7-9a9f-5821231baacf"
+      ]
+    },
+    {
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "repeat": 2,
+      "chosen_uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+      "chosen_text": "Some of the time",
+      "points": -0.21361,
+      "confidence": 0.23,
+      "probabilities": {
+        "Some of the time": 0.42,
+        "Hardly at all": 0.15,
+        "Most of the time": 0.2,
+        "Only now and then": 0.23
+      },
+      "option_order": [
+        "7b4badd5-96bb-4c73-82f4-5fcef165f870",
+        "08a9939d-c199-44a7-9a9f-5821231baacf",
+        "a703930c-d041-4b1f-9d9b-cb087fef884d",
+        "444c2af7-728b-4b03-9f4c-53ad20fa7cfc"
+      ]
+    },
+    {
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "repeat": 3,
+      "chosen_uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+      "chosen_text": "Some of the time",
+      "points": -0.21361,
+      "confidence": 0.14,
+      "probabilities": {
+        "Some of the time": 0.37,
+        "Only now and then": 0.18,
+        "Most of the time": 0.27,
+        "Hardly at all": 0.18
+      },
+      "option_order": [
+        "a703930c-d041-4b1f-9d9b-cb087fef884d",
+        "7b4badd5-96bb-4c73-82f4-5fcef165f870",
+        "444c2af7-728b-4b03-9f4c-53ad20fa7cfc",
+        "08a9939d-c199-44a7-9a9f-5821231baacf"
+      ]
+    },
+    {
+      "internal_id": "folgovalt",
+      "category": "Government",
+      "question": "Would you say you follow what's going on in government...",
+      "repeat": 4,
+      "chosen_uuid": "08a9939d-c199-44a7-9a9f-5821231baacf",
+      "chosen_text": "Some of the time",
+      "points": -0.21361,
+      "confidence": 0.46,
+      "probabilities": {
+        "Only now and then": 0.15,
+        "Hardly at all": 0.11,
+        "Some of the time": 0.59,
+        "Most of the time": 0.15
+      },
+      "option_order": [
+        "444c2af7-728b-4b03-9f4c-53ad20fa7cfc",
+        "08a9939d-c199-44a7-9a9f-5821231baacf",
+        "a703930c-d041-4b1f-9d9b-cb087fef884d",
+        "7b4badd5-96bb-4c73-82f4-5fcef165f870"
+      ]
+    },
+    {
+      "internal_id": "finagency",
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "repeat": 0,
+      "chosen_uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+      "chosen_text": "A fair amount",
+      "points": 0.160175,
+      "confidence": 0.62,
+      "probabilities": {
+        "A fair amount": 0.72,
+        "Not too much": 0.04,
+        "A great deal": 0.24,
+        "None at all": 0
+      },
+      "option_order": [
+        "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+        "57edbc73-c364-4704-8fa9-7cc05c6d8100",
+        "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+        "2ca927f4-4851-4156-b233-5725b3043292"
+      ]
+    },
+    {
+      "internal_id": "finagency",
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "repeat": 1,
+      "chosen_uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+      "chosen_text": "A fair amount",
+      "points": 0.160175,
+      "confidence": 0.58,
+      "probabilities": {
+        "A fair amount": 0.69,
+        "A great deal": 0.27,
+        "Not too much": 0.04,
+        "None at all": 0
+      },
+      "option_order": [
+        "57edbc73-c364-4704-8fa9-7cc05c6d8100",
+        "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+        "2ca927f4-4851-4156-b233-5725b3043292",
+        "a54d26df-362c-4b17-b6ec-aae51a5c8caf"
+      ]
+    },
+    {
+      "internal_id": "finagency",
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "repeat": 2,
+      "chosen_uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+      "chosen_text": "A fair amount",
+      "points": 0.160175,
+      "confidence": 0.39,
+      "probabilities": {
+        "Not too much": 0.04,
+        "A fair amount": 0.55,
+        "A great deal": 0.41,
+        "None at all": 0
+      },
+      "option_order": [
+        "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+        "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+        "2ca927f4-4851-4156-b233-5725b3043292",
+        "57edbc73-c364-4704-8fa9-7cc05c6d8100"
+      ]
+    },
+    {
+      "internal_id": "finagency",
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "repeat": 3,
+      "chosen_uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+      "chosen_text": "A fair amount",
+      "points": 0.160175,
+      "confidence": 0.46,
+      "probabilities": {
+        "None at all": 0,
+        "Not too much": 0.05,
+        "A fair amount": 0.59,
+        "A great deal": 0.36
+      },
+      "option_order": [
+        "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+        "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+        "57edbc73-c364-4704-8fa9-7cc05c6d8100",
+        "2ca927f4-4851-4156-b233-5725b3043292"
+      ]
+    },
+    {
+      "internal_id": "finagency",
+      "category": "Economics",
+      "question": "How much personal control do you think most Americans have over how financially successful they will be in life?",
+      "repeat": 4,
+      "chosen_uuid": "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+      "chosen_text": "A fair amount",
+      "points": 0.160175,
+      "confidence": 0.46,
+      "probabilities": {
+        "A fair amount": 0.6,
+        "Not too much": 0.05,
+        "A great deal": 0.35,
+        "None at all": 0
+      },
+      "option_order": [
+        "a54d26df-362c-4b17-b6ec-aae51a5c8caf",
+        "57edbc73-c364-4704-8fa9-7cc05c6d8100",
+        "33ae5eba-dd27-4f2b-bf51-596d1f94e8d6",
+        "2ca927f4-4851-4156-b233-5725b3043292"
+      ]
+    },
+    {
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "repeat": 0,
+      "chosen_uuid": "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+      "chosen_text": "Extremely important",
+      "points": 1.315275,
+      "confidence": 0.39,
+      "probabilities": {
+        "Somewhat important": 0.04,
+        "Not at all important": 0.01,
+        "Extremely important": 0.51,
+        "Not too important": 0.01,
+        "Very important": 0.43
+      },
+      "option_order": [
+        "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+        "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+        "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+        "8a5ed183-0a5d-42f7-9769-de6bb1b871e1",
+        "9729e101-281d-4859-84f9-356cd31ab7ec"
+      ]
+    },
+    {
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "repeat": 1,
+      "chosen_uuid": "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+      "chosen_text": "Very important",
+      "points": 0.469847,
+      "confidence": 0.37,
+      "probabilities": {
+        "Extremely important": 0.46,
+        "Somewhat important": 0.02,
+        "Very important": 0.5,
+        "Not at all important": 0.01,
+        "Not too important": 0.01
+      },
+      "option_order": [
+        "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+        "9729e101-281d-4859-84f9-356cd31ab7ec",
+        "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+        "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+        "8a5ed183-0a5d-42f7-9769-de6bb1b871e1"
+      ]
+    },
+    {
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "repeat": 2,
+      "chosen_uuid": "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+      "chosen_text": "Extremely important",
+      "points": 1.315275,
+      "confidence": 0.54,
+      "probabilities": {
+        "Very important": 0.31,
+        "Extremely important": 0.63,
+        "Not too important": 0.01,
+        "Not at all important": 0.01,
+        "Somewhat important": 0.04
+      },
+      "option_order": [
+        "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+        "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+        "8a5ed183-0a5d-42f7-9769-de6bb1b871e1",
+        "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+        "9729e101-281d-4859-84f9-356cd31ab7ec"
+      ]
+    },
+    {
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "repeat": 3,
+      "chosen_uuid": "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+      "chosen_text": "Extremely important",
+      "points": 1.315275,
+      "confidence": 0.47,
+      "probabilities": {
+        "Extremely important": 0.58,
+        "Not too important": 0.01,
+        "Not at all important": 0.01,
+        "Somewhat important": 0.04,
+        "Very important": 0.36
+      },
+      "option_order": [
+        "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+        "9729e101-281d-4859-84f9-356cd31ab7ec",
+        "8a5ed183-0a5d-42f7-9769-de6bb1b871e1",
+        "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+        "e6fea68f-a46a-4ecd-b7c2-7104eca806bc"
+      ]
+    },
+    {
+      "internal_id": "nationid_cap",
+      "category": "Economics",
+      "question": "How important is it for the United States to… Have an economic system based on capitalism",
+      "repeat": 4,
+      "chosen_uuid": "573fd6a5-1e56-45f9-98b9-8484afc8d3f9",
+      "chosen_text": "Very important",
+      "points": 0.469847,
+      "confidence": 0.43,
+      "probabilities": {
+        "Very important": 0.54,
+        "Extremely important": 0.41,
+        "Not too important": 0.01,
+        "Not at all important": 0.01,
+        "Somewhat important": 0.03
+      },
+      "option_order": [
+        "8a5ed183-0a5d-42f7-9769-de6bb1b871e1",
+        "9729e101-281d-4859-84f9-356cd31ab7ec",
+        "e6fea68f-a46a-4ecd-b7c2-7104eca806bc",
+        "7e15c393-5fe1-41e7-bfd6-5395fb036253",
+        "573fd6a5-1e56-45f9-98b9-8484afc8d3f9"
+      ]
+    },
+    {
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "repeat": 0,
+      "chosen_uuid": "d495005f-7ad5-4071-8eec-ff87d4288109",
+      "chosen_text": "Very important",
+      "points": 1.003858,
+      "confidence": 0.14,
+      "probabilities": {
+        "Not at all important": 0.18,
+        "Somewhat important": 0.29,
+        "Very important": 0.3,
+        "Extremely important": 0.12,
+        "Not too important": 0.11
+      },
+      "option_order": [
+        "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+        "d495005f-7ad5-4071-8eec-ff87d4288109",
+        "6181dea4-6123-4d44-a85e-0c388d58d598",
+        "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7",
+        "b6c02190-9127-46f6-9f9d-dea8f39f7163"
+      ]
+    },
+    {
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "repeat": 1,
+      "chosen_uuid": "d495005f-7ad5-4071-8eec-ff87d4288109",
+      "chosen_text": "Very important",
+      "points": 1.003858,
+      "confidence": 0.15,
+      "probabilities": {
+        "Not at all important": 0.17,
+        "Somewhat important": 0.28,
+        "Very important": 0.32,
+        "Extremely important": 0.12,
+        "Not too important": 0.11
+      },
+      "option_order": [
+        "d495005f-7ad5-4071-8eec-ff87d4288109",
+        "6181dea4-6123-4d44-a85e-0c388d58d598",
+        "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+        "b6c02190-9127-46f6-9f9d-dea8f39f7163",
+        "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7"
+      ]
+    },
+    {
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "repeat": 2,
+      "chosen_uuid": "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+      "chosen_text": "Somewhat important",
+      "points": 0.149891,
+      "confidence": 0.08,
+      "probabilities": {
+        "Not too important": 0.13,
+        "Somewhat important": 0.26,
+        "Very important": 0.26,
+        "Extremely important": 0.15,
+        "Not at all important": 0.2
+      },
+      "option_order": [
+        "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+        "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7",
+        "6181dea4-6123-4d44-a85e-0c388d58d598",
+        "b6c02190-9127-46f6-9f9d-dea8f39f7163",
+        "d495005f-7ad5-4071-8eec-ff87d4288109"
+      ]
+    },
+    {
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "repeat": 3,
+      "chosen_uuid": "d495005f-7ad5-4071-8eec-ff87d4288109",
+      "chosen_text": "Very important",
+      "points": 1.003858,
+      "confidence": 0.17,
+      "probabilities": {
+        "Not too important": 0.11,
+        "Extremely important": 0.13,
+        "Somewhat important": 0.26,
+        "Not at all important": 0.17,
+        "Very important": 0.33
+      },
+      "option_order": [
+        "6181dea4-6123-4d44-a85e-0c388d58d598",
+        "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7",
+        "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+        "b6c02190-9127-46f6-9f9d-dea8f39f7163",
+        "d495005f-7ad5-4071-8eec-ff87d4288109"
+      ]
+    },
+    {
+      "internal_id": "nationid_chrstn3",
+      "category": "Gender, Religion & Society",
+      "question": "How important is it for the United States to… Have a culture based in Christian religious beliefs",
+      "repeat": 4,
+      "chosen_uuid": "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+      "chosen_text": "Somewhat important",
+      "points": 0.149891,
+      "confidence": 0.15,
+      "probabilities": {
+        "Not too important": 0.11,
+        "Very important": 0.29,
+        "Not at all important": 0.18,
+        "Extremely important": 0.1,
+        "Somewhat important": 0.32
+      },
+      "option_order": [
+        "1b1af8f1-c5e1-44e8-8621-95f06d1ab1ca",
+        "d495005f-7ad5-4071-8eec-ff87d4288109",
+        "b6c02190-9127-46f6-9f9d-dea8f39f7163",
+        "6181dea4-6123-4d44-a85e-0c388d58d598",
+        "0ee0c2a3-7aed-4586-a8d2-f1515edb22b7"
+      ]
+    },
+    {
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "repeat": 0,
+      "chosen_uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+      "chosen_text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "points": -0.72551,
+      "confidence": 0.61,
+      "probabilities": {
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.81,
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.19
+      },
+      "option_order": [
+        "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+        "0568710f-2971-4c19-8fb5-3e4441cb0a9b"
+      ]
+    },
+    {
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "repeat": 1,
+      "chosen_uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+      "chosen_text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "points": -0.72551,
+      "confidence": 0.62,
+      "probabilities": {
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.19,
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.81
+      },
+      "option_order": [
+        "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+        "0568710f-2971-4c19-8fb5-3e4441cb0a9b"
+      ]
+    },
+    {
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "repeat": 2,
+      "chosen_uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+      "chosen_text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "points": -0.72551,
+      "confidence": 0.69,
+      "probabilities": {
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.84,
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.16
+      },
+      "option_order": [
+        "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+        "0568710f-2971-4c19-8fb5-3e4441cb0a9b"
+      ]
+    },
+    {
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "repeat": 3,
+      "chosen_uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+      "chosen_text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "points": -0.72551,
+      "confidence": 0.74,
+      "probabilities": {
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.87,
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.13
+      },
+      "option_order": [
+        "0568710f-2971-4c19-8fb5-3e4441cb0a9b",
+        "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94"
+      ]
+    },
+    {
+      "internal_id": "allies",
+      "category": "Foreign Policy",
+      "question": "Which statement about foreign policy comes closest to your view?",
+      "repeat": 4,
+      "chosen_uuid": "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+      "chosen_text": "The U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "points": -0.72551,
+      "confidence": 0.69,
+      "probabilities": {
+        "The U.S. should take into account the interests of its allies even if it means making compromises with them": 0.84,
+        "The U.S. should follow its own national interests even when its allies strongly disagree": 0.16
+      },
+      "option_order": [
+        "9d30dd3b-4b74-40e1-8bf9-9ca3d51edc94",
+        "0568710f-2971-4c19-8fb5-3e4441cb0a9b"
+      ]
+    },
+    {
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "repeat": 0,
+      "chosen_uuid": "74578703-f6e0-45f1-a566-989014c5934a",
+      "chosen_text": "Very comfortable",
+      "points": -1.20376,
+      "confidence": 0.39,
+      "probabilities": {
+        "Somewhat comfortable": 0.09,
+        "Extremely comfortable": 0.37,
+        "Very comfortable": 0.51,
+        "Not at all comfortable": 0.02,
+        "Not too comfortable": 0.01
+      },
+      "option_order": [
+        "26ef099b-4b21-40ff-a707-bad19835c632",
+        "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+        "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171",
+        "52b6d5e8-2726-4861-9d62-6b6732ce5a23",
+        "74578703-f6e0-45f1-a566-989014c5934a"
+      ]
+    },
+    {
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "repeat": 1,
+      "chosen_uuid": "74578703-f6e0-45f1-a566-989014c5934a",
+      "chosen_text": "Very comfortable",
+      "points": -1.20376,
+      "confidence": 0.39,
+      "probabilities": {
+        "Extremely comfortable": 0.38,
+        "Somewhat comfortable": 0.09,
+        "Not at all comfortable": 0.01,
+        "Not too comfortable": 0.01,
+        "Very comfortable": 0.51
+      },
+      "option_order": [
+        "26ef099b-4b21-40ff-a707-bad19835c632",
+        "74578703-f6e0-45f1-a566-989014c5934a",
+        "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171",
+        "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+        "52b6d5e8-2726-4861-9d62-6b6732ce5a23"
+      ]
+    },
+    {
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "repeat": 2,
+      "chosen_uuid": "74578703-f6e0-45f1-a566-989014c5934a",
+      "chosen_text": "Very comfortable",
+      "points": -1.20376,
+      "confidence": 0.49,
+      "probabilities": {
+        "Not too comfortable": 0.01,
+        "Somewhat comfortable": 0.07,
+        "Very comfortable": 0.59,
+        "Not at all comfortable": 0.01,
+        "Extremely comfortable": 0.32
+      },
+      "option_order": [
+        "74578703-f6e0-45f1-a566-989014c5934a",
+        "26ef099b-4b21-40ff-a707-bad19835c632",
+        "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+        "52b6d5e8-2726-4861-9d62-6b6732ce5a23",
+        "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171"
+      ]
+    },
+    {
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "repeat": 3,
+      "chosen_uuid": "74578703-f6e0-45f1-a566-989014c5934a",
+      "chosen_text": "Very comfortable",
+      "points": -1.20376,
+      "confidence": 0.4,
+      "probabilities": {
+        "Not at all comfortable": 0.01,
+        "Not too comfortable": 0.01,
+        "Very comfortable": 0.51,
+        "Somewhat comfortable": 0.11,
+        "Extremely comfortable": 0.36
+      },
+      "option_order": [
+        "74578703-f6e0-45f1-a566-989014c5934a",
+        "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171",
+        "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+        "26ef099b-4b21-40ff-a707-bad19835c632",
+        "52b6d5e8-2726-4861-9d62-6b6732ce5a23"
+      ]
+    },
+    {
+      "internal_id": "comfort_pronouns3",
+      "category": "Gender, Religion & Society",
+      "question": "How comfortable are you with someone using the pronouns “they/them” instead of “he” or “she” to describe themselves?",
+      "repeat": 4,
+      "chosen_uuid": "52b6d5e8-2726-4861-9d62-6b6732ce5a23",
+      "chosen_text": "Extremely comfortable",
+      "points": -1.65241,
+      "confidence": 0.51,
+      "probabilities": {
+        "Extremely comfortable": 0.61,
+        "Not too comfortable": 0.01,
+        "Very comfortable": 0.33,
+        "Somewhat comfortable": 0.04,
+        "Not at all comfortable": 0.01
+      },
+      "option_order": [
+        "52b6d5e8-2726-4861-9d62-6b6732ce5a23",
+        "31cebb2c-f74f-4d2a-ae3e-0d38d9cb6171",
+        "1f83608b-9a5c-4fe1-ad1b-72edee13983b",
+        "74578703-f6e0-45f1-a566-989014c5934a",
+        "26ef099b-4b21-40ff-a707-bad19835c632"
+      ]
+    },
+    {
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 0,
+      "chosen_uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+      "chosen_text": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "points": -0.7505,
+      "confidence": 0.93,
+      "probabilities": {
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.96,
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.04
+      },
+      "option_order": [
+        "8466281f-f02f-485d-8152-f8fe7625263c",
+        "1501acf1-8c17-4c2c-8ba6-86a911491149"
+      ]
+    },
+    {
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 1,
+      "chosen_uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+      "chosen_text": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "points": -0.7505,
+      "confidence": 0.94,
+      "probabilities": {
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.03,
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.97
+      },
+      "option_order": [
+        "8466281f-f02f-485d-8152-f8fe7625263c",
+        "1501acf1-8c17-4c2c-8ba6-86a911491149"
+      ]
+    },
+    {
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 2,
+      "chosen_uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+      "chosen_text": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "points": -0.7505,
+      "confidence": 0.81,
+      "probabilities": {
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.1,
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.9
+      },
+      "option_order": [
+        "1501acf1-8c17-4c2c-8ba6-86a911491149",
+        "8466281f-f02f-485d-8152-f8fe7625263c"
+      ]
+    },
+    {
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 3,
+      "chosen_uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+      "chosen_text": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "points": -0.7505,
+      "confidence": 0.81,
+      "probabilities": {
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.91,
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.09
+      },
+      "option_order": [
+        "1501acf1-8c17-4c2c-8ba6-86a911491149",
+        "8466281f-f02f-485d-8152-f8fe7625263c"
+      ]
+    },
+    {
+      "internal_id": "openiden",
+      "category": "Race & Diversity",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 4,
+      "chosen_uuid": "1501acf1-8c17-4c2c-8ba6-86a911491149",
+      "chosen_text": "America’s openness to people from all over the world is essential to who we are as a nation",
+      "points": -0.7505,
+      "confidence": 0.94,
+      "probabilities": {
+        "America’s openness to people from all over the world is essential to who we are as a nation": 0.97,
+        "If America is too open to people from all over the world, we risk losing our identity as a nation": 0.03
+      },
+      "option_order": [
+        "8466281f-f02f-485d-8152-f8fe7625263c",
+        "1501acf1-8c17-4c2c-8ba6-86a911491149"
+      ]
+    },
+    {
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "repeat": 0,
+      "chosen_uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+      "chosen_text": "About the same amount of harm and good",
+      "points": -0.04156,
+      "confidence": 0.45,
+      "probabilities": {
+        "More good than harm": 0.31,
+        "More harm than good": 0.05,
+        "About the same amount of harm and good": 0.64
+      },
+      "option_order": [
+        "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+        "64c66064-8d3f-45e6-a327-7bd519373732",
+        "0577127c-66b4-4ab1-b6e7-e88c35ec9644"
+      ]
+    },
+    {
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "repeat": 1,
+      "chosen_uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+      "chosen_text": "About the same amount of harm and good",
+      "points": -0.04156,
+      "confidence": 0.49,
+      "probabilities": {
+        "More harm than good": 0.05,
+        "About the same amount of harm and good": 0.66,
+        "More good than harm": 0.29
+      },
+      "option_order": [
+        "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+        "0577127c-66b4-4ab1-b6e7-e88c35ec9644",
+        "64c66064-8d3f-45e6-a327-7bd519373732"
+      ]
+    },
+    {
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "repeat": 2,
+      "chosen_uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+      "chosen_text": "About the same amount of harm and good",
+      "points": -0.04156,
+      "confidence": 0.46,
+      "probabilities": {
+        "More harm than good": 0.05,
+        "More good than harm": 0.31,
+        "About the same amount of harm and good": 0.64
+      },
+      "option_order": [
+        "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+        "0577127c-66b4-4ab1-b6e7-e88c35ec9644",
+        "64c66064-8d3f-45e6-a327-7bd519373732"
+      ]
+    },
+    {
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "repeat": 3,
+      "chosen_uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+      "chosen_text": "About the same amount of harm and good",
+      "points": -0.04156,
+      "confidence": 0.45,
+      "probabilities": {
+        "More good than harm": 0.3,
+        "More harm than good": 0.06,
+        "About the same amount of harm and good": 0.64
+      },
+      "option_order": [
+        "0577127c-66b4-4ab1-b6e7-e88c35ec9644",
+        "64c66064-8d3f-45e6-a327-7bd519373732",
+        "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea"
+      ]
+    },
+    {
+      "internal_id": "regulatemod",
+      "category": "Economics",
+      "question": "Do you think government regulation of business does...",
+      "repeat": 4,
+      "chosen_uuid": "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+      "chosen_text": "About the same amount of harm and good",
+      "points": -0.04156,
+      "confidence": 0.54,
+      "probabilities": {
+        "More good than harm": 0.27,
+        "About the same amount of harm and good": 0.69,
+        "More harm than good": 0.04
+      },
+      "option_order": [
+        "64c66064-8d3f-45e6-a327-7bd519373732",
+        "b6e9ccce-a50b-417b-8ec0-2fd5b67ce4ea",
+        "0577127c-66b4-4ab1-b6e7-e88c35ec9644"
+      ]
+    },
+    {
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "repeat": 0,
+      "chosen_uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+      "chosen_text": "A great deal",
+      "points": -1.20424,
+      "confidence": 0.92,
+      "probabilities": {
+        "Not much": 0,
+        "A fair amount": 0.05,
+        "A great deal": 0.95,
+        "Not at all": 0
+      },
+      "option_order": [
+        "9879f296-e63b-48d6-9404-90695769eed4",
+        "f6e84c0f-4d0b-44c6-aae3-124bad7ec623",
+        "e5ab5715-ae0d-4952-92b7-e36291831a63",
+        "9a1dc3ad-2060-49ce-8126-298d654e5506"
+      ]
+    },
+    {
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "repeat": 1,
+      "chosen_uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+      "chosen_text": "A great deal",
+      "points": -1.20424,
+      "confidence": 0.95,
+      "probabilities": {
+        "A fair amount": 0.03,
+        "Not at all": 0,
+        "Not much": 0,
+        "A great deal": 0.97
+      },
+      "option_order": [
+        "9a1dc3ad-2060-49ce-8126-298d654e5506",
+        "9879f296-e63b-48d6-9404-90695769eed4",
+        "f6e84c0f-4d0b-44c6-aae3-124bad7ec623",
+        "e5ab5715-ae0d-4952-92b7-e36291831a63"
+      ]
+    },
+    {
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "repeat": 2,
+      "chosen_uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+      "chosen_text": "A great deal",
+      "points": -1.20424,
+      "confidence": 0.92,
+      "probabilities": {
+        "Not at all": 0.01,
+        "Not much": 0,
+        "A fair amount": 0.05,
+        "A great deal": 0.94
+      },
+      "option_order": [
+        "f6e84c0f-4d0b-44c6-aae3-124bad7ec623",
+        "e5ab5715-ae0d-4952-92b7-e36291831a63",
+        "9879f296-e63b-48d6-9404-90695769eed4",
+        "9a1dc3ad-2060-49ce-8126-298d654e5506"
+      ]
+    },
+    {
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "repeat": 3,
+      "chosen_uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+      "chosen_text": "A great deal",
+      "points": -1.20424,
+      "confidence": 0.91,
+      "probabilities": {
+        "A great deal": 0.94,
+        "A fair amount": 0.06,
+        "Not much": 0,
+        "Not at all": 0
+      },
+      "option_order": [
+        "e5ab5715-ae0d-4952-92b7-e36291831a63",
+        "9879f296-e63b-48d6-9404-90695769eed4",
+        "9a1dc3ad-2060-49ce-8126-298d654e5506",
+        "f6e84c0f-4d0b-44c6-aae3-124bad7ec623"
+      ]
+    },
+    {
+      "internal_id": "racesurv17",
+      "category": "Race & Diversity",
+      "question": "How much do you think the legacy of slavery affects the position of Black people in American society today?",
+      "repeat": 4,
+      "chosen_uuid": "e5ab5715-ae0d-4952-92b7-e36291831a63",
+      "chosen_text": "A great deal",
+      "points": -1.20424,
+      "confidence": 0.93,
+      "probabilities": {
+        "Not much": 0,
+        "A fair amount": 0.04,
+        "A great deal": 0.96,
+        "Not at all": 0
+      },
+      "option_order": [
+        "9a1dc3ad-2060-49ce-8126-298d654e5506",
+        "e5ab5715-ae0d-4952-92b7-e36291831a63",
+        "9879f296-e63b-48d6-9404-90695769eed4",
+        "f6e84c0f-4d0b-44c6-aae3-124bad7ec623"
+      ]
+    },
+    {
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "repeat": 0,
+      "chosen_uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+      "chosen_text": "Like it a little",
+      "points": 1.233721,
+      "confidence": 0.2,
+      "probabilities": {
+        "Like it a lot": 0.16,
+        "Like it a little": 0.4,
+        "Dislike it a lot": 0.18,
+        "Dislike it a little": 0.26
+      },
+      "option_order": [
+        "a471065f-a3fb-4cb1-933b-4496edb0c824",
+        "eb7f5a2a-a17d-4efb-bf7b-ad976d197252",
+        "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+        "6a56b9a3-b994-4880-8677-1dba5eabf605"
+      ]
+    },
+    {
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "repeat": 1,
+      "chosen_uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+      "chosen_text": "Like it a little",
+      "points": 1.233721,
+      "confidence": 0.17,
+      "probabilities": {
+        "Like it a little": 0.38,
+        "Dislike it a little": 0.32,
+        "Dislike it a lot": 0.17,
+        "Like it a lot": 0.13
+      },
+      "option_order": [
+        "6a56b9a3-b994-4880-8677-1dba5eabf605",
+        "eb7f5a2a-a17d-4efb-bf7b-ad976d197252",
+        "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+        "a471065f-a3fb-4cb1-933b-4496edb0c824"
+      ]
+    },
+    {
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "repeat": 2,
+      "chosen_uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+      "chosen_text": "Like it a little",
+      "points": 1.233721,
+      "confidence": 0.11,
+      "probabilities": {
+        "Like it a lot": 0.19,
+        "Dislike it a little": 0.28,
+        "Dislike it a lot": 0.2,
+        "Like it a little": 0.33
+      },
+      "option_order": [
+        "a471065f-a3fb-4cb1-933b-4496edb0c824",
+        "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+        "6a56b9a3-b994-4880-8677-1dba5eabf605",
+        "eb7f5a2a-a17d-4efb-bf7b-ad976d197252"
+      ]
+    },
+    {
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "repeat": 3,
+      "chosen_uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+      "chosen_text": "Like it a little",
+      "points": 1.233721,
+      "confidence": 0.1,
+      "probabilities": {
+        "Dislike it a little": 0.28,
+        "Like it a lot": 0.1,
+        "Dislike it a lot": 0.29,
+        "Like it a little": 0.33
+      },
+      "option_order": [
+        "6a56b9a3-b994-4880-8677-1dba5eabf605",
+        "a471065f-a3fb-4cb1-933b-4496edb0c824",
+        "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+        "eb7f5a2a-a17d-4efb-bf7b-ad976d197252"
+      ]
+    },
+    {
+      "internal_id": "humil_opp",
+      "category": "Other Issues",
+      "question": "When politicians you agree with humiliate their political opponents, do you...",
+      "repeat": 4,
+      "chosen_uuid": "6a56b9a3-b994-4880-8677-1dba5eabf605",
+      "chosen_text": "Like it a little",
+      "points": 1.233721,
+      "confidence": 0.08,
+      "probabilities": {
+        "Like it a lot": 0.12,
+        "Like it a little": 0.31,
+        "Dislike it a lot": 0.29,
+        "Dislike it a little": 0.28
+      },
+      "option_order": [
+        "6a56b9a3-b994-4880-8677-1dba5eabf605",
+        "a471065f-a3fb-4cb1-933b-4496edb0c824",
+        "b70f865e-2a65-4528-ad20-5a2a54a8ce48",
+        "eb7f5a2a-a17d-4efb-bf7b-ad976d197252"
+      ]
+    },
+    {
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 0,
+      "chosen_uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+      "chosen_text": "Religion should be kept separate from government policies",
+      "points": -0.59245,
+      "confidence": 0.96,
+      "probabilities": {
+        "Religion should be kept separate from government policies": 0.98,
+        "Government policies should support religious values and beliefs": 0.02
+      },
+      "option_order": [
+        "3d7f35be-d10c-4238-948e-ea475a2fcb32",
+        "537aab26-31ee-4963-bdfc-a6646df661c6"
+      ]
+    },
+    {
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 1,
+      "chosen_uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+      "chosen_text": "Religion should be kept separate from government policies",
+      "points": -0.59245,
+      "confidence": 0.95,
+      "probabilities": {
+        "Government policies should support religious values and beliefs": 0.03,
+        "Religion should be kept separate from government policies": 0.97
+      },
+      "option_order": [
+        "537aab26-31ee-4963-bdfc-a6646df661c6",
+        "3d7f35be-d10c-4238-948e-ea475a2fcb32"
+      ]
+    },
+    {
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 2,
+      "chosen_uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+      "chosen_text": "Religion should be kept separate from government policies",
+      "points": -0.59245,
+      "confidence": 0.96,
+      "probabilities": {
+        "Religion should be kept separate from government policies": 0.98,
+        "Government policies should support religious values and beliefs": 0.02
+      },
+      "option_order": [
+        "3d7f35be-d10c-4238-948e-ea475a2fcb32",
+        "537aab26-31ee-4963-bdfc-a6646df661c6"
+      ]
+    },
+    {
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 3,
+      "chosen_uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+      "chosen_text": "Religion should be kept separate from government policies",
+      "points": -0.59245,
+      "confidence": 0.96,
+      "probabilities": {
+        "Religion should be kept separate from government policies": 0.98,
+        "Government policies should support religious values and beliefs": 0.02
+      },
+      "option_order": [
+        "3d7f35be-d10c-4238-948e-ea475a2fcb32",
+        "537aab26-31ee-4963-bdfc-a6646df661c6"
+      ]
+    },
+    {
+      "internal_id": "relrole_gov",
+      "category": "Gender, Religion & Society",
+      "question": "Which statement comes closest to your view?",
+      "repeat": 4,
+      "chosen_uuid": "537aab26-31ee-4963-bdfc-a6646df661c6",
+      "chosen_text": "Religion should be kept separate from government policies",
+      "points": -0.59245,
+      "confidence": 0.94,
+      "probabilities": {
+        "Religion should be kept separate from government policies": 0.97,
+        "Government policies should support religious values and beliefs": 0.03
+      },
+      "option_order": [
+        "537aab26-31ee-4963-bdfc-a6646df661c6",
+        "3d7f35be-d10c-4238-948e-ea475a2fcb32"
+      ]
+    },
+    {
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "repeat": 0,
+      "chosen_uuid": "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+      "chosen_text": "Somewhat fairly",
+      "points": -0.199288,
+      "confidence": 0.39,
+      "probabilities": {
+        "Somewhat fairly": 0.51,
+        "Very fairly": 0.02,
+        "Not at all fairly": 0.14,
+        "Not too fairly": 0.32,
+        "Extremely fairly": 0.01
+      },
+      "option_order": [
+        "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+        "75ae99d3-4e86-46d1-9b3d-6fa799475285",
+        "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+        "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+        "42a3e989-1dfb-40f4-bfb0-9b24ad66b196"
+      ]
+    },
+    {
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "repeat": 1,
+      "chosen_uuid": "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+      "chosen_text": "Not too fairly",
+      "points": 1.08483,
+      "confidence": 0.34,
+      "probabilities": {
+        "Not too fairly": 0.45999999999999996,
+        "Not at all fairly": 0.09,
+        "Extremely fairly": 0.01,
+        "Somewhat fairly": 0.41,
+        "Very fairly": 0.03
+      },
+      "option_order": [
+        "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+        "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+        "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+        "75ae99d3-4e86-46d1-9b3d-6fa799475285",
+        "42a3e989-1dfb-40f4-bfb0-9b24ad66b196"
+      ]
+    },
+    {
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "repeat": 2,
+      "chosen_uuid": "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+      "chosen_text": "Somewhat fairly",
+      "points": -0.199288,
+      "confidence": 0.49,
+      "probabilities": {
+        "Very fairly": 0.03,
+        "Extremely fairly": 0.01,
+        "Not at all fairly": 0.08,
+        "Somewhat fairly": 0.6,
+        "Not too fairly": 0.28
+      },
+      "option_order": [
+        "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+        "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+        "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+        "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+        "75ae99d3-4e86-46d1-9b3d-6fa799475285"
+      ]
+    },
+    {
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "repeat": 3,
+      "chosen_uuid": "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+      "chosen_text": "Somewhat fairly",
+      "points": -0.199288,
+      "confidence": 0.27,
+      "probabilities": {
+        "Not too fairly": 0.39,
+        "Not at all fairly": 0.15,
+        "Extremely fairly": 0.01,
+        "Somewhat fairly": 0.43,
+        "Very fairly": 0.02
+      },
+      "option_order": [
+        "75ae99d3-4e86-46d1-9b3d-6fa799475285",
+        "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+        "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+        "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+        "42a3e989-1dfb-40f4-bfb0-9b24ad66b196"
+      ]
+    },
+    {
+      "internal_id": "cntryfair2_othusnet",
+      "category": "Foreign Policy",
+      "question": "Do you think other countries generally treat the U.S...",
+      "repeat": 4,
+      "chosen_uuid": "69658c33-1c0f-45a7-a57c-f5f9c629247b",
+      "chosen_text": "Not too fairly",
+      "points": 1.08483,
+      "confidence": 0.34,
+      "probabilities": {
+        "Somewhat fairly": 0.37,
+        "Not too fairly": 0.47,
+        "Very fairly": 0.03,
+        "Not at all fairly": 0.13,
+        "Extremely fairly": 0
+      },
+      "option_order": [
+        "42a3e989-1dfb-40f4-bfb0-9b24ad66b196",
+        "f3dd8a3d-aa44-4c77-af19-3bfab74463aa",
+        "d3c2c61f-fb19-4ad9-bced-7142922053bd",
+        "75ae99d3-4e86-46d1-9b3d-6fa799475285",
+        "69658c33-1c0f-45a7-a57c-f5f9c629247b"
+      ]
+    },
+    {
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "repeat": 0,
+      "chosen_uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+      "chosen_text": "Major problem",
+      "points": 0.79678,
+      "confidence": 0.49,
+      "probabilities": {
+        "Minor problem": 0.25,
+        "Not a problem": 0.09,
+        "Major problem": 0.66
+      },
+      "option_order": [
+        "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+        "30181c03-9b2e-488d-99e4-02a53a282e38",
+        "e448fa8b-c328-487b-abe8-27a85f9222c1"
+      ]
+    },
+    {
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "repeat": 1,
+      "chosen_uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+      "chosen_text": "Major problem",
+      "points": 0.79678,
+      "confidence": 0.59,
+      "probabilities": {
+        "Not a problem": 0.08,
+        "Minor problem": 0.19,
+        "Major problem": 0.73
+      },
+      "option_order": [
+        "30181c03-9b2e-488d-99e4-02a53a282e38",
+        "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+        "e448fa8b-c328-487b-abe8-27a85f9222c1"
+      ]
+    },
+    {
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "repeat": 2,
+      "chosen_uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+      "chosen_text": "Major problem",
+      "points": 0.79678,
+      "confidence": 0.56,
+      "probabilities": {
+        "Major problem": 0.7,
+        "Minor problem": 0.2,
+        "Not a problem": 0.1
+      },
+      "option_order": [
+        "30181c03-9b2e-488d-99e4-02a53a282e38",
+        "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+        "e448fa8b-c328-487b-abe8-27a85f9222c1"
+      ]
+    },
+    {
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "repeat": 3,
+      "chosen_uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+      "chosen_text": "Major problem",
+      "points": 0.79678,
+      "confidence": 0.54,
+      "probabilities": {
+        "Minor problem": 0.23,
+        "Not a problem": 0.08,
+        "Major problem": 0.69
+      },
+      "option_order": [
+        "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+        "e448fa8b-c328-487b-abe8-27a85f9222c1",
+        "30181c03-9b2e-488d-99e4-02a53a282e38"
+      ]
+    },
+    {
+      "internal_id": "proboff_off",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People being too easily offended by things others say",
+      "repeat": 4,
+      "chosen_uuid": "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+      "chosen_text": "Major problem",
+      "points": 0.79678,
+      "confidence": 0.53,
+      "probabilities": {
+        "Not a problem": 0.1,
+        "Minor problem": 0.21,
+        "Major problem": 0.69
+      },
+      "option_order": [
+        "30181c03-9b2e-488d-99e4-02a53a282e38",
+        "5962604d-9ffe-4c51-a0d7-65f2b92270bd",
+        "e448fa8b-c328-487b-abe8-27a85f9222c1"
+      ]
+    },
+    {
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "repeat": 0,
+      "chosen_uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+      "chosen_text": "Major problem",
+      "points": -0.91253,
+      "confidence": 0.89,
+      "probabilities": {
+        "Not a problem": 0.02,
+        "Minor problem": 0.06,
+        "Major problem": 0.92
+      },
+      "option_order": [
+        "77069db3-77ce-47bd-af3a-12f47ac14e99",
+        "a509429a-eb12-44ec-9c25-8952a684e20c",
+        "5132c57a-b246-4404-bf13-cf50ca955c43"
+      ]
+    },
+    {
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "repeat": 1,
+      "chosen_uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+      "chosen_text": "Major problem",
+      "points": -0.91253,
+      "confidence": 0.87,
+      "probabilities": {
+        "Not a problem": 0.01,
+        "Major problem": 0.91,
+        "Minor problem": 0.08
+      },
+      "option_order": [
+        "5132c57a-b246-4404-bf13-cf50ca955c43",
+        "77069db3-77ce-47bd-af3a-12f47ac14e99",
+        "a509429a-eb12-44ec-9c25-8952a684e20c"
+      ]
+    },
+    {
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "repeat": 2,
+      "chosen_uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+      "chosen_text": "Major problem",
+      "points": -0.91253,
+      "confidence": 0.84,
+      "probabilities": {
+        "Minor problem": 0.09,
+        "Not a problem": 0.02,
+        "Major problem": 0.89
+      },
+      "option_order": [
+        "a509429a-eb12-44ec-9c25-8952a684e20c",
+        "5132c57a-b246-4404-bf13-cf50ca955c43",
+        "77069db3-77ce-47bd-af3a-12f47ac14e99"
+      ]
+    },
+    {
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "repeat": 3,
+      "chosen_uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+      "chosen_text": "Major problem",
+      "points": -0.91253,
+      "confidence": 0.89,
+      "probabilities": {
+        "Major problem": 0.92,
+        "Not a problem": 0.01,
+        "Minor problem": 0.07
+      },
+      "option_order": [
+        "5132c57a-b246-4404-bf13-cf50ca955c43",
+        "77069db3-77ce-47bd-af3a-12f47ac14e99",
+        "a509429a-eb12-44ec-9c25-8952a684e20c"
+      ]
+    },
+    {
+      "internal_id": "proboff_say",
+      "category": "Other Issues",
+      "question": "How much of a problem is each of the following in the country today? People saying things that are very offensive to others",
+      "repeat": 4,
+      "chosen_uuid": "77069db3-77ce-47bd-af3a-12f47ac14e99",
+      "chosen_text": "Major problem",
+      "points": -0.91253,
+      "confidence": 0.87,
+      "probabilities": {
+        "Minor problem": 0.08,
+        "Major problem": 0.91,
+        "Not a problem": 0.01
+      },
+      "option_order": [
+        "5132c57a-b246-4404-bf13-cf50ca955c43",
+        "a509429a-eb12-44ec-9c25-8952a684e20c",
+        "77069db3-77ce-47bd-af3a-12f47ac14e99"
+      ]
+    },
+    {
+      "internal_id": "poorassist",
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "repeat": 0,
+      "chosen_uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+      "chosen_text": "Is providing about the right amount of assistance",
+      "points": 0.225554,
+      "confidence": 0.49,
+      "probabilities": {
+        "Should provide less assistance": 0.03,
+        "Should provide more assistance": 0.31,
+        "Is providing about the right amount of assistance": 0.66
+      },
+      "option_order": [
+        "166ee740-d392-45a4-a806-05d36f57e872",
+        "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+        "df7232cb-3be2-4dae-ae89-e8fa46d243eb"
+      ]
+    },
+    {
+      "internal_id": "poorassist",
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "repeat": 1,
+      "chosen_uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+      "chosen_text": "Is providing about the right amount of assistance",
+      "points": 0.225554,
+      "confidence": 0.37,
+      "probabilities": {
+        "Should provide less assistance": 0.05,
+        "Is providing about the right amount of assistance": 0.58,
+        "Should provide more assistance": 0.37
+      },
+      "option_order": [
+        "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+        "166ee740-d392-45a4-a806-05d36f57e872",
+        "df7232cb-3be2-4dae-ae89-e8fa46d243eb"
+      ]
+    },
+    {
+      "internal_id": "poorassist",
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "repeat": 2,
+      "chosen_uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+      "chosen_text": "Is providing about the right amount of assistance",
+      "points": 0.225554,
+      "confidence": 0.47,
+      "probabilities": {
+        "Should provide more assistance": 0.33,
+        "Should provide less assistance": 0.03,
+        "Is providing about the right amount of assistance": 0.64
+      },
+      "option_order": [
+        "166ee740-d392-45a4-a806-05d36f57e872",
+        "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+        "df7232cb-3be2-4dae-ae89-e8fa46d243eb"
+      ]
+    },
+    {
+      "internal_id": "poorassist",
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "repeat": 3,
+      "chosen_uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+      "chosen_text": "Is providing about the right amount of assistance",
+      "points": 0.225554,
+      "confidence": 0.48,
+      "probabilities": {
+        "Should provide more assistance": 0.29,
+        "Should provide less assistance": 0.05,
+        "Is providing about the right amount of assistance": 0.66
+      },
+      "option_order": [
+        "df7232cb-3be2-4dae-ae89-e8fa46d243eb",
+        "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+        "166ee740-d392-45a4-a806-05d36f57e872"
+      ]
+    },
+    {
+      "internal_id": "poorassist",
+      "category": "Government",
+      "question": "Thinking about assistance to people in need, do you think the government...",
+      "repeat": 4,
+      "chosen_uuid": "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+      "chosen_text": "Is providing about the right amount of assistance",
+      "points": 0.225554,
+      "confidence": 0.48,
+      "probabilities": {
+        "Should provide more assistance": 0.29,
+        "Should provide less assistance": 0.05,
+        "Is providing about the right amount of assistance": 0.66
+      },
+      "option_order": [
+        "df7232cb-3be2-4dae-ae89-e8fa46d243eb",
+        "e702f0ef-f4fe-4034-bdbf-0d7f83c7023d",
+        "166ee740-d392-45a4-a806-05d36f57e872"
+      ]
+    }
+  ]
+}
