@@ -1,0 +1,195 @@
+{
+  "name": "LLM stumpers: classic puzzles with one detail changed",
+  "retrieved": "2026-09-19",
+  "design": "Each item is a well-known puzzle, riddle or thought experiment with a small alteration that changes the answer. Every option set contains the CORRECT answer to the altered question and the LURE -- the memorised answer to the unaltered original -- plus distractors. Picking the lure is the diagnostic failure: it means the model matched the pattern instead of reading the question. Option order is shuffled at run time, so position carries no signal.",
+  "sources": {
+    "misguided_attention": "https://github.com/cpldcpu/MisguidedAttention",
+    "altered_riddles": "https://huggingface.co/datasets/marcodsn/altered-riddles",
+    "surgeon_variant": "https://github.com/Syksy/LLMSurgeonSonRiddle",
+    "alice_in_wonderland": "https://arxiv.org/abs/2406.02061"
+  },
+  "note_on_system_one": "TypeSafe markets Jev as a 'System One' model. These items were built by researchers specifically to catch System 1 pattern-matching, so this is close to an adversarial test of the product's own framing.",
+  "n_items": 20,
+  "items": [
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "options": ["0%", "50%", "25%", "Somewhere between 0% and 100%, it cannot be determined"],
+      "correct": "0%",
+      "lure": "50%",
+      "why": "The cat was dead before the box was closed. The superposition framing is irrelevant."
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "options": ["Keep the existing door", "Swap to the other door", "It makes no difference"],
+      "correct": "Keep the existing door",
+      "lure": "Swap to the other door",
+      "why": "Two of three doors hide cars, so the prize structure is inverted. Staying wins with probability 2/3."
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "options": ["They get in the boat and row across together, in one trip", "The man crosses alone first, then returns for the sheep", "It takes at least three crossings", "It is impossible without a second animal"],
+      "correct": "They get in the boat and row across together, in one trip",
+      "lure": "It takes at least three crossings",
+      "why": "The boat holds both and there is nothing to eat anything. The classic wolf-goat-cabbage structure is absent."
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "options": ["Take the goat across, in a single trip", "Take the cabbage first, then return for the goat", "Seven trips are required", "It cannot be done without losing something"],
+      "correct": "Take the goat across, in a single trip",
+      "lure": "Seven trips are required",
+      "why": "Only the goat needs to cross. The wolf and cabbage left together are harmless."
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "options": ["Fill one of the jugs", "Fill the first jug, pour it into the second, then refill", "It is impossible with these two jugs", "Fill both jugs and pour half of one away"],
+      "correct": "Fill one of the jugs",
+      "lure": "Fill the first jug, pour it into the second, then refill",
+      "why": "A 1 litre jug already measures 1 litre. No transfer sequence is needed."
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "options": ["Fill both jugs; together they hold 3 liters", "It is impossible with these two jugs", "Fill the 2 liter jug, pour into the 1 liter jug, and repeat"],
+      "correct": "Fill both jugs; together they hold 3 liters",
+      "lure": "It is impossible with these two jugs",
+      "why": "1 + 2 = 3. The water-pouring puzzle framing invites a search for a transfer sequence that is not needed."
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "options": ["It is impossible with these two jugs", "Fill the 6 liter jug and pour it into the 12 liter jug twice", "Fill the 12 liter jug, then pour out 6 liters twice", "Fill the 6 liter jug and pour off a third"],
+      "correct": "It is impossible with these two jugs",
+      "lure": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "why": "Both capacities are multiples of 6, so only multiples of 6 can be measured exactly."
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "options": ["Light one rope at one end and wait for it to burn out", "Light one rope at both ends and the other at one end", "Light both ropes at both ends", "It cannot be done with uneven burning"],
+      "correct": "Light one rope at one end and wait for it to burn out",
+      "lure": "Light one rope at both ends and the other at one end",
+      "why": "A whole rope burns for 60 minutes regardless of how unevenly. The famous 45-minute trick is not needed."
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "options": ["No", "Yes", "It is a genuine moral dilemma with no clear answer"],
+      "correct": "No",
+      "lure": "Yes",
+      "why": "The five are already dead. Diverting kills one living person for no benefit."
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "options": ["Essentially 100%", "About 70%", "About 29%", "About 50%"],
+      "correct": "Essentially 100%",
+      "lure": "About 70%",
+      "why": "The famous 70% figure answers the opposite question. At least two people failing to share a birthday is near-certain."
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "options": ["His father", "His mother", "His uncle", "His stepfather"],
+      "correct": "His father",
+      "lure": "His mother",
+      "why": "The question states the relationship outright. The classic version withholds it to expose a gender assumption."
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "options": ["Two pounds of bricks", "They weigh the same", "A pound of feathers"],
+      "correct": "Two pounds of bricks",
+      "lure": "They weigh the same",
+      "why": "The famous version compares equal weights. Here the weights differ, so the trick answer is wrong."
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "options": ["3", "2", "1", "5"],
+      "correct": "3",
+      "lure": "2",
+      "why": "Alice's brother has Alice's 2 sisters plus Alice herself."
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "options": ["Drive, because the car has to be there to be washed", "Walk, because it is healthier and better for the environment", "Either is fine, it depends on your preference"],
+      "correct": "Drive, because the car has to be there to be washed",
+      "lure": "Walk, because it is healthier and better for the environment",
+      "why": "Short-trip questions usually reward walking. Here the errand requires the car itself."
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "options": ["Fabric", "A towel", "A sponge", "Hair"],
+      "correct": "Fabric",
+      "lure": "A towel",
+      "why": "The original is 'as it dries', answered by a towel. 'Dyes' changes the subject to something being coloured."
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "options": ["Air", "Light", "Sound", "A shadow"],
+      "correct": "Air",
+      "lure": "Light",
+      "why": "The original says 'takes up no space' and is answered by light. Dropping the 'no' inverts it."
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "options": ["A silence", "An egg", "A record", "A promise"],
+      "correct": "A silence",
+      "lure": "An egg",
+      "why": "The original is answered by an egg. Eggs are not measured in seconds; silences are."
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "options": ["Paper", "A deck of cards", "A tablecloth", "A cake"],
+      "correct": "Paper",
+      "lure": "A deck of cards",
+      "why": "The original is answered by a deck of cards. Cards are not used for writing."
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "options": ["A bus", "A cold", "A ball", "A train"],
+      "correct": "A bus",
+      "lure": "A cold",
+      "why": "The original is answered by a cold. Colds do not have wheels; a bus is caught and has them."
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "options": ["It cannot be done with only two ropes", "Light one rope at both ends and the other at one end", "Light both ropes at both ends simultaneously", "Light one rope at one end and halve the time"],
+      "correct": "It cannot be done with only two ropes",
+      "lure": "Light one rope at both ends and the other at one end",
+      "why": "Two ropes yield 15, 30, 45 and 60 minutes. 20 is not reachable; the famous trick produces 45."
+    }
+  ]
+}

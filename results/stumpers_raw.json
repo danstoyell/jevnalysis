@@ -1,0 +1,2565 @@
+{
+  "benchmark": "llm_stumpers",
+  "provider": "openrouter",
+  "model": "typesafe/jev-1.13",
+  "repeats": 5,
+  "n_items": 20,
+  "dry_run": false,
+  "usage": {
+    "input_tokens": 40402,
+    "output_tokens": 6622
+  },
+  "cost_usd": 0.001697,
+  "records": [
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "repeat": 0,
+      "picked": "0%",
+      "correct_answer": "0%",
+      "lure_answer": "50%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.93,
+      "p_lure": 0.02,
+      "probabilities": {
+        "Somewhere between 0% and 100%, it cannot be determined": 0.04,
+        "50%": 0.02,
+        "25%": 0,
+        "0%": 0.93
+      },
+      "confidence": 0.91,
+      "option_order": [
+        "25%",
+        "0%",
+        "50%",
+        "Somewhere between 0% and 100%, it cannot be determined"
+      ]
+    },
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "repeat": 1,
+      "picked": "0%",
+      "correct_answer": "0%",
+      "lure_answer": "50%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.92,
+      "p_lure": 0.04,
+      "probabilities": {
+        "Somewhere between 0% and 100%, it cannot be determined": 0.04,
+        "25%": 0,
+        "0%": 0.92,
+        "50%": 0.04
+      },
+      "confidence": 0.89,
+      "option_order": [
+        "0%",
+        "50%",
+        "Somewhere between 0% and 100%, it cannot be determined",
+        "25%"
+      ]
+    },
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "repeat": 2,
+      "picked": "0%",
+      "correct_answer": "0%",
+      "lure_answer": "50%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.89,
+      "p_lure": 0.03,
+      "probabilities": {
+        "50%": 0.03,
+        "Somewhere between 0% and 100%, it cannot be determined": 0.08,
+        "25%": 0,
+        "0%": 0.89
+      },
+      "confidence": 0.85,
+      "option_order": [
+        "0%",
+        "25%",
+        "50%",
+        "Somewhere between 0% and 100%, it cannot be determined"
+      ]
+    },
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "repeat": 3,
+      "picked": "0%",
+      "correct_answer": "0%",
+      "lure_answer": "50%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.91,
+      "p_lure": 0.04,
+      "probabilities": {
+        "0%": 0.91,
+        "50%": 0.04,
+        "Somewhere between 0% and 100%, it cannot be determined": 0.05,
+        "25%": 0
+      },
+      "confidence": 0.88,
+      "option_order": [
+        "50%",
+        "0%",
+        "Somewhere between 0% and 100%, it cannot be determined",
+        "25%"
+      ]
+    },
+    {
+      "id": "schrodinger_dead_cat",
+      "source": "misguided_attention",
+      "question": "A dead cat is placed into a box along with a nuclear isotope, a vial of poison and a radiation detector. If the radiation detector detects radiation, it will release the poison. The box is opened one day later. What is the probability of the cat being alive?",
+      "repeat": 4,
+      "picked": "0%",
+      "correct_answer": "0%",
+      "lure_answer": "50%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.93,
+      "p_lure": 0.02,
+      "probabilities": {
+        "Somewhere between 0% and 100%, it cannot be determined": 0.04,
+        "50%": 0.02,
+        "0%": 0.93,
+        "25%": 0
+      },
+      "confidence": 0.91,
+      "option_order": [
+        "25%",
+        "0%",
+        "Somewhere between 0% and 100%, it cannot be determined",
+        "50%"
+      ]
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "repeat": 0,
+      "picked": "Swap to the other door",
+      "correct_answer": "Keep the existing door",
+      "lure_answer": "Swap to the other door",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.05,
+      "p_lure": 0.92,
+      "probabilities": {
+        "Swap to the other door": 0.92,
+        "Keep the existing door": 0.05,
+        "It makes no difference": 0.03
+      },
+      "confidence": 0.89,
+      "option_order": [
+        "It makes no difference",
+        "Swap to the other door",
+        "Keep the existing door"
+      ]
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "repeat": 1,
+      "picked": "Swap to the other door",
+      "correct_answer": "Keep the existing door",
+      "lure_answer": "Swap to the other door",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.01,
+      "p_lure": 0.98,
+      "probabilities": {
+        "It makes no difference": 0.01,
+        "Swap to the other door": 0.98,
+        "Keep the existing door": 0.01
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "Swap to the other door",
+        "Keep the existing door",
+        "It makes no difference"
+      ]
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "repeat": 2,
+      "picked": "Swap to the other door",
+      "correct_answer": "Keep the existing door",
+      "lure_answer": "Swap to the other door",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.02,
+      "p_lure": 0.96,
+      "probabilities": {
+        "Keep the existing door": 0.02,
+        "It makes no difference": 0.02,
+        "Swap to the other door": 0.96
+      },
+      "confidence": 0.95,
+      "option_order": [
+        "It makes no difference",
+        "Keep the existing door",
+        "Swap to the other door"
+      ]
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "repeat": 3,
+      "picked": "Swap to the other door",
+      "correct_answer": "Keep the existing door",
+      "lure_answer": "Swap to the other door",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0,
+      "p_lure": 0.99,
+      "probabilities": {
+        "Swap to the other door": 0.99,
+        "Keep the existing door": 0,
+        "It makes no difference": 0.01
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "Swap to the other door",
+        "Keep the existing door",
+        "It makes no difference"
+      ]
+    },
+    {
+      "id": "monty_hall_inverse",
+      "source": "misguided_attention",
+      "question": "You're on a game show and are presented with three doors. Behind one is a donkey, and behind the other two are luxury cars. You pick one, but before you can open it the host opens one of the others revealing a luxury car. He then offers you the choice of keeping your existing door or swapping to the other unrevealed one. What should you do to win a car?",
+      "repeat": 4,
+      "picked": "Swap to the other door",
+      "correct_answer": "Keep the existing door",
+      "lure_answer": "Swap to the other door",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.03,
+      "p_lure": 0.95,
+      "probabilities": {
+        "Swap to the other door": 0.95,
+        "Keep the existing door": 0.03,
+        "It makes no difference": 0.02
+      },
+      "confidence": 0.94,
+      "option_order": [
+        "Keep the existing door",
+        "Swap to the other door",
+        "It makes no difference"
+      ]
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "repeat": 0,
+      "picked": "They get in the boat and row across together, in one trip",
+      "correct_answer": "They get in the boat and row across together, in one trip",
+      "lure_answer": "It takes at least three crossings",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "They get in the boat and row across together, in one trip": 1,
+        "It takes at least three crossings": 0,
+        "It is impossible without a second animal": 0,
+        "The man crosses alone first, then returns for the sheep": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "The man crosses alone first, then returns for the sheep",
+        "They get in the boat and row across together, in one trip",
+        "It takes at least three crossings",
+        "It is impossible without a second animal"
+      ]
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "repeat": 1,
+      "picked": "They get in the boat and row across together, in one trip",
+      "correct_answer": "They get in the boat and row across together, in one trip",
+      "lure_answer": "It takes at least three crossings",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "It is impossible without a second animal": 0,
+        "They get in the boat and row across together, in one trip": 1,
+        "The man crosses alone first, then returns for the sheep": 0,
+        "It takes at least three crossings": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "They get in the boat and row across together, in one trip",
+        "It is impossible without a second animal",
+        "The man crosses alone first, then returns for the sheep",
+        "It takes at least three crossings"
+      ]
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "repeat": 2,
+      "picked": "They get in the boat and row across together, in one trip",
+      "correct_answer": "They get in the boat and row across together, in one trip",
+      "lure_answer": "It takes at least three crossings",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "They get in the boat and row across together, in one trip": 1,
+        "It is impossible without a second animal": 0,
+        "The man crosses alone first, then returns for the sheep": 0,
+        "It takes at least three crossings": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "They get in the boat and row across together, in one trip",
+        "It is impossible without a second animal",
+        "It takes at least three crossings",
+        "The man crosses alone first, then returns for the sheep"
+      ]
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "repeat": 3,
+      "picked": "They get in the boat and row across together, in one trip",
+      "correct_answer": "They get in the boat and row across together, in one trip",
+      "lure_answer": "It takes at least three crossings",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "They get in the boat and row across together, in one trip": 1,
+        "It is impossible without a second animal": 0,
+        "It takes at least three crossings": 0,
+        "The man crosses alone first, then returns for the sheep": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "They get in the boat and row across together, in one trip",
+        "The man crosses alone first, then returns for the sheep",
+        "It takes at least three crossings",
+        "It is impossible without a second animal"
+      ]
+    },
+    {
+      "id": "river_sheep_trivial",
+      "source": "misguided_attention",
+      "question": "A man with his sheep wants to cross a river. He has a boat that can carry both him and the animal. How do both get to the other side of the river?",
+      "repeat": 4,
+      "picked": "They get in the boat and row across together, in one trip",
+      "correct_answer": "They get in the boat and row across together, in one trip",
+      "lure_answer": "It takes at least three crossings",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "It is impossible without a second animal": 0,
+        "They get in the boat and row across together, in one trip": 1,
+        "The man crosses alone first, then returns for the sheep": 0,
+        "It takes at least three crossings": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "The man crosses alone first, then returns for the sheep",
+        "It is impossible without a second animal",
+        "It takes at least three crossings",
+        "They get in the boat and row across together, in one trip"
+      ]
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "repeat": 0,
+      "picked": "Take the goat across, in a single trip",
+      "correct_answer": "Take the goat across, in a single trip",
+      "lure_answer": "Seven trips are required",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.75,
+      "p_lure": 0.13,
+      "probabilities": {
+        "Seven trips are required": 0.13,
+        "Take the goat across, in a single trip": 0.75,
+        "Take the cabbage first, then return for the goat": 0.09,
+        "It cannot be done without losing something": 0.03
+      },
+      "confidence": 0.66,
+      "option_order": [
+        "It cannot be done without losing something",
+        "Take the cabbage first, then return for the goat",
+        "Seven trips are required",
+        "Take the goat across, in a single trip"
+      ]
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "repeat": 1,
+      "picked": "Take the goat across, in a single trip",
+      "correct_answer": "Take the goat across, in a single trip",
+      "lure_answer": "Seven trips are required",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.71,
+      "p_lure": 0.16,
+      "probabilities": {
+        "It cannot be done without losing something": 0.03,
+        "Take the goat across, in a single trip": 0.71,
+        "Take the cabbage first, then return for the goat": 0.1,
+        "Seven trips are required": 0.16
+      },
+      "confidence": 0.61,
+      "option_order": [
+        "It cannot be done without losing something",
+        "Take the cabbage first, then return for the goat",
+        "Seven trips are required",
+        "Take the goat across, in a single trip"
+      ]
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "repeat": 2,
+      "picked": "Take the goat across, in a single trip",
+      "correct_answer": "Take the goat across, in a single trip",
+      "lure_answer": "Seven trips are required",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.7,
+      "p_lure": 0.19,
+      "probabilities": {
+        "Take the goat across, in a single trip": 0.7,
+        "Take the cabbage first, then return for the goat": 0.08,
+        "It cannot be done without losing something": 0.03,
+        "Seven trips are required": 0.19
+      },
+      "confidence": 0.6,
+      "option_order": [
+        "It cannot be done without losing something",
+        "Take the cabbage first, then return for the goat",
+        "Take the goat across, in a single trip",
+        "Seven trips are required"
+      ]
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "repeat": 3,
+      "picked": "Take the goat across, in a single trip",
+      "correct_answer": "Take the goat across, in a single trip",
+      "lure_answer": "Seven trips are required",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.73,
+      "p_lure": 0.16,
+      "probabilities": {
+        "Take the cabbage first, then return for the goat": 0.09,
+        "It cannot be done without losing something": 0.02,
+        "Take the goat across, in a single trip": 0.73,
+        "Seven trips are required": 0.16
+      },
+      "confidence": 0.63,
+      "option_order": [
+        "Take the cabbage first, then return for the goat",
+        "Seven trips are required",
+        "It cannot be done without losing something",
+        "Take the goat across, in a single trip"
+      ]
+    },
+    {
+      "id": "river_goat_only",
+      "source": "misguided_attention",
+      "question": "A farmer is on one side of a river with a wolf, a goat, and a cabbage. When he is crossing the river in a boat, he can only take one item with him at a time. The wolf will eat the goat if left alone together, and the goat will eat the cabbage if left alone together. How can the farmer transport the goat across the river without it being eaten?",
+      "repeat": 4,
+      "picked": "Take the goat across, in a single trip",
+      "correct_answer": "Take the goat across, in a single trip",
+      "lure_answer": "Seven trips are required",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.58,
+      "p_lure": 0.21,
+      "probabilities": {
+        "Take the goat across, in a single trip": 0.58,
+        "Seven trips are required": 0.21,
+        "It cannot be done without losing something": 0.02,
+        "Take the cabbage first, then return for the goat": 0.19
+      },
+      "confidence": 0.44,
+      "option_order": [
+        "Seven trips are required",
+        "It cannot be done without losing something",
+        "Take the goat across, in a single trip",
+        "Take the cabbage first, then return for the goat"
+      ]
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "repeat": 0,
+      "picked": "Fill one of the jugs",
+      "correct_answer": "Fill one of the jugs",
+      "lure_answer": "Fill the first jug, pour it into the second, then refill",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "It is impossible with these two jugs": 0,
+        "Fill one of the jugs": 1,
+        "Fill the first jug, pour it into the second, then refill": 0,
+        "Fill both jugs and pour half of one away": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "It is impossible with these two jugs",
+        "Fill the first jug, pour it into the second, then refill",
+        "Fill both jugs and pour half of one away",
+        "Fill one of the jugs"
+      ]
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "repeat": 1,
+      "picked": "Fill one of the jugs",
+      "correct_answer": "Fill one of the jugs",
+      "lure_answer": "Fill the first jug, pour it into the second, then refill",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill both jugs and pour half of one away": 0,
+        "Fill one of the jugs": 1,
+        "It is impossible with these two jugs": 0,
+        "Fill the first jug, pour it into the second, then refill": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "It is impossible with these two jugs",
+        "Fill the first jug, pour it into the second, then refill",
+        "Fill one of the jugs",
+        "Fill both jugs and pour half of one away"
+      ]
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "repeat": 2,
+      "picked": "Fill one of the jugs",
+      "correct_answer": "Fill one of the jugs",
+      "lure_answer": "Fill the first jug, pour it into the second, then refill",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill the first jug, pour it into the second, then refill": 0,
+        "It is impossible with these two jugs": 0,
+        "Fill both jugs and pour half of one away": 0,
+        "Fill one of the jugs": 1
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill the first jug, pour it into the second, then refill",
+        "Fill one of the jugs",
+        "Fill both jugs and pour half of one away",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "repeat": 3,
+      "picked": "Fill one of the jugs",
+      "correct_answer": "Fill one of the jugs",
+      "lure_answer": "Fill the first jug, pour it into the second, then refill",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill the first jug, pour it into the second, then refill": 0,
+        "Fill both jugs and pour half of one away": 0,
+        "It is impossible with these two jugs": 0,
+        "Fill one of the jugs": 1
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill the first jug, pour it into the second, then refill",
+        "Fill one of the jugs",
+        "Fill both jugs and pour half of one away",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_one_liter",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and another 1 liter jug. I want to measure exactly 1 liter. How do I do it?",
+      "repeat": 4,
+      "picked": "Fill one of the jugs",
+      "correct_answer": "Fill one of the jugs",
+      "lure_answer": "Fill the first jug, pour it into the second, then refill",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill one of the jugs": 1,
+        "Fill both jugs and pour half of one away": 0,
+        "It is impossible with these two jugs": 0,
+        "Fill the first jug, pour it into the second, then refill": 0
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill both jugs and pour half of one away",
+        "Fill one of the jugs",
+        "Fill the first jug, pour it into the second, then refill",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "repeat": 0,
+      "picked": "Fill both jugs; together they hold 3 liters",
+      "correct_answer": "Fill both jugs; together they hold 3 liters",
+      "lure_answer": "It is impossible with these two jugs",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "It is impossible with these two jugs": 0,
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat": 0,
+        "Fill both jugs; together they hold 3 liters": 1
+      },
+      "confidence": 1,
+      "option_order": [
+        "Fill both jugs; together they hold 3 liters",
+        "It is impossible with these two jugs",
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat"
+      ]
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "repeat": 1,
+      "picked": "Fill both jugs; together they hold 3 liters",
+      "correct_answer": "Fill both jugs; together they hold 3 liters",
+      "lure_answer": "It is impossible with these two jugs",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat": 0,
+        "It is impossible with these two jugs": 0,
+        "Fill both jugs; together they hold 3 liters": 1
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat",
+        "Fill both jugs; together they hold 3 liters",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "repeat": 2,
+      "picked": "Fill both jugs; together they hold 3 liters",
+      "correct_answer": "Fill both jugs; together they hold 3 liters",
+      "lure_answer": "It is impossible with these two jugs",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat": 0,
+        "It is impossible with these two jugs": 0,
+        "Fill both jugs; together they hold 3 liters": 1
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat",
+        "Fill both jugs; together they hold 3 liters",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "repeat": 3,
+      "picked": "Fill both jugs; together they hold 3 liters",
+      "correct_answer": "Fill both jugs; together they hold 3 liters",
+      "lure_answer": "It is impossible with these two jugs",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill both jugs; together they hold 3 liters": 1,
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat": 0,
+        "It is impossible with these two jugs": 0
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "It is impossible with these two jugs",
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat",
+        "Fill both jugs; together they hold 3 liters"
+      ]
+    },
+    {
+      "id": "jugs_three_liters",
+      "source": "misguided_attention",
+      "question": "I have a 1 liter jug and a 2 liter jug. I want to measure exactly 3 liters. How do I do it?",
+      "repeat": 4,
+      "picked": "Fill both jugs; together they hold 3 liters",
+      "correct_answer": "Fill both jugs; together they hold 3 liters",
+      "lure_answer": "It is impossible with these two jugs",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0,
+      "probabilities": {
+        "Fill both jugs; together they hold 3 liters": 0.99,
+        "It is impossible with these two jugs": 0,
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat": 0.01
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "Fill the 2 liter jug, pour into the 1 liter jug, and repeat",
+        "It is impossible with these two jugs",
+        "Fill both jugs; together they hold 3 liters"
+      ]
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "repeat": 0,
+      "picked": "Fill the 12 liter jug, then pour out 6 liters twice",
+      "correct_answer": "It is impossible with these two jugs",
+      "lure_answer": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.44,
+      "p_lure": 0.03,
+      "probabilities": {
+        "Fill the 6 liter jug and pour off a third": 0.03,
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice": 0.03,
+        "Fill the 12 liter jug, then pour out 6 liters twice": 0.5,
+        "It is impossible with these two jugs": 0.44
+      },
+      "confidence": 0.34,
+      "option_order": [
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+        "Fill the 12 liter jug, then pour out 6 liters twice",
+        "It is impossible with these two jugs",
+        "Fill the 6 liter jug and pour off a third"
+      ]
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "repeat": 1,
+      "picked": "It is impossible with these two jugs",
+      "correct_answer": "It is impossible with these two jugs",
+      "lure_answer": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.42,
+      "p_lure": 0.03,
+      "probabilities": {
+        "It is impossible with these two jugs": 0.42,
+        "Fill the 6 liter jug and pour off a third": 0.25,
+        "Fill the 12 liter jug, then pour out 6 liters twice": 0.3,
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice": 0.03
+      },
+      "confidence": 0.23,
+      "option_order": [
+        "Fill the 6 liter jug and pour off a third",
+        "Fill the 12 liter jug, then pour out 6 liters twice",
+        "It is impossible with these two jugs",
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice"
+      ]
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "repeat": 2,
+      "picked": "It is impossible with these two jugs",
+      "correct_answer": "It is impossible with these two jugs",
+      "lure_answer": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.45,
+      "p_lure": 0.04,
+      "probabilities": {
+        "Fill the 6 liter jug and pour off a third": 0.15,
+        "Fill the 12 liter jug, then pour out 6 liters twice": 0.36,
+        "It is impossible with these two jugs": 0.45,
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice": 0.04
+      },
+      "confidence": 0.26,
+      "option_order": [
+        "Fill the 6 liter jug and pour off a third",
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+        "Fill the 12 liter jug, then pour out 6 liters twice",
+        "It is impossible with these two jugs"
+      ]
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "repeat": 3,
+      "picked": "It is impossible with these two jugs",
+      "correct_answer": "It is impossible with these two jugs",
+      "lure_answer": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.68,
+      "p_lure": 0.05,
+      "probabilities": {
+        "Fill the 12 liter jug, then pour out 6 liters twice": 0.19,
+        "Fill the 6 liter jug and pour off a third": 0.08,
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice": 0.05,
+        "It is impossible with these two jugs": 0.68
+      },
+      "confidence": 0.56,
+      "option_order": [
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+        "It is impossible with these two jugs",
+        "Fill the 6 liter jug and pour off a third",
+        "Fill the 12 liter jug, then pour out 6 liters twice"
+      ]
+    },
+    {
+      "id": "jugs_four_liters",
+      "source": "misguided_attention",
+      "question": "I have a 6 liter jug and a 12 liter jug. I want to measure exactly 4 liters. How do I do it?",
+      "repeat": 4,
+      "picked": "It is impossible with these two jugs",
+      "correct_answer": "It is impossible with these two jugs",
+      "lure_answer": "Fill the 6 liter jug and pour it into the 12 liter jug twice",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.56,
+      "p_lure": 0.03,
+      "probabilities": {
+        "Fill the 12 liter jug, then pour out 6 liters twice": 0.26,
+        "Fill the 6 liter jug and pour off a third": 0.15,
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice": 0.03,
+        "It is impossible with these two jugs": 0.56
+      },
+      "confidence": 0.41,
+      "option_order": [
+        "It is impossible with these two jugs",
+        "Fill the 6 liter jug and pour off a third",
+        "Fill the 12 liter jug, then pour out 6 liters twice",
+        "Fill the 6 liter jug and pour it into the 12 liter jug twice"
+      ]
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "repeat": 0,
+      "picked": "Light one rope at one end and wait for it to burn out",
+      "correct_answer": "Light one rope at one end and wait for it to burn out",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.91,
+      "p_lure": 0.09,
+      "probabilities": {
+        "Light both ropes at both ends": 0,
+        "Light one rope at both ends and the other at one end": 0.09,
+        "It cannot be done with uneven burning": 0,
+        "Light one rope at one end and wait for it to burn out": 0.91
+      },
+      "confidence": 0.87,
+      "option_order": [
+        "Light one rope at one end and wait for it to burn out",
+        "It cannot be done with uneven burning",
+        "Light one rope at both ends and the other at one end",
+        "Light both ropes at both ends"
+      ]
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "repeat": 1,
+      "picked": "Light one rope at one end and wait for it to burn out",
+      "correct_answer": "Light one rope at one end and wait for it to burn out",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.88,
+      "p_lure": 0.12,
+      "probabilities": {
+        "Light one rope at both ends and the other at one end": 0.12,
+        "Light both ropes at both ends": 0,
+        "It cannot be done with uneven burning": 0,
+        "Light one rope at one end and wait for it to burn out": 0.88
+      },
+      "confidence": 0.82,
+      "option_order": [
+        "It cannot be done with uneven burning",
+        "Light one rope at both ends and the other at one end",
+        "Light one rope at one end and wait for it to burn out",
+        "Light both ropes at both ends"
+      ]
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "repeat": 2,
+      "picked": "Light one rope at one end and wait for it to burn out",
+      "correct_answer": "Light one rope at one end and wait for it to burn out",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.87,
+      "p_lure": 0.13,
+      "probabilities": {
+        "It cannot be done with uneven burning": 0,
+        "Light both ropes at both ends": 0,
+        "Light one rope at one end and wait for it to burn out": 0.87,
+        "Light one rope at both ends and the other at one end": 0.13
+      },
+      "confidence": 0.82,
+      "option_order": [
+        "It cannot be done with uneven burning",
+        "Light both ropes at both ends",
+        "Light one rope at both ends and the other at one end",
+        "Light one rope at one end and wait for it to burn out"
+      ]
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "repeat": 3,
+      "picked": "Light one rope at one end and wait for it to burn out",
+      "correct_answer": "Light one rope at one end and wait for it to burn out",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.9,
+      "p_lure": 0.1,
+      "probabilities": {
+        "Light one rope at one end and wait for it to burn out": 0.9,
+        "Light both ropes at both ends": 0,
+        "It cannot be done with uneven burning": 0,
+        "Light one rope at both ends and the other at one end": 0.1
+      },
+      "confidence": 0.86,
+      "option_order": [
+        "It cannot be done with uneven burning",
+        "Light both ropes at both ends",
+        "Light one rope at one end and wait for it to burn out",
+        "Light one rope at both ends and the other at one end"
+      ]
+    },
+    {
+      "id": "rope_sixty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. However, the ropes burn unevenly. You have no other timing device. How can you measure exactly 60 minutes using the ropes and matches?",
+      "repeat": 4,
+      "picked": "Light one rope at one end and wait for it to burn out",
+      "correct_answer": "Light one rope at one end and wait for it to burn out",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.83,
+      "p_lure": 0.17,
+      "probabilities": {
+        "Light one rope at both ends and the other at one end": 0.17,
+        "Light both ropes at both ends": 0,
+        "Light one rope at one end and wait for it to burn out": 0.83,
+        "It cannot be done with uneven burning": 0
+      },
+      "confidence": 0.76,
+      "option_order": [
+        "Light one rope at both ends and the other at one end",
+        "It cannot be done with uneven burning",
+        "Light one rope at one end and wait for it to burn out",
+        "Light both ropes at both ends"
+      ]
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "repeat": 0,
+      "picked": "Yes",
+      "correct_answer": "No",
+      "lure_answer": "Yes",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.14,
+      "p_lure": 0.64,
+      "probabilities": {
+        "Yes": 0.64,
+        "No": 0.14,
+        "It is a genuine moral dilemma with no clear answer": 0.22
+      },
+      "confidence": 0.46,
+      "option_order": [
+        "It is a genuine moral dilemma with no clear answer",
+        "No",
+        "Yes"
+      ]
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "repeat": 1,
+      "picked": "Yes",
+      "correct_answer": "No",
+      "lure_answer": "Yes",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.27,
+      "p_lure": 0.49,
+      "probabilities": {
+        "No": 0.27,
+        "It is a genuine moral dilemma with no clear answer": 0.24,
+        "Yes": 0.49
+      },
+      "confidence": 0.24,
+      "option_order": [
+        "No",
+        "It is a genuine moral dilemma with no clear answer",
+        "Yes"
+      ]
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "repeat": 2,
+      "picked": "Yes",
+      "correct_answer": "No",
+      "lure_answer": "Yes",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.27,
+      "p_lure": 0.57,
+      "probabilities": {
+        "Yes": 0.57,
+        "It is a genuine moral dilemma with no clear answer": 0.16,
+        "No": 0.27
+      },
+      "confidence": 0.36,
+      "option_order": [
+        "Yes",
+        "It is a genuine moral dilemma with no clear answer",
+        "No"
+      ]
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "repeat": 3,
+      "picked": "Yes",
+      "correct_answer": "No",
+      "lure_answer": "Yes",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.22,
+      "p_lure": 0.5700000000000001,
+      "probabilities": {
+        "It is a genuine moral dilemma with no clear answer": 0.21,
+        "No": 0.22,
+        "Yes": 0.5700000000000001
+      },
+      "confidence": 0.34,
+      "option_order": [
+        "Yes",
+        "It is a genuine moral dilemma with no clear answer",
+        "No"
+      ]
+    },
+    {
+      "id": "trolley_five_dead",
+      "source": "misguided_attention",
+      "question": "A runaway trolley is hurtling down a track towards five dead people. You stand next to a lever that can divert the trolley onto another track, where one living person is tied up. Do you pull the lever?",
+      "repeat": 4,
+      "picked": "Yes",
+      "correct_answer": "No",
+      "lure_answer": "Yes",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.23,
+      "p_lure": 0.5599999999999999,
+      "probabilities": {
+        "Yes": 0.5599999999999999,
+        "It is a genuine moral dilemma with no clear answer": 0.21,
+        "No": 0.23
+      },
+      "confidence": 0.35,
+      "option_order": [
+        "Yes",
+        "It is a genuine moral dilemma with no clear answer",
+        "No"
+      ]
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "repeat": 0,
+      "picked": "Essentially 100%",
+      "correct_answer": "Essentially 100%",
+      "lure_answer": "About 70%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.95,
+      "p_lure": 0.03,
+      "probabilities": {
+        "About 70%": 0.03,
+        "Essentially 100%": 0.95,
+        "About 50%": 0.01,
+        "About 29%": 0.01
+      },
+      "confidence": 0.94,
+      "option_order": [
+        "About 70%",
+        "About 29%",
+        "About 50%",
+        "Essentially 100%"
+      ]
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "repeat": 1,
+      "picked": "Essentially 100%",
+      "correct_answer": "Essentially 100%",
+      "lure_answer": "About 70%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.93,
+      "p_lure": 0.05,
+      "probabilities": {
+        "About 29%": 0.01,
+        "Essentially 100%": 0.93,
+        "About 70%": 0.05,
+        "About 50%": 0.01
+      },
+      "confidence": 0.91,
+      "option_order": [
+        "About 29%",
+        "About 50%",
+        "About 70%",
+        "Essentially 100%"
+      ]
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "repeat": 2,
+      "picked": "Essentially 100%",
+      "correct_answer": "Essentially 100%",
+      "lure_answer": "About 70%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.95,
+      "p_lure": 0.03,
+      "probabilities": {
+        "Essentially 100%": 0.95,
+        "About 70%": 0.03,
+        "About 29%": 0.01,
+        "About 50%": 0.01
+      },
+      "confidence": 0.93,
+      "option_order": [
+        "About 70%",
+        "About 50%",
+        "Essentially 100%",
+        "About 29%"
+      ]
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "repeat": 3,
+      "picked": "Essentially 100%",
+      "correct_answer": "Essentially 100%",
+      "lure_answer": "About 70%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.93,
+      "p_lure": 0.05,
+      "probabilities": {
+        "About 50%": 0.01,
+        "About 70%": 0.05,
+        "Essentially 100%": 0.93,
+        "About 29%": 0.01
+      },
+      "confidence": 0.9,
+      "option_order": [
+        "About 70%",
+        "About 29%",
+        "About 50%",
+        "Essentially 100%"
+      ]
+    },
+    {
+      "id": "birthday_not_shared",
+      "source": "misguided_attention",
+      "question": "In a room of 30 people, what's the probability that at least two people do NOT share a birthday?",
+      "repeat": 4,
+      "picked": "Essentially 100%",
+      "correct_answer": "Essentially 100%",
+      "lure_answer": "About 70%",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.89,
+      "p_lure": 0.08,
+      "probabilities": {
+        "Essentially 100%": 0.89,
+        "About 70%": 0.08,
+        "About 50%": 0.01,
+        "About 29%": 0.02
+      },
+      "confidence": 0.84,
+      "option_order": [
+        "About 29%",
+        "About 50%",
+        "About 70%",
+        "Essentially 100%"
+      ]
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "repeat": 0,
+      "picked": "His mother",
+      "correct_answer": "His father",
+      "lure_answer": "His mother",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.23,
+      "p_lure": 0.77,
+      "probabilities": {
+        "His stepfather": 0,
+        "His uncle": 0,
+        "His father": 0.23,
+        "His mother": 0.77
+      },
+      "confidence": 0.69,
+      "option_order": [
+        "His mother",
+        "His stepfather",
+        "His uncle",
+        "His father"
+      ]
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "repeat": 1,
+      "picked": "His mother",
+      "correct_answer": "His father",
+      "lure_answer": "His mother",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.21,
+      "p_lure": 0.79,
+      "probabilities": {
+        "His father": 0.21,
+        "His stepfather": 0,
+        "His mother": 0.79,
+        "His uncle": 0
+      },
+      "confidence": 0.72,
+      "option_order": [
+        "His mother",
+        "His father",
+        "His uncle",
+        "His stepfather"
+      ]
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "repeat": 2,
+      "picked": "His mother",
+      "correct_answer": "His father",
+      "lure_answer": "His mother",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.23,
+      "p_lure": 0.76,
+      "probabilities": {
+        "His uncle": 0,
+        "His stepfather": 0.01,
+        "His mother": 0.76,
+        "His father": 0.23
+      },
+      "confidence": 0.69,
+      "option_order": [
+        "His mother",
+        "His stepfather",
+        "His father",
+        "His uncle"
+      ]
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "repeat": 3,
+      "picked": "His mother",
+      "correct_answer": "His father",
+      "lure_answer": "His mother",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.2,
+      "p_lure": 0.79,
+      "probabilities": {
+        "His uncle": 0,
+        "His father": 0.2,
+        "His stepfather": 0.01,
+        "His mother": 0.79
+      },
+      "confidence": 0.72,
+      "option_order": [
+        "His stepfather",
+        "His mother",
+        "His uncle",
+        "His father"
+      ]
+    },
+    {
+      "id": "surgeon_father",
+      "source": "surgeon_variant",
+      "question": "The surgeon, who is the boy's father, says: 'I cannot operate on this boy, he's my son!' Who is the surgeon to the boy?",
+      "repeat": 4,
+      "picked": "His mother",
+      "correct_answer": "His father",
+      "lure_answer": "His mother",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.21,
+      "p_lure": 0.78,
+      "probabilities": {
+        "His uncle": 0,
+        "His father": 0.21,
+        "His mother": 0.78,
+        "His stepfather": 0.01
+      },
+      "confidence": 0.71,
+      "option_order": [
+        "His stepfather",
+        "His father",
+        "His mother",
+        "His uncle"
+      ]
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "repeat": 0,
+      "picked": "Two pounds of bricks",
+      "correct_answer": "Two pounds of bricks",
+      "lure_answer": "They weigh the same",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "A pound of feathers": 0,
+        "They weigh the same": 0,
+        "Two pounds of bricks": 1
+      },
+      "confidence": 1,
+      "option_order": [
+        "A pound of feathers",
+        "They weigh the same",
+        "Two pounds of bricks"
+      ]
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "repeat": 1,
+      "picked": "Two pounds of bricks",
+      "correct_answer": "Two pounds of bricks",
+      "lure_answer": "They weigh the same",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "A pound of feathers": 0,
+        "Two pounds of bricks": 1,
+        "They weigh the same": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "They weigh the same",
+        "A pound of feathers",
+        "Two pounds of bricks"
+      ]
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "repeat": 2,
+      "picked": "Two pounds of bricks",
+      "correct_answer": "Two pounds of bricks",
+      "lure_answer": "They weigh the same",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Two pounds of bricks": 1,
+        "They weigh the same": 0,
+        "A pound of feathers": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "Two pounds of bricks",
+        "They weigh the same",
+        "A pound of feathers"
+      ]
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "repeat": 3,
+      "picked": "Two pounds of bricks",
+      "correct_answer": "Two pounds of bricks",
+      "lure_answer": "They weigh the same",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Two pounds of bricks": 1,
+        "A pound of feathers": 0,
+        "They weigh the same": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "A pound of feathers",
+        "They weigh the same",
+        "Two pounds of bricks"
+      ]
+    },
+    {
+      "id": "feathers_vs_bricks",
+      "source": "classic_variant",
+      "question": "Which weighs more, a pound of feathers or two pounds of bricks?",
+      "repeat": 4,
+      "picked": "Two pounds of bricks",
+      "correct_answer": "Two pounds of bricks",
+      "lure_answer": "They weigh the same",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Two pounds of bricks": 1,
+        "They weigh the same": 0,
+        "A pound of feathers": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "Two pounds of bricks",
+        "A pound of feathers",
+        "They weigh the same"
+      ]
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "repeat": 0,
+      "picked": "3",
+      "correct_answer": "3",
+      "lure_answer": "2",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0.01,
+      "probabilities": {
+        "1": 0,
+        "2": 0.01,
+        "3": 0.99,
+        "5": 0
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "5",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "repeat": 1,
+      "picked": "3",
+      "correct_answer": "3",
+      "lure_answer": "2",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0.01,
+      "probabilities": {
+        "1": 0,
+        "2": 0.01,
+        "3": 0.99,
+        "5": 0
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "2",
+        "5",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "repeat": 2,
+      "picked": "3",
+      "correct_answer": "3",
+      "lure_answer": "2",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0.01,
+      "probabilities": {
+        "1": 0,
+        "2": 0.01,
+        "3": 0.99,
+        "5": 0
+      },
+      "confidence": 0.99,
+      "option_order": [
+        "3",
+        "1",
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "repeat": 3,
+      "picked": "3",
+      "correct_answer": "3",
+      "lure_answer": "2",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0.01,
+      "probabilities": {
+        "1": 0,
+        "2": 0.01,
+        "3": 0.99,
+        "5": 0
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "5",
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "alice_brother_sisters",
+      "source": "alice_in_wonderland",
+      "question": "Alice has 3 brothers and 2 sisters. How many sisters does Alice's brother have?",
+      "repeat": 4,
+      "picked": "3",
+      "correct_answer": "3",
+      "lure_answer": "2",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.99,
+      "p_lure": 0.01,
+      "probabilities": {
+        "1": 0,
+        "2": 0.01,
+        "3": 0.99,
+        "5": 0
+      },
+      "confidence": 0.98,
+      "option_order": [
+        "1",
+        "5",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "repeat": 0,
+      "picked": "Drive, because the car has to be there to be washed",
+      "correct_answer": "Drive, because the car has to be there to be washed",
+      "lure_answer": "Walk, because it is healthier and better for the environment",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.9,
+      "p_lure": 0.07,
+      "probabilities": {
+        "Walk, because it is healthier and better for the environment": 0.07,
+        "Either is fine, it depends on your preference": 0.03,
+        "Drive, because the car has to be there to be washed": 0.9
+      },
+      "confidence": 0.84,
+      "option_order": [
+        "Drive, because the car has to be there to be washed",
+        "Walk, because it is healthier and better for the environment",
+        "Either is fine, it depends on your preference"
+      ]
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "repeat": 1,
+      "picked": "Drive, because the car has to be there to be washed",
+      "correct_answer": "Drive, because the car has to be there to be washed",
+      "lure_answer": "Walk, because it is healthier and better for the environment",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.87,
+      "p_lure": 0.08,
+      "probabilities": {
+        "Walk, because it is healthier and better for the environment": 0.08,
+        "Either is fine, it depends on your preference": 0.05,
+        "Drive, because the car has to be there to be washed": 0.87
+      },
+      "confidence": 0.81,
+      "option_order": [
+        "Drive, because the car has to be there to be washed",
+        "Walk, because it is healthier and better for the environment",
+        "Either is fine, it depends on your preference"
+      ]
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "repeat": 2,
+      "picked": "Drive, because the car has to be there to be washed",
+      "correct_answer": "Drive, because the car has to be there to be washed",
+      "lure_answer": "Walk, because it is healthier and better for the environment",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.9,
+      "p_lure": 0.07,
+      "probabilities": {
+        "Either is fine, it depends on your preference": 0.03,
+        "Walk, because it is healthier and better for the environment": 0.07,
+        "Drive, because the car has to be there to be washed": 0.9
+      },
+      "confidence": 0.84,
+      "option_order": [
+        "Drive, because the car has to be there to be washed",
+        "Walk, because it is healthier and better for the environment",
+        "Either is fine, it depends on your preference"
+      ]
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "repeat": 3,
+      "picked": "Drive, because the car has to be there to be washed",
+      "correct_answer": "Drive, because the car has to be there to be washed",
+      "lure_answer": "Walk, because it is healthier and better for the environment",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.9,
+      "p_lure": 0.06,
+      "probabilities": {
+        "Drive, because the car has to be there to be washed": 0.9,
+        "Either is fine, it depends on your preference": 0.04,
+        "Walk, because it is healthier and better for the environment": 0.06
+      },
+      "confidence": 0.85,
+      "option_order": [
+        "Drive, because the car has to be there to be washed",
+        "Either is fine, it depends on your preference",
+        "Walk, because it is healthier and better for the environment"
+      ]
+    },
+    {
+      "id": "car_wash_walk_or_drive",
+      "source": "classic_variant",
+      "question": "You want to get your car washed at a car wash two miles away on a pleasant day. Is it better to walk there or to drive?",
+      "repeat": 4,
+      "picked": "Drive, because the car has to be there to be washed",
+      "correct_answer": "Drive, because the car has to be there to be washed",
+      "lure_answer": "Walk, because it is healthier and better for the environment",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.89,
+      "p_lure": 0.07,
+      "probabilities": {
+        "Drive, because the car has to be there to be washed": 0.89,
+        "Either is fine, it depends on your preference": 0.04,
+        "Walk, because it is healthier and better for the environment": 0.07
+      },
+      "confidence": 0.84,
+      "option_order": [
+        "Walk, because it is healthier and better for the environment",
+        "Either is fine, it depends on your preference",
+        "Drive, because the car has to be there to be washed"
+      ]
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "repeat": 0,
+      "picked": "A towel",
+      "correct_answer": "Fabric",
+      "lure_answer": "A towel",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.09,
+      "p_lure": 0.7,
+      "probabilities": {
+        "A towel": 0.7,
+        "A sponge": 0.19,
+        "Hair": 0.02,
+        "Fabric": 0.09
+      },
+      "confidence": 0.61,
+      "option_order": [
+        "A towel",
+        "Fabric",
+        "A sponge",
+        "Hair"
+      ]
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "repeat": 1,
+      "picked": "A towel",
+      "correct_answer": "Fabric",
+      "lure_answer": "A towel",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.12,
+      "p_lure": 0.73,
+      "probabilities": {
+        "A sponge": 0.14,
+        "A towel": 0.73,
+        "Fabric": 0.12,
+        "Hair": 0.01
+      },
+      "confidence": 0.63,
+      "option_order": [
+        "A towel",
+        "Fabric",
+        "Hair",
+        "A sponge"
+      ]
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "repeat": 2,
+      "picked": "A towel",
+      "correct_answer": "Fabric",
+      "lure_answer": "A towel",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.08,
+      "p_lure": 0.71,
+      "probabilities": {
+        "A sponge": 0.2,
+        "A towel": 0.71,
+        "Fabric": 0.08,
+        "Hair": 0.01
+      },
+      "confidence": 0.61,
+      "option_order": [
+        "A towel",
+        "Hair",
+        "Fabric",
+        "A sponge"
+      ]
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "repeat": 3,
+      "picked": "A towel",
+      "correct_answer": "Fabric",
+      "lure_answer": "A towel",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.09,
+      "p_lure": 0.59,
+      "probabilities": {
+        "A towel": 0.59,
+        "Fabric": 0.09,
+        "A sponge": 0.3,
+        "Hair": 0.02
+      },
+      "confidence": 0.46,
+      "option_order": [
+        "Fabric",
+        "A sponge",
+        "A towel",
+        "Hair"
+      ]
+    },
+    {
+      "id": "wetter_as_it_dyes",
+      "source": "altered_riddles",
+      "question": "What gets wetter as it dyes?",
+      "repeat": 4,
+      "picked": "A towel",
+      "correct_answer": "Fabric",
+      "lure_answer": "A towel",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.07,
+      "p_lure": 0.74,
+      "probabilities": {
+        "Fabric": 0.07,
+        "A sponge": 0.18,
+        "A towel": 0.74,
+        "Hair": 0.01
+      },
+      "confidence": 0.65,
+      "option_order": [
+        "A towel",
+        "Fabric",
+        "Hair",
+        "A sponge"
+      ]
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "repeat": 0,
+      "picked": "Air",
+      "correct_answer": "Air",
+      "lure_answer": "Light",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.63,
+      "p_lure": 0.19,
+      "probabilities": {
+        "Air": 0.63,
+        "A shadow": 0.08,
+        "Sound": 0.1,
+        "Light": 0.19
+      },
+      "confidence": 0.51,
+      "option_order": [
+        "Air",
+        "A shadow",
+        "Light",
+        "Sound"
+      ]
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "repeat": 1,
+      "picked": "Air",
+      "correct_answer": "Air",
+      "lure_answer": "Light",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.73,
+      "p_lure": 0.11,
+      "probabilities": {
+        "Light": 0.11,
+        "A shadow": 0.07,
+        "Air": 0.73,
+        "Sound": 0.09
+      },
+      "confidence": 0.63,
+      "option_order": [
+        "Light",
+        "Sound",
+        "A shadow",
+        "Air"
+      ]
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "repeat": 2,
+      "picked": "Air",
+      "correct_answer": "Air",
+      "lure_answer": "Light",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.57,
+      "p_lure": 0.16,
+      "probabilities": {
+        "A shadow": 0.14,
+        "Air": 0.57,
+        "Light": 0.16,
+        "Sound": 0.13
+      },
+      "confidence": 0.44,
+      "option_order": [
+        "Light",
+        "A shadow",
+        "Air",
+        "Sound"
+      ]
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "repeat": 3,
+      "picked": "Air",
+      "correct_answer": "Air",
+      "lure_answer": "Light",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.65,
+      "p_lure": 0.19,
+      "probabilities": {
+        "Sound": 0.07,
+        "Air": 0.65,
+        "A shadow": 0.09,
+        "Light": 0.19
+      },
+      "confidence": 0.54,
+      "option_order": [
+        "Air",
+        "A shadow",
+        "Sound",
+        "Light"
+      ]
+    },
+    {
+      "id": "fill_room_takes_space",
+      "source": "altered_riddles",
+      "question": "What can fill a room but takes up space?",
+      "repeat": 4,
+      "picked": "Air",
+      "correct_answer": "Air",
+      "lure_answer": "Light",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 0.65,
+      "p_lure": 0.2,
+      "probabilities": {
+        "Sound": 0.06,
+        "A shadow": 0.09,
+        "Light": 0.2,
+        "Air": 0.65
+      },
+      "confidence": 0.54,
+      "option_order": [
+        "Air",
+        "Light",
+        "Sound",
+        "A shadow"
+      ]
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "repeat": 0,
+      "picked": "A record",
+      "correct_answer": "A silence",
+      "lure_answer": "An egg",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.27,
+      "p_lure": 0.17,
+      "probabilities": {
+        "A silence": 0.27,
+        "An egg": 0.17,
+        "A promise": 0.04,
+        "A record": 0.52
+      },
+      "confidence": 0.36,
+      "option_order": [
+        "A promise",
+        "A record",
+        "An egg",
+        "A silence"
+      ]
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "repeat": 1,
+      "picked": "A record",
+      "correct_answer": "A silence",
+      "lure_answer": "An egg",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.3,
+      "p_lure": 0.23,
+      "probabilities": {
+        "A record": 0.45,
+        "A silence": 0.3,
+        "A promise": 0.02,
+        "An egg": 0.23
+      },
+      "confidence": 0.27,
+      "option_order": [
+        "A record",
+        "An egg",
+        "A promise",
+        "A silence"
+      ]
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "repeat": 2,
+      "picked": "A record",
+      "correct_answer": "A silence",
+      "lure_answer": "An egg",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.33,
+      "p_lure": 0.2,
+      "probabilities": {
+        "A promise": 0.03,
+        "An egg": 0.2,
+        "A silence": 0.33,
+        "A record": 0.44
+      },
+      "confidence": 0.26,
+      "option_order": [
+        "A record",
+        "A promise",
+        "An egg",
+        "A silence"
+      ]
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "repeat": 3,
+      "picked": "A record",
+      "correct_answer": "A silence",
+      "lure_answer": "An egg",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.24,
+      "p_lure": 0.32,
+      "probabilities": {
+        "A silence": 0.24,
+        "An egg": 0.32,
+        "A promise": 0.01,
+        "A record": 0.43
+      },
+      "confidence": 0.24,
+      "option_order": [
+        "A silence",
+        "An egg",
+        "A record",
+        "A promise"
+      ]
+    },
+    {
+      "id": "broken_before_used_seconds",
+      "source": "altered_riddles",
+      "question": "What has to be broken before it can be used, and is measured in seconds?",
+      "repeat": 4,
+      "picked": "A record",
+      "correct_answer": "A silence",
+      "lure_answer": "An egg",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.27,
+      "p_lure": 0.29,
+      "probabilities": {
+        "A record": 0.42,
+        "A promise": 0.02,
+        "An egg": 0.29,
+        "A silence": 0.27
+      },
+      "confidence": 0.24,
+      "option_order": [
+        "A record",
+        "An egg",
+        "A promise",
+        "A silence"
+      ]
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "repeat": 0,
+      "picked": "Paper",
+      "correct_answer": "Paper",
+      "lure_answer": "A deck of cards",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Paper": 1,
+        "A deck of cards": 0,
+        "A cake": 0,
+        "A tablecloth": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "Paper",
+        "A cake",
+        "A deck of cards",
+        "A tablecloth"
+      ]
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "repeat": 1,
+      "picked": "Paper",
+      "correct_answer": "Paper",
+      "lure_answer": "A deck of cards",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Paper": 1,
+        "A tablecloth": 0,
+        "A cake": 0,
+        "A deck of cards": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "A tablecloth",
+        "A cake",
+        "A deck of cards",
+        "Paper"
+      ]
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "repeat": 2,
+      "picked": "Paper",
+      "correct_answer": "Paper",
+      "lure_answer": "A deck of cards",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "Paper": 1,
+        "A cake": 0,
+        "A deck of cards": 0,
+        "A tablecloth": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "A deck of cards",
+        "A cake",
+        "A tablecloth",
+        "Paper"
+      ]
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "repeat": 3,
+      "picked": "Paper",
+      "correct_answer": "Paper",
+      "lure_answer": "A deck of cards",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "A deck of cards": 0,
+        "Paper": 1,
+        "A cake": 0,
+        "A tablecloth": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "A cake",
+        "A tablecloth",
+        "A deck of cards",
+        "Paper"
+      ]
+    },
+    {
+      "id": "table_cut_writing",
+      "source": "altered_riddles",
+      "question": "What is put on a table, cut, but never eaten, and is used for writing?",
+      "repeat": 4,
+      "picked": "Paper",
+      "correct_answer": "Paper",
+      "lure_answer": "A deck of cards",
+      "is_correct": true,
+      "is_lure": false,
+      "p_correct": 1,
+      "p_lure": 0,
+      "probabilities": {
+        "A deck of cards": 0,
+        "A tablecloth": 0,
+        "Paper": 1,
+        "A cake": 0
+      },
+      "confidence": 1,
+      "option_order": [
+        "A deck of cards",
+        "A cake",
+        "Paper",
+        "A tablecloth"
+      ]
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "repeat": 0,
+      "picked": "A train",
+      "correct_answer": "A bus",
+      "lure_answer": "A cold",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.06,
+      "p_lure": 0.21,
+      "probabilities": {
+        "A train": 0.63,
+        "A cold": 0.21,
+        "A bus": 0.06,
+        "A ball": 0.1
+      },
+      "confidence": 0.51,
+      "option_order": [
+        "A cold",
+        "A train",
+        "A ball",
+        "A bus"
+      ]
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "repeat": 1,
+      "picked": "A train",
+      "correct_answer": "A bus",
+      "lure_answer": "A cold",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.07,
+      "p_lure": 0.21,
+      "probabilities": {
+        "A train": 0.67,
+        "A ball": 0.05,
+        "A cold": 0.21,
+        "A bus": 0.07
+      },
+      "confidence": 0.54,
+      "option_order": [
+        "A cold",
+        "A ball",
+        "A train",
+        "A bus"
+      ]
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "repeat": 2,
+      "picked": "A train",
+      "correct_answer": "A bus",
+      "lure_answer": "A cold",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.1,
+      "p_lure": 0.22,
+      "probabilities": {
+        "A train": 0.6,
+        "A cold": 0.22,
+        "A bus": 0.1,
+        "A ball": 0.08
+      },
+      "confidence": 0.46,
+      "option_order": [
+        "A bus",
+        "A ball",
+        "A train",
+        "A cold"
+      ]
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "repeat": 3,
+      "picked": "A train",
+      "correct_answer": "A bus",
+      "lure_answer": "A cold",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.07,
+      "p_lure": 0.23,
+      "probabilities": {
+        "A cold": 0.23,
+        "A train": 0.64,
+        "A bus": 0.07,
+        "A ball": 0.06
+      },
+      "confidence": 0.52,
+      "option_order": [
+        "A ball",
+        "A train",
+        "A bus",
+        "A cold"
+      ]
+    },
+    {
+      "id": "catch_not_throw_wheels",
+      "source": "altered_riddles",
+      "question": "What can you catch but not throw, and it has wheels?",
+      "repeat": 4,
+      "picked": "A train",
+      "correct_answer": "A bus",
+      "lure_answer": "A cold",
+      "is_correct": false,
+      "is_lure": false,
+      "p_correct": 0.19,
+      "p_lure": 0.16,
+      "probabilities": {
+        "A cold": 0.16,
+        "A ball": 0.1,
+        "A train": 0.55,
+        "A bus": 0.19
+      },
+      "confidence": 0.39,
+      "option_order": [
+        "A cold",
+        "A bus",
+        "A ball",
+        "A train"
+      ]
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "repeat": 0,
+      "picked": "Light one rope at both ends and the other at one end",
+      "correct_answer": "It cannot be done with only two ropes",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.23,
+      "p_lure": 0.73,
+      "probabilities": {
+        "Light one rope at one end and halve the time": 0.01,
+        "Light both ropes at both ends simultaneously": 0.03,
+        "It cannot be done with only two ropes": 0.23,
+        "Light one rope at both ends and the other at one end": 0.73
+      },
+      "confidence": 0.64,
+      "option_order": [
+        "Light one rope at one end and halve the time",
+        "Light both ropes at both ends simultaneously",
+        "Light one rope at both ends and the other at one end",
+        "It cannot be done with only two ropes"
+      ]
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "repeat": 1,
+      "picked": "Light one rope at both ends and the other at one end",
+      "correct_answer": "It cannot be done with only two ropes",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.26,
+      "p_lure": 0.69,
+      "probabilities": {
+        "Light both ropes at both ends simultaneously": 0.05,
+        "Light one rope at both ends and the other at one end": 0.69,
+        "Light one rope at one end and halve the time": 0,
+        "It cannot be done with only two ropes": 0.26
+      },
+      "confidence": 0.59,
+      "option_order": [
+        "Light both ropes at both ends simultaneously",
+        "Light one rope at one end and halve the time",
+        "Light one rope at both ends and the other at one end",
+        "It cannot be done with only two ropes"
+      ]
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "repeat": 2,
+      "picked": "Light one rope at both ends and the other at one end",
+      "correct_answer": "It cannot be done with only two ropes",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.23,
+      "p_lure": 0.73,
+      "probabilities": {
+        "Light both ropes at both ends simultaneously": 0.04,
+        "Light one rope at one end and halve the time": 0,
+        "Light one rope at both ends and the other at one end": 0.73,
+        "It cannot be done with only two ropes": 0.23
+      },
+      "confidence": 0.65,
+      "option_order": [
+        "Light one rope at both ends and the other at one end",
+        "Light one rope at one end and halve the time",
+        "It cannot be done with only two ropes",
+        "Light both ropes at both ends simultaneously"
+      ]
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "repeat": 3,
+      "picked": "Light one rope at both ends and the other at one end",
+      "correct_answer": "It cannot be done with only two ropes",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.22,
+      "p_lure": 0.75,
+      "probabilities": {
+        "Light both ropes at both ends simultaneously": 0.03,
+        "Light one rope at both ends and the other at one end": 0.75,
+        "Light one rope at one end and halve the time": 0,
+        "It cannot be done with only two ropes": 0.22
+      },
+      "confidence": 0.66,
+      "option_order": [
+        "Light one rope at both ends and the other at one end",
+        "Light one rope at one end and halve the time",
+        "It cannot be done with only two ropes",
+        "Light both ropes at both ends simultaneously"
+      ]
+    },
+    {
+      "id": "rope_twenty_minutes",
+      "source": "misguided_attention",
+      "question": "You have two ropes, each of which takes exactly 60 minutes to burn completely. The ropes burn unevenly and you have no other timing device. How can you measure exactly 20 minutes using these two ropes and matches?",
+      "repeat": 4,
+      "picked": "Light one rope at both ends and the other at one end",
+      "correct_answer": "It cannot be done with only two ropes",
+      "lure_answer": "Light one rope at both ends and the other at one end",
+      "is_correct": false,
+      "is_lure": true,
+      "p_correct": 0.28,
+      "p_lure": 0.66,
+      "probabilities": {
+        "It cannot be done with only two ropes": 0.28,
+        "Light one rope at both ends and the other at one end": 0.66,
+        "Light both ropes at both ends simultaneously": 0.06,
+        "Light one rope at one end and halve the time": 0
+      },
+      "confidence": 0.54,
+      "option_order": [
+        "Light both ropes at both ends simultaneously",
+        "Light one rope at both ends and the other at one end",
+        "Light one rope at one end and halve the time",
+        "It cannot be done with only two ropes"
+      ]
+    }
+  ]
+}
